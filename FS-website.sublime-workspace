@@ -1,0 +1,322 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"line",
+				"lineArray"
+			],
+			[
+				"columns",
+				"columnList"
+			],
+			[
+				"letter",
+				"letterGrade"
+			],
+			[
+				"money",
+				"moneyPlusTax"
+			],
+			[
+				"link",
+				"linkListobjectIJustMade"
+			],
+			[
+				"list",
+				"list-style"
+			],
+			[
+				"al",
+				"alt	Attr"
+			],
+			[
+				"co",
+				"color"
+			],
+			[
+				"te",
+				"text-align"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 2814,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 540.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/linhub/Documents/github/FreestyleSocietyWebsite"
+	],
+	"file_history":
+	[
+		"/Users/linhub/Documents/github/LearningJava/Hubert/Hello.java",
+		"/Users/linhub/Desktop/getFBMessages.py",
+		"/Users/linhub/Documents/Websites/GiantsPizzaDonair-Website/styles/giants.css",
+		"/Users/linhub/Documents/Websites/GiantsPizzaDonair-Website/menu.html",
+		"/Users/linhub/Documents/Websites/GiantsPizzaDonair-Website/index.html",
+		"/Users/linhub/Documents/Websites/GiantsPizzaDonair-Website/giants.css",
+		"/Users/linhub/Desktop/example.cs",
+		"/Users/linhub/Desktop/isPangram.py",
+		"/Users/linhub/Developer/OCR Tests/receipt4.png",
+		"/Users/linhub/Developer/OCR Tests/receipt1.jpg",
+		"/Users/linhub/Library/Containers/com.apple.mail/Data/Library/Mail Downloads/45F2BCA7-4AEA-4FCA-BC62-79E96AD6DBE8/winmail.dat",
+		"/Users/linhub/Desktop/hello.py",
+		"/Users/linhub/Dropbox/DanceCode/Schedule.html",
+		"/Volumes/TOSHIBA EXT/Hubert/NAIT3/SL DMIT 1508/Notes.txt",
+		"/Volumes/TOSHIBA EXT/NAIT/First Semester/CPSC1012 - Programming Fundamentals (A02)/In Class Assignments/In-Class Assessment 1/HelloNameGiantLetters/HelloName GiantLetters/Program.cs",
+		"/Volumes/TOSHIBA EXT/NAIT/First Semester/CPSC1012 - Programming Fundamentals (A02)/In Class Assignments/In-Class Assessment 1/HelloNameGiantLetters/HelloName GiantLetters.sln",
+		"/Users/linhub/Desktop/notes.txt",
+		"/Users/linhub/Documents/Python-Exercises/Exercise1/example1.py",
+		"/Users/linhub/Downloads/Theory 3 Entity Relationship Model.doc",
+		"/Users/linhub/Downloads/Pythagoras/ConsoleApplication1/Program.cs",
+		"/Users/linhub/Documents/Websites/Github-Pages/linhub15.github.io/index.html",
+		"/Users/linhub/Desktop/textFile.txt",
+		"/Users/linhub/Desktop/ciphertext.txt",
+		"/Users/linhub/Desktop/textSplit.py",
+		"/Users/linhub/Desktop/linkedlist.py",
+		"/Users/linhub/Desktop/randomNum.py",
+		"/Users/linhub/Dropbox/CT documents/Database Design/CT Crew DB - Normalization",
+		"/Users/linhub/bin/jedit",
+		"/Users/linhub/Desktop/function.py",
+		"/Users/linhub/Desktop/index.html",
+		"/Users/linhub/Documents/xcode5/CountDowntimer/CountDowntimer/CDTimers.plist",
+		"/Users/linhub/Documents/Dota2Ref/Dota2Ref/alchemist.plist",
+		"/Users/linhub/Documents/Dota2Ref/Dota2Ref/Abbadon.plist",
+		"/Users/linhub/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/linhub/Documents/Dota2Ref/Dota2Ref/StrengthHeroNameList.plist",
+		"/Users/linhub/Documents/Python-Exercises/Exercise4/HelloWorld.py",
+		"/Users/linhub/Desktop/maxminTest1",
+		"/Users/linhub/Documents/DanceCode-Website/index.html",
+		"/Users/linhub/Documents/Python-Exercises/Exercise3/example3.py",
+		"/Users/linhub/Desktop/Exercise1/helloName.py",
+		"/Volumes/TOSHIBA EXT/Hubert/NAIT2/ORGB1500/ORGB1500 - notes",
+		"/Volumes/TOSHIBA EXT/Hubert/NAIT2/ANAP1525/Exercises.txt",
+		"/Users/linhub/Desktop/Just Duckie Inc. ADEPT.txt",
+		"/Users/linhub/Desktop/Just Duckie Inc. ADEPT",
+		"/Users/linhub/random.dat",
+		"/Users/linhub/Downloads/zp_XKZ+2.exe.part",
+		"/Volumes/TOSHIBA EXT/Hubert/NAIT2/CPSC1519/Notes",
+		"/Volumes/TOSHIBA EXT/Hubert/NAIT1/COMP1017(A06)/Assignment4/index.html",
+		"/Volumes/TOSHIBA EXT/Hubert/NAIT1/COMP1017(A06)/Assignment4/css/basic.css",
+		"/Volumes/TOSHIBA EXT/Hubert/COMP1017(A06)/Assignment4/css/basic.css",
+		"/Volumes/TOSHIBA EXT/Hubert/COMP1017(A06)/Assignment4/index.html",
+		"/Volumes/TOSHIBA EXT/Hubert/COMP1017(A06)/Assignment3/Assignment3/css/basic.css",
+		"/Volumes/TOSHIBA EXT/Hubert/COMP1017(A06)/Assignment3/Assignment3/reachus.html",
+		"/Volumes/TOSHIBA EXT/Hubert/COMP1017(A06)/Assignment3/Assignment3/botanica.html",
+		"/Volumes/TOSHIBA EXT/Hubert/COMP1017(A06)/Assignment3/Assignment3/index.html",
+		"/Users/linhub/Documents/Game/timeline.dia",
+		"/Users/linhub/Desktop/program.cs",
+		"/Volumes/TOSHIBA EXT/Hubert/COMP1017(A06)/Assignment2/css/basic.css",
+		"/Volumes/TOSHIBA EXT/Hubert/COMP1017(A06)/Assignment2/reachus.html",
+		"/Volumes/TOSHIBA EXT/Hubert/COMP1017(A06)/Assignment2/botanica.html",
+		"/Volumes/TOSHIBA EXT/Hubert/COMP1017(A06)/Assignment2/index.html",
+		"/Volumes/TOSHIBA EXT/Hubert/COMP1017(A06)/Assignment1/Essentials Assignment/teams.html",
+		"/Volumes/TOSHIBA EXT/Hubert/COMP1017(A06)/Assignment1/Essentials Assignment/about.html",
+		"/Volumes/TOSHIBA EXT/Hubert/COMP1017(A06)/Assignment1/Essentials Assignment/index.html",
+		"/Volumes/TOSHIBA EXT/Hubert/CPSC1012(A04)/EscapeSequence.cs",
+		"/Volumes/TOSHIBA EXT/Hubert/CPSC1012(A04)/PlaceHolders.cs",
+		"/Volumes/TOSHIBA EXT/Hubert/CPSC1012(A04)/Concatenation.cs",
+		"/Volumes/TOSHIBA EXT/Hubert/CPSC1012(A04)/GiantLetters.cs",
+		"/Users/linhub/Dropbox/University 2013-2014/204/insertsort.py"
+	],
+	"find":
+	{
+		"height": 25.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"div",
+			"100",
+			"dict",
+			"real",
+			"integer",
+			"inte",
+			"key",
+			"dict",
+			"ul",
+			"Comments",
+			"Reference",
+			"ffffff"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2814,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								136,
+								136
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "FS-website.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
