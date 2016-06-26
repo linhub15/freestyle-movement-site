@@ -3,6 +3,10 @@
 	background-color: #474c46;	
 }
 
+#home-navbar {
+	border-bottom-width: 2px;
+
+}
 .navbar-nav {
     width: 100%;
     text-align: center;    
