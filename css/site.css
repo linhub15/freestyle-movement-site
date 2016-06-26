@@ -35,16 +35,14 @@
 }
 
 #home-navbar {
-	position: absolute;
 	width: 100%;
-	top: 300px;
 }
 
 #banner-image {
-	position: absolute;
-	height: 300px;
+	height: auto;
+	width: 100%;
 }
 
 #home-header {
-	padding-bottom: 400px;
+
 }
