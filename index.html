@@ -3,7 +3,8 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width" />
-    <title></title>
+    <title>Freestyle Society</title>
+
     
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -45,7 +46,7 @@
 
         <!-- Twitter Section -->
             <div class="col-md-5">
-                <a class="twitter-timeline" data-width="400" data-height="300" data-theme="light" href="https://twitter.com/YEGFreestyleSoc">Tweets by YEGFreestyleSoc</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+                <a class="twitter-timeline" data-width="400" data-height="300" href="https://twitter.com/YEGFreestyleSoc">Tweets by YEGFreestyleSoc</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
             </div> <!-- End Twitter-->
         </div>
         <!-- Events List Section-->
@@ -71,7 +72,23 @@
             </div>
         </div>
     </footer>
-    
+    <!-- Script for Twitter to work -->
+    <script>window.twttr = (function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0],
+    t = window.twttr || {};
+  if (d.getElementById(id)) return t;
+  js = d.createElement(s);
+  js.id = id;
+  js.src = "https://platform.twitter.com/widgets.js";
+  fjs.parentNode.insertBefore(js, fjs);
+ 
+  t._e = [];
+  t.ready = function(f) {
+    t._e.push(f);
+  };
+ 
+  return t;
+}(document, "script", "twitter-wjs"));</script>
 </body>
 </html>
 
