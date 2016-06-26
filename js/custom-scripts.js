@@ -15,8 +15,14 @@ var animateNavDistance = "+=60px";
 
 // Slide down animation for navbar
 jQuery(window).load(function () {
+    
+    console.log("window");
+});
+
+$( document ).ready(function() {
+    console.log( "ready!" );
     // Shift Navbar Down
-    homeNav.animate({ "top": animateNavDistance }, "slow" );
+    homeNav.animate({ "top": animateNavDistance }, "normal" );
     // Fix the navbar to the top of window
     homeNav.addClass("navbar-fixed-top");
     homeNav.css({position: "fixed"});
