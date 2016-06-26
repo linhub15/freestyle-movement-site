@@ -1,9 +1,15 @@
 .level-section {
+	border: solid;
+	border-width: 2px;
+	float: left;
+	margin: 5px;
 }
 
 .level-header-section {
-	width: 200px;
+	width: 100px;
 	height: 300px;
+	float: left;
+
 }
 
 .level-subheading {
@@ -14,7 +20,7 @@
 	margin: 0px;
 	position: relative;
 	top: 40%;
-	left: -65%;
+	left: -130%;
 }
 
 .level-number {
@@ -22,6 +28,11 @@
 	position: relative;
 	text-align: center;
 	top: 17%;
-	left: -22%;
+	left: 7%;
 
+}
+
+
+.level-content {
+	float: left;
 }
