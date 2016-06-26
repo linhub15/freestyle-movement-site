@@ -20,6 +20,11 @@
 	color: #FFFFFF;
 }
 
-
+.greenNav {
+	height: 10px;
+	width: 100%;
+	margin-bottom: -1px;	
+	background-color: #00e600;
+}
 
 
