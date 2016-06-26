@@ -106,7 +106,7 @@
     // Elements I want to move
     bannerImage = $('#banner-image').css({position: "absolute", top: '0'});
     var navbarStartingTop = bannerImage.height().toString() + "px";
-    homeNav = $('#home-navbar').css({position: "absolute", top: navbarStartingTop});
+    homeNav = $('#home-navbar').css({position: "absolute", top: "0px"});
 
     // Set the Padding-bottom for the home-header or else it will be hidden
     var homeHeaderPadding = (bannerImage.height() + homeNav.height() + 20).toString() + "px";
@@ -123,7 +123,7 @@
         bannerImage.animate({ "top": animateBannerDistance }, "slow" );
         // Fix the navbar to the top
         homeNav.addClass("navbar-fixed-top");
-        
+        homeNav.css({position: "static"});
     });
 
 </script>
