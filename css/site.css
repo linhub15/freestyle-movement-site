@@ -28,3 +28,16 @@
 }
 
 
+/*  .page-content is for navbar-fixed-top
+	prevents the <body> content 
+	from getting hidden under the navbar
+ */
+.page-content {
+	padding-top: 80px;
+}
+
+
+#home-navbar {
+	position: absolute;
+	width: 100%;
+}
