@@ -1,6 +1,4 @@
 .index-banner {
-	width: 90%;
-	height: auto;
 }
 
 .navbar-nav {
@@ -36,8 +34,17 @@
 	padding-top: 80px;
 }
 
-
 #home-navbar {
 	position: absolute;
 	width: 100%;
+	top: 300px;
+}
+
+#banner-image {
+	position: absolute;
+	height: 300px;
+}
+
+#home-header {
+	padding-bottom: 400px;
 }

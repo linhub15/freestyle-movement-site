@@ -14,13 +14,9 @@
     <script src="https://code.jquery.com/jquery-2.1.3.js"></script>
 </head>
 <body>
-    
-    <header>
-        <div class="container">
-            <img id="banner-image" class="index-banner" src="images/Banner.png">
-        </div>
-        <div id="home-navbar">
-        <nav class="navbar navbar-inverse">
+    <header id="home-header">
+        <img id="banner-image" class="index-banner" src="images/Banner.png">
+        <nav id="home-navbar" class="navbar navbar-inverse">
             <div class="container container-fluid">
                 <!-- Brand and collapse toggle get grouped for better mobile display -->
                 <div class="navbar-header">
@@ -49,7 +45,6 @@
             </div><!-- /.container-fluid -->
             <div class="greenNav"></div> <!--green bar-->
         </nav>
-        </div>
 
     </header>
 
@@ -109,12 +104,25 @@
 
 <!-- navbar-fixed-top-->
 <script>
+    // Elements I want to move
     homeNav = $('#home-navbar');
-    bannerHeight = $('#banner-image').height();
-    var animateDistance = "-="+bannerHeight.toString();
-    jQuery(window).load(function () {
-        homeNav.animate({ "top": animateDistance }, "slow" );
+    bannerImage = $('#banner-image')
 
+    // Variables to move nav bar up
+    //bannerHeight = bannerImage.height();
+    var animateNavDistance = "-="+bannerImage.height().toString();
+
+    // Variables to shift image down
+    var animateBannerDistance = "+="+homeNav.height().toString();
+
+    jQuery(window).load(function () {
+        // Shift Navbar UP
+        homeNav.animate({ "top": animateNavDistance }, "slow" );
+        // Shift the image under the navbar
+        bannerImage.animate({ "top": animateBannerDistance }, "slow" );
+        // Fix the navbar to the top
+        homeNav.addClass("navbar-fixed-top");
+        
     });
 
 </script>
