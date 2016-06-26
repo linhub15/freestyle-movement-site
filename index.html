@@ -111,22 +111,20 @@
     // Set the Padding-bottom for the home-header or else it will be hidden
     var homeHeaderPadding = (bannerImage.height() + homeNav.height() + 20).toString() + "px";
     body = $('#home-header').css({"padding-bottom": homeHeaderPadding});
-    // Variable to move nav bar down
-    //var animateNavDistance = "-="+bannerImage.height().toString();
     var animateNavDistance = "+=60px";
-    // Variable to shift image down
-    //var animateBannerDistance = "+="+homeNav.height().toString();
 
     jQuery(window).load(function () {
         // Shift Navbar UP
         homeNav.animate({ "top": animateNavDistance }, "slow" );
-        // Shift the image under the navbar
-        bannerImage.animate({ "top": animateBannerDistance }, "slow" );
         // Fix the navbar to the top
         homeNav.addClass("navbar-fixed-top");
         homeNav.css({position: "fixed"});
     });
 
+    $(window).resize(function() {
+        var homeHeaderPadding = (bannerImage.height() + homeNav.height() + 20).toString() + "px";
+        body = $('#home-header').css({"padding-bottom": homeHeaderPadding});
+    });
 </script>
 
 <!--Javascript-->    
