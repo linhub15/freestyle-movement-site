@@ -40,21 +40,58 @@
 }
 
 
-#foundation-basics-heading {
+
+.dance-class-heading {
 	text-align: center;
 
 }
+/********
+  Level 1 
+ ********/ 
+#foundation-basics-heading {
+
+}
+
 .fb-moves-list {
 	float: left;
 	border: solid;
-	border-width: 1px;
+	border-width: 2px;
 	width: 200px;
-	margin-right: 5px;
-	margin-left: 5px;
-
+	margin: 8px;
+	padding-left: 5px;
 	border-radius: 15px 50px 30px 5px;
 }
 
 .fb-moves-list > h4 {
 	text-align: center;
 }
+
+/********
+  Level 2
+ ********/ 
+#foundation-expansion-div {
+	padding: 10px;
+	padding-top: 20px;
+	height: 140px;
+}
+#foundation-expansion-heading {
+	float: left;
+	width: 150px;
+	border-right: solid;
+	border-width: 2px;
+}
+#FE-Image {
+	float: left;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+
+ /********
+  Level 3
+ ********/ 
+
+
+ /********
+  Level 4
+ ********/ 
