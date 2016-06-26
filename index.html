@@ -51,13 +51,13 @@
     <div class="container">
         <div class="row">
         <!-- Facebook Section -->
-            <div class="col-md-5">
-                <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FYEG.FreestyleSociety%2F&tabs=timeline&width=400&height=700&small_header=true&adapt_container_width=true&hide_cover=true&show_facepile=true&appId" width="400" height="800" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+            <div class="col-md-4">
+                <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FYEG.FreestyleSociety%2F&tabs=timeline&width=350&height=700&small_header=true&adapt_container_width=true&hide_cover=true&show_facepile=false&appId" width="350" height="800" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
             </div> <!-- End Facebook-->
 
         <!-- Twitter Section -->
-            <div class="col-md-5">
-                <a class="twitter-timeline" data-width="400" data-height="300" href="https://twitter.com/YEG_FS">Tweets by YEGFreestyleSoc</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+            <div class="col-md-4">
+                <a class="twitter-timeline" data-width="350" data-height="300" href="https://twitter.com/YEG_FS">Tweets by YEGFreestyleSoc</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
             </div> <!-- End Twitter-->
         </div>
         <!-- Events List Section-->
@@ -66,8 +66,6 @@
     </div> <!-- End Content-->
 
         
-    
-
     <footer class="footer">
         <div class="container">
             <hr />
@@ -83,51 +81,10 @@
             </div>
         </div>
     </footer>
-    <!-- Script for Twitter to work -->
-    <script>window.twttr = (function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0],
-    t = window.twttr || {};
-  if (d.getElementById(id)) return t;
-  js = d.createElement(s);
-  js.id = id;
-  js.src = "https://platform.twitter.com/widgets.js";
-  fjs.parentNode.insertBefore(js, fjs);
- 
-  t._e = [];
-  t.ready = function(f) {
-    t._e.push(f);
-  };
- 
-  return t;
-}(document, "script", "twitter-wjs"));</script>
+    
 
-<!-- navbar-fixed-top-->
-<script>
-    // Elements I want to move
-    bannerImage = $('#banner-image').css({position: "absolute", top: '60px'});
-    var navbarStartingTop = bannerImage.height().toString() + "px";
-    homeNav = $('#home-navbar').css({position: "absolute", top: "-60px"});
-
-    // Set the Padding-bottom for the home-header or else it will be hidden
-    var homeHeaderPadding = (bannerImage.height() + homeNav.height() + 20).toString() + "px";
-    body = $('#home-header').css({"padding-bottom": homeHeaderPadding});
-    var animateNavDistance = "+=60px";
-
-    jQuery(window).load(function () {
-        // Shift Navbar UP
-        homeNav.animate({ "top": animateNavDistance }, "slow" );
-        // Fix the navbar to the top
-        homeNav.addClass("navbar-fixed-top");
-        homeNav.css({position: "fixed"});
-    });
-
-    $(window).resize(function() {
-        var homeHeaderPadding = (bannerImage.height() + homeNav.height() + 20).toString() + "px";
-        body = $('#home-header').css({"padding-bottom": homeHeaderPadding});
-    });
-</script>
-
-<!--Javascript-->    
+<!--Javascript-->
+<script src="js/custom-scripts.js"></script>
 <script src="js/bootstrap.js"></script>
 </body>
 </html>
