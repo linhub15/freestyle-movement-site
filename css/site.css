@@ -1,14 +1,23 @@
 
+.navbar-inverse {
+	background-color: #474c46;	
+}
+
 .navbar-nav {
     width: 100%;
-    text-align: center;
+    text-align: center;    
 }
 
 .navbar-nav > li {
 	float: none;
 	display: inline-block;
-	font-family: Impact, sans-serif;
-	font-size: 165%;
+	font-family: "Century Gothic",CenturyGothic,AppleGothic,sans-serif;
+	/*font-family: Impact, sans-serif;*/
+	font-weight: bold;
+	letter-spacing: 1px;
+	font-size: 120%;
+	padding-right: 10px;
+	padding-left: 10px;
  }
 
  .navbar .nav > li > a {
@@ -17,9 +26,10 @@
 }
 
 .greenNav {
-	height: 10px;
+	height: 12px;
 	width: 100%;
-	background-color: #00e600;
+	background-color: #39fe17;
+
 }
 
 
