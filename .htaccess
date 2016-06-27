@@ -1,1 +1,5 @@
 DirectoryIndex construction.html 
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^yegfreestylesociety\.com [NC]
+RewriteRule ^(.*)$ http://www.YegFreestyleSociety.com/$1 [L,R=301,NC]

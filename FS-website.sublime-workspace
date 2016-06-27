@@ -4,6 +4,38 @@
 		"selected_items":
 		[
 			[
+				"padd",
+				"padding"
+			],
+			[
+				"Mar",
+				"margin-right"
+			],
+			[
+				"paddin",
+				"padding-right"
+			],
+			[
+				"padding",
+				"padding-bottom"
+			],
+			[
+				"texti",
+				"text-align"
+			],
+			[
+				"alin",
+				"vertical-align"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"border",
+				"border-width"
+			],
+			[
 				"line",
 				"lineArray"
 			],
@@ -44,11 +76,11 @@
 	"buffers":
 	[
 		{
-			"file": "index.html",
+			"file": ".htaccess",
 			"settings":
 			{
-				"buffer_size": 2814,
-				"line_ending": "Unix"
+				"buffer_size": 177,
+				"line_ending": "Windows"
 			}
 		}
 	],
@@ -84,10 +116,24 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/linhub/Documents/github/FreestyleSocietyWebsite"
+		"/C/Users/Linhub/Documents/GitHub/FreestyleSocietyWebsite",
+		"/C/Users/Linhub/Documents/GitHub/FreestyleSocietyWebsite/css"
 	],
 	"file_history":
 	[
+		"/C/Users/Linhub/Documents/GitHub/FreestyleSocietyWebsite/index.html",
+		"/C/Users/Linhub/Documents/GitHub/FreestyleSocietyWebsite/.htaccess",
+		"/C/Users/Linhub/Documents/GitHub/FreestyleSocietyWebsite/construction.html",
+		"/C/Users/Linhub/Documents/GitHub/FreestyleSocietyWebsite/schedule.html",
+		"/C/Users/Linhub/Documents/GitHub/FreestyleSocietyWebsite/js/custom-scripts.js",
+		"/C/Users/Linhub/Downloads/cypher_brain.png",
+		"/C/Users/Linhub/Documents/GitHub/FreestyleSocietyWebsite/css/classes-page.css",
+		"/C/Users/Linhub/Documents/GitHub/FreestyleSocietyWebsite/about-mission.html",
+		"/C/Users/Linhub/Documents/GitHub/FreestyleSocietyWebsite/classes.html",
+		"/C/Users/Linhub/Documents/GitHub/FreestyleSocietyWebsite/css/site.css",
+		"/C/Users/Linhub/Documents/GitHub/FreestyleSocietyWebsite/css/about-mission-page.css",
+		"/C/Users/Linhub/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/C/Users/Linhub/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
 		"/Users/linhub/Documents/github/LearningJava/Hubert/Hello.java",
 		"/Users/linhub/Desktop/getFBMessages.py",
 		"/Users/linhub/Documents/Websites/GiantsPizzaDonair-Website/styles/giants.css",
@@ -160,11 +206,11 @@
 	],
 	"find":
 	{
-		"height": 25.0
+		"height": 34.0
 	},
 	"find_in_files":
 	{
-		"height": 0.0,
+		"height": 90.0,
 		"where_history":
 		[
 		]
@@ -174,6 +220,17 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"p",
+			"padding",
+			"h3",
+			"span",
+			"p",
+			"span",
+			"h2",
+			"aside",
+			"h2",
+			"aside",
+			"h2",
 			"div",
 			"100",
 			"dict",
@@ -208,24 +265,24 @@
 			[
 				{
 					"buffer": 0,
-					"file": "index.html",
+					"file": ".htaccess",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2814,
+						"buffer_size": 177,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								136,
-								136
+								177,
+								177
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax"
+							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -243,7 +300,7 @@
 	},
 	"input":
 	{
-		"height": 0.0
+		"height": 31.0
 	},
 	"layout":
 	{
@@ -314,7 +371,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 150.0,
+	"side_bar_width": 230.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
