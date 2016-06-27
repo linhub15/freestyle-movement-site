@@ -17,6 +17,11 @@ body {
 	border-bottom-width: 1px;
 
 }
+.navbar-brand > img{
+	width: auto;
+	height: 100%;
+
+}
 
 .navbar-nav {    
     position: relative;
