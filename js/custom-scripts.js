@@ -14,13 +14,7 @@ body = $('#home-header').css({"padding-bottom": homeHeaderPadding});
 var animateNavDistance = "+=60px";
 
 // Slide down animation for navbar
-jQuery(window).load(function () {
-    
-    console.log("window");
-});
-
 $( document ).ready(function() {
-    console.log( "ready!" );
     // Shift Navbar Down
     homeNav.animate({ "top": animateNavDistance }, "normal" );
     // Fix the navbar to the top of window
@@ -33,6 +27,20 @@ $(window).resize(function() {
     var homeHeaderPadding = (bannerImage.height() + homeNav.height() + 20).toString() + "px";
     body = $('#home-header').css({"padding-bottom": homeHeaderPadding});
 });
+//++++++++++++++++++++++++++++
+
+//////////////////////
+// classes.html Scripts
+//////////////////////
+//-----------------------
+
+if ($(window).width() < 1200) {
+   // Get handle to all the Level sub headings
+}
+
+else {
+}
+
 //++++++++++++++++++++++++++++
 
 
