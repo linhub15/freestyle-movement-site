@@ -4,6 +4,8 @@
 	border-radius: 25px;
 	float: left;
 	margin: 5px;
+	min-width: 1050px;
+
 }
 
 .level-header-section {
