@@ -38,6 +38,19 @@ body {
     float: none;    
 	color: #FFFFFF;
 }
+
+/*dropdown*/
+.dropdown:hover .dropdown-menu{
+	display: block;
+}
+.dropdown-menu{
+	background-color: #04e8e8;	
+}
+.dropdown-menu li a{
+	color: #474c46;
+	font-family: "Century Gothic",CenturyGothic,AppleGothic,sans-serif;
+	font-weight: bold;
+}
 /*green bar on nav */
 .greenNav {
 	height: 12px;
