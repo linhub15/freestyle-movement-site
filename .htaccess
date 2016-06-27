@@ -1,4 +1,4 @@
-DirectoryIndex construction.html 
+DirectoryIndex index.html 
 
 RewriteEngine on
 RewriteCond %{HTTP_HOST} ^yegfreestylesociety\.com [NC]
