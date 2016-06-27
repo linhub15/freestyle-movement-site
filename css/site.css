@@ -70,17 +70,5 @@ body {
 .footer {
   position: absolute;
   bottom: 0;
-  width: 100%; 
-}
+  width: 100%; }
 
-#footerbar{
-	background-color: #474c46;
-	height: 20px;
-	color: #ffffff;	
-	font-size: 12px;
-	margin-top: 10px;		
-}
-
-#footerbar p{
-	 display: inline 
-}
