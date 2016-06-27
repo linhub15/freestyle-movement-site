@@ -17,15 +17,25 @@ body {
 	border-bottom-width: 1px;
 
 }
-.navbar-brand > img{
-	width: auto;
-	height: 100%;
 
+.navbar-brand {
+	padding-top:0;
+
+}
+.navbar-brand > img {
+	width: 60px;
+	height: auto;
+	position: relative;
+	top: -5px;
+	filter: invert(100%);
+	/*
+   	background: #2DFFFE;
+   	*/
 }
 
 .navbar-nav {    
     position: relative;
-    left: 30%;
+    left: 0%;
 }
 
 .navbar-nav > li {
