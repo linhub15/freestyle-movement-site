@@ -36,7 +36,7 @@
 
 .level-content {
 	float: left;
-	width: auto;
+	width: 900px;
 }
 
 
@@ -69,23 +69,36 @@
 /********
   Level 2
  ********/ 
+
 #foundation-expansion-div {
 	padding: 10px;
 	padding-top: 20px;
 	height: 140px;
 }
-#foundation-expansion-heading {
+#foundation-expansion-div > h3 {
 	float: left;
-	width: 150px;
+	width: 170px;
 	border-right: solid;
 	border-width: 2px;
+	margin-right: 20px;
 }
-#FE-Image {
+#foundation-expansion-div > img {
 	float: left;
-	padding-left: 10px;
 	padding-right: 10px;
 }
 
+#conditioning-fitness-div {
+	padding: 10px;
+
+}
+
+#conditioning-fitness-div > h3 {
+	float: left;
+	width: 170px;
+	border-right: solid;
+	border-width: 2px;
+	margin-right: 20px;
+}
 
  /********
   Level 3
