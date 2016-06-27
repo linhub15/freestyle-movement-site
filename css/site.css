@@ -11,7 +11,7 @@ body {
 /*Navbar design*/
 
 #topNavBar {
-	position: relative;
+	
 }
 .navbar-inverse {
 	background-color: #474c46;	
@@ -98,6 +98,7 @@ body {
 }
 
 #banner-image {
+	padding-top: 70px;
 	height: auto;
 	width: 100%;
 }
