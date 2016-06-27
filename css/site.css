@@ -1,4 +1,14 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
 
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 191px;
+}
+
+/*Navbar design*/
 .navbar-inverse {
 	background-color: #474c46;	
 }
@@ -28,7 +38,7 @@
     float: none;    
 	color: #FFFFFF;
 }
-
+/*green bar on nav */
 .greenNav {
 	height: 12px;
 	width: 100%;
@@ -53,4 +63,24 @@
 #banner-image {
 	height: auto;
 	width: 100%;
+}
+
+/*Footer*/
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%; 
+}
+
+#footerbar{
+	background-color: #474c46;
+	height: 20px;
+	color: #ffffff;	
+	font-size: 12px;
+	margin-top: 10px;		
+}
+
+#footerbar p{
+	 display: inline 
 }
