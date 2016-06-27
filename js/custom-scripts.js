@@ -2,44 +2,12 @@
 // index.html Scripts
 //////////////////////
 
-//------------------------------
-// Elements I want to move by ID
-bannerImage = $('#banner-image').css({position: "absolute", top: '60px'});
-var navbarStartingTop = bannerImage.height().toString() + "px";
-homeNav = $('#home-navbar').css({position: "absolute", top: "-60px"});
-
-// Set the Padding-bottom dynamically for the home-header or else it will be hidden
-var homeHeaderPadding = (bannerImage.height() + homeNav.height() + 20).toString() + "px";
-body = $('#home-header').css({"padding-bottom": homeHeaderPadding});
-var animateNavDistance = "+=60px";
-
-// Slide down animation for navbar
-$( document ).ready(function() {
-    // Shift Navbar Down
-    homeNav.animate({ "top": animateNavDistance }, "normal" );
-    // Fix the navbar to the top of window
-    homeNav.addClass("navbar-fixed-top");
-    homeNav.css({position: "fixed"});
-});
-
-// Responsive sizing for padding under the banner
-$(window).resize(function() {
-    var homeHeaderPadding = (bannerImage.height() + homeNav.height() + 20).toString() + "px";
-    body = $('#home-header').css({"padding-bottom": homeHeaderPadding});
-});
-//++++++++++++++++++++++++++++
 
 //////////////////////
 // classes.html Scripts
 //////////////////////
 //-----------------------
 
-if ($(window).width() < 1200) {
-   // Get handle to all the Level sub headings
-}
-
-else {
-}
 
 //++++++++++++++++++++++++++++
 
