@@ -17,14 +17,14 @@ body {
 	border-bottom-width: 1px;
 
 }
-.navbar-nav {
-    width: 100%;
-    text-align: center;
+
+.navbar-nav {    
+    position: relative;
+    left: 30%;
 }
 
 .navbar-nav > li {
-	float: none;
-	display: inline-block;
+	
 	font-family: "Century Gothic",CenturyGothic,AppleGothic,sans-serif;
 	/*font-family: Impact, sans-serif;*/
 	font-weight: bold;
@@ -39,7 +39,8 @@ body {
 	color: #FFFFFF;
 }
 
-/*dropdown*/
+
+/*navbar dropdown*/
 .dropdown:hover .dropdown-menu{
 	display: block;
 }
@@ -50,6 +51,10 @@ body {
 	color: #474c46;
 	font-family: "Century Gothic",CenturyGothic,AppleGothic,sans-serif;
 	font-weight: bold;
+}
+.divider{
+	background-color: #ffffff;
+	padding: 1px;
 }
 /*green bar on nav */
 .greenNav {
