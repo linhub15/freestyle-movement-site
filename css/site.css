@@ -62,14 +62,18 @@ body {
 /*navbar dropdown*/
 @media (min-width: 768px) {
 	.dropdown:hover .dropdown-menu{
-		display: block;
+		display: block;	
+	}
+	.dropdown-menu li a:hover{
+		background-color: #474c46;
+		color: #fff;
+	}
+	/*divider size on dropdown*/
+	.dropdown-menu .divider {
+		background-color: #ffffff;
+		padding: 1.5px;
 	}
 }
-
-
-
-
-
 .dropdown-menu{
 	background-color: #04e8e8;	
 }
@@ -78,10 +82,9 @@ body {
 	font-family: "Century Gothic",CenturyGothic,AppleGothic,sans-serif;
 	font-weight: bold;
 }
-.divider{
-	background-color: #ffffff;
-	padding: 1px;
-}
+
+
+
 /*green bar on nav */
 .greenNav {
 	height: 12px;
@@ -110,11 +113,16 @@ body {
 	width: 100%;
 }
 
-/*Footer*/
-
+/* Sticky Footer*/
 .footer {
   position: absolute;
   bottom: 0;
   width: 100%;
   margin-bottom: 15px; }
 
+/*keep the contact us on the right side of footer*/
+@media (min-width: 767px){
+	.contactFooter{
+		float: right;
+	}
+}
