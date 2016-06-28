@@ -60,9 +60,16 @@ body {
 
 
 /*navbar dropdown*/
-.dropdown:hover .dropdown-menu{
-	display: block;
+@media (min-width: 768px) {
+	.dropdown:hover .dropdown-menu{
+		display: block;
+	}
 }
+
+
+
+
+
 .dropdown-menu{
 	background-color: #04e8e8;	
 }
