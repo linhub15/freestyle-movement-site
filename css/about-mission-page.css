@@ -1,6 +1,16 @@
 h2{
 	font-weight: bold;
+	margin-bottom: 0;
 }
+p
+{
+	font-weight: bold;	
+}
+
+.glyphDivider{
+	margin-top: 0;
+}
+
 .text-just{
 	text-align: justify;
 }
