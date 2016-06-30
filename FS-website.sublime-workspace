@@ -4,28 +4,76 @@
 		"selected_items":
 		[
 			[
-				"min",
-				"min-width"
+				"margin",
+				"margin-left"
 			],
 			[
-				"align",
-				"align-items"
+				"padd",
+				"padding-top"
+			],
+			[
+				"pad",
+				"padding-right"
+			],
+			[
+				"text-ali",
+				"text-align"
+			],
+			[
+				"list",
+				"list-style-type"
+			],
+			[
+				"te",
+				"text-decoration"
+			],
+			[
+				"backgr",
+				"background-color"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"padding",
+				"padding-bottom"
 			],
 			[
 				"text",
 				"text-align"
 			],
 			[
-				"padding",
-				"padding-right"
-			],
-			[
 				"border",
 				"border-width"
 			],
 			[
-				"margin",
-				"margin-top"
+				"font",
+				"font-size"
+			],
+			[
+				"font-",
+				"font-weight"
+			],
+			[
+				"bor",
+				"background-color"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"min",
+				"min-width"
+			],
+			[
+				"marg",
+				"margin-right"
+			],
+			[
+				"margin-",
+				"margin-left"
 			],
 			[
 				"line",
@@ -48,38 +96,30 @@
 				"linkListobjectIJustMade"
 			],
 			[
-				"list",
-				"list-style"
-			],
-			[
 				"al",
 				"alt	Attr"
 			],
 			[
 				"co",
 				"color"
-			],
-			[
-				"te",
-				"text-align"
 			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"file": "classes.html",
+			"file": "classes-level_one.html",
 			"settings":
 			{
-				"buffer_size": 9901,
+				"buffer_size": 8864,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "css/classes-page.css",
+			"file": "schedule.html",
 			"settings":
 			{
-				"buffer_size": 1475,
+				"buffer_size": 7977,
 				"line_ending": "Windows"
 			}
 		}
@@ -116,18 +156,29 @@
 	},
 	"expanded_folders":
 	[
-		"/C/Users/mikachu/Documents/GitHub/FreestyleSocietyWebsite",
-		"/C/Users/mikachu/Documents/GitHub/FreestyleSocietyWebsite/css",
-		"/C/Users/mikachu/Documents/GitHub/FreestyleSocietyWebsite/js"
+		"/C/Users/Patricia/Documents/GitHub/FreestyleSocietyWebsite",
+		"/C/Users/Patricia/Documents/GitHub/FreestyleSocietyWebsite/css"
 	],
 	"file_history":
 	[
-		"/C/Users/mikachu/Documents/GitHub/FreestyleSocietyWebsite/schedule.html",
-		"/C/Users/mikachu/Documents/GitHub/FreestyleSocietyWebsite/index.html",
-		"/C/Users/mikachu/Documents/GitHub/FreestyleSocietyWebsite/css/site.css",
-		"/C/Users/mikachu/Documents/GitHub/FreestyleSocietyWebsite/about-mission.html",
-		"/C/Users/mikachu/Documents/GitHub/FreestyleSocietyWebsite/css/about-mission-page.css",
-		"/C/Users/mikachu/Documents/GitHub/FreestyleSocietyWebsite/classes.html",
+		"/C/Users/Patricia/Documents/GitHub/FreestyleSocietyWebsite/schedule.html",
+		"/C/Users/Patricia/Documents/GitHub/FreestyleSocietyWebsite/index.html",
+		"/C/Users/Patricia/Documents/GitHub/FreestyleSocietyWebsite/classes.html",
+		"/C/Users/Patricia/Documents/GitHub/FreestyleSocietyWebsite/css/site.css",
+		"/C/Users/Patricia/Documents/GitHub/FreestyleSocietyWebsite/css/classes-levelOne.css",
+		"/C/Users/Patricia/Documents/GitHub/FreestyleSocietyWebsite/css/about-mission-page.css",
+		"/C/Users/Patricia/Documents/GitHub/FreestyleSocietyWebsite/about-mission.html",
+		"/C/Users/Patricia/Documents/GitHub/FreestyleSocietyWebsite/classes-level_one.html",
+		"/C/Users/Patricia/Documents/GitHub/FreestyleSocietyWebsite/js/custom-scripts.js",
+		"/C/Users/Patricia/Documents/GitHub/FreestyleSocietyWebsite/css/schedule-page.css",
+		"/C/Users/Patricia/Documents/GitHub/FreestyleSocietyWebsite/css/classes-page.css",
+		"/D/School backup/1st semester/COMP1017 (Web Design)/Assignment-03/Assignment-03/boilerplate/css/basic.css",
+		"/D/School backup/1st semester/COMP1017 (Web Design)/Assignment-03/Assignment-03/boilerplate/index.html",
+		"/C/Users/Patricia/Documents/GitHub/FreestyleSocietyWebsite/about.html",
+		"/D/School backup/1st semester/COMP1017 (Web Design)/Assignment-02/Assignment-02/index.html",
+		"/D/School backup/1st semester/COMP1017 (Web Design)/Assignment-04/boilerplate/css/basic.css",
+		"/D/School backup/1st semester/COMP1017 (Web Design)/Assignment-04/boilerplate/index.html",
+		"/C/Users/Patricia/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
 		"/Users/linhub/Documents/github/LearningJava/Hubert/Hello.java",
 		"/Users/linhub/Desktop/getFBMessages.py",
 		"/Users/linhub/Documents/Websites/GiantsPizzaDonair-Website/styles/giants.css",
@@ -200,7 +251,7 @@
 	],
 	"find":
 	{
-		"height": 23.0
+		"height": 34.0
 	},
 	"find_in_files":
 	{
@@ -214,6 +265,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"%;\n",
 			"div",
 			"100",
 			"dict",
@@ -248,19 +300,19 @@
 			[
 				{
 					"buffer": 0,
-					"file": "classes.html",
+					"file": "classes-level_one.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 9901,
+						"buffer_size": 8864,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								4634,
-								4646
+								610,
+								610
 							]
 						],
 						"settings":
@@ -270,7 +322,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1125.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
@@ -278,28 +330,29 @@
 				},
 				{
 					"buffer": 1,
-					"file": "css/classes-page.css",
-					"semi_transient": false,
+					"file": "schedule.html",
+					"semi_transient": true,
 					"settings":
 					{
-						"buffer_size": 1475,
+						"buffer_size": 7977,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								599,
-								599
+								0,
+								0
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/CSS/CSS.sublime-syntax",
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 450.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -310,7 +363,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 23.0
+		"height": 26.0
 	},
 	"input":
 	{
@@ -347,7 +400,7 @@
 	"project": "FS-website.sublime-project",
 	"replace":
 	{
-		"height": 42.0
+		"height": 48.0
 	},
 	"save_all_on_build": true,
 	"select_file":
