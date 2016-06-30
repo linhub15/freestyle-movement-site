@@ -4,6 +4,22 @@
 		"selected_items":
 		[
 			[
+				"fon",
+				"font-weight"
+			],
+			[
+				"pa",
+				"padding-bottom"
+			],
+			[
+				"fontwei",
+				"font-weight"
+			],
+			[
+				"font",
+				"font-style"
+			],
+			[
 				"margin",
 				"margin-left"
 			],
@@ -46,10 +62,6 @@
 			[
 				"border",
 				"border-width"
-			],
-			[
-				"font",
-				"font-size"
 			],
 			[
 				"font-",
@@ -108,18 +120,26 @@
 	"buffers":
 	[
 		{
-			"file": "classes-level_one.html",
+			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 8864,
+				"buffer_size": 9113,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "schedule.html",
+			"file": "css/about-mission-page.css",
 			"settings":
 			{
-				"buffer_size": 7977,
+				"buffer_size": 625,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "css/site.css",
+			"settings":
+			{
+				"buffer_size": 2144,
 				"line_ending": "Windows"
 			}
 		}
@@ -161,14 +181,14 @@
 	],
 	"file_history":
 	[
+		"/C/Users/Patricia/Documents/GitHub/FreestyleSocietyWebsite/about-mission.html",
+		"/C/Users/Patricia/Documents/GitHub/FreestyleSocietyWebsite/classes-level_one.html",
 		"/C/Users/Patricia/Documents/GitHub/FreestyleSocietyWebsite/schedule.html",
 		"/C/Users/Patricia/Documents/GitHub/FreestyleSocietyWebsite/index.html",
 		"/C/Users/Patricia/Documents/GitHub/FreestyleSocietyWebsite/classes.html",
 		"/C/Users/Patricia/Documents/GitHub/FreestyleSocietyWebsite/css/site.css",
 		"/C/Users/Patricia/Documents/GitHub/FreestyleSocietyWebsite/css/classes-levelOne.css",
 		"/C/Users/Patricia/Documents/GitHub/FreestyleSocietyWebsite/css/about-mission-page.css",
-		"/C/Users/Patricia/Documents/GitHub/FreestyleSocietyWebsite/about-mission.html",
-		"/C/Users/Patricia/Documents/GitHub/FreestyleSocietyWebsite/classes-level_one.html",
 		"/C/Users/Patricia/Documents/GitHub/FreestyleSocietyWebsite/js/custom-scripts.js",
 		"/C/Users/Patricia/Documents/GitHub/FreestyleSocietyWebsite/css/schedule-page.css",
 		"/C/Users/Patricia/Documents/GitHub/FreestyleSocietyWebsite/css/classes-page.css",
@@ -295,24 +315,24 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "classes-level_one.html",
+					"file": "index.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 8864,
+						"buffer_size": 9113,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								610,
-								610
+								5468,
+								5468
 							]
 						],
 						"settings":
@@ -322,40 +342,67 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 2537.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "css/about-mission-page.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 625,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								506,
+								506
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 587.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
 					"type": "text"
 				},
 				{
-					"buffer": 1,
-					"file": "schedule.html",
-					"semi_transient": true,
+					"buffer": 2,
+					"file": "css/site.css",
+					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 7977,
+						"buffer_size": 2144,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								1146,
+								1152
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/CSS/CSS.sublime-syntax"
 						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.x": -0.0,
+						"translation.y": 1326.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 2,
 					"type": "text"
 				}
 			]
