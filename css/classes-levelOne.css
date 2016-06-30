@@ -1,0 +1,54 @@
+.weekOne h3{
+	border-width: 1px;
+	background-color: #474c46;
+	text-align: center;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	color: #fff;	
+}
+
+.weekTwo h3{
+	border-width: 1px;
+	background-color: #00d1d6;
+	text-align: center;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	color: #fff;
+}
+
+.weekThree h3{
+	border-width: 1px;
+	background-color: #f8a025;
+	text-align: center;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	color: #fff;
+}
+
+.weekFour h3{
+	border-width: 1px;
+	background-color: #704070;
+	text-align: center;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	color: #fff;	
+}
+
+.page-content ul{
+	background-color: #f4f6f9;
+	list-style-type: none;
+	padding-top:20px;
+	padding-bottom: 20px;
+	padding-left: 0;
+	margin: 0;
+	color: #474c46;
+	font-weight: bold;
+
+}
+
+.page-content li{
+	font-size: 18px;
+	text-align: center;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	padding-bottom: 5px;
+}

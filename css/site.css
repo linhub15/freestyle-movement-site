@@ -8,6 +8,10 @@ body {
   margin-bottom: 191px;
 }
 
+p{
+	font-size: 16px;
+}
+
 /*Navbar design*/
 
 #topNavBar {
@@ -87,7 +91,7 @@ body {
 
 /*green bar on nav */
 .greenNav {
-	height: 12px;
+	height: 6px;
 	width: 100%;
 	background-color: #39fe17;
 
