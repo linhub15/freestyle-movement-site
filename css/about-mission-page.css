@@ -2,10 +2,6 @@ h1{
 	font-weight: bold;
 	margin-bottom: 0;
 }
-p
-{
-	font-weight: bold;	
-}
 
 .glyphDivider{
 	margin-top: 0;
@@ -48,4 +44,7 @@ p
 	padding-top: 20px;
 	padding-bottom: 15px;
 	border-radius: 25px;
+}
+.missionDiv p{
+	font-weight: bold;
 }

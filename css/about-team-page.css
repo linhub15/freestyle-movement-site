@@ -1,0 +1,17 @@
+.thumbnails{
+	list-style-type: none;
+}
+
+.thumbnail h2{
+	padding-left: 10px;
+}
+.thumbnail p{
+	padding-left: 10px;
+}
+
+@media(max-width: 767px){
+
+	.thumbnails {
+		padding-left: 0;
+	}
+}
