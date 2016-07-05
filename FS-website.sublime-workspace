@@ -123,15 +123,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 9113,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "css/about-mission-page.css",
-			"settings":
-			{
-				"buffer_size": 625,
+				"buffer_size": 9101,
 				"line_ending": "Windows"
 			}
 		},
@@ -139,7 +131,7 @@
 			"file": "css/site.css",
 			"settings":
 			{
-				"buffer_size": 2144,
+				"buffer_size": 2200,
 				"line_ending": "Windows"
 			}
 		}
@@ -181,6 +173,7 @@
 	],
 	"file_history":
 	[
+		"/C/Users/Patricia/Documents/GitHub/FreestyleSocietyWebsite/css/about-mission-page.css",
 		"/C/Users/Patricia/Documents/GitHub/FreestyleSocietyWebsite/about-mission.html",
 		"/C/Users/Patricia/Documents/GitHub/FreestyleSocietyWebsite/classes-level_one.html",
 		"/C/Users/Patricia/Documents/GitHub/FreestyleSocietyWebsite/schedule.html",
@@ -188,7 +181,6 @@
 		"/C/Users/Patricia/Documents/GitHub/FreestyleSocietyWebsite/classes.html",
 		"/C/Users/Patricia/Documents/GitHub/FreestyleSocietyWebsite/css/site.css",
 		"/C/Users/Patricia/Documents/GitHub/FreestyleSocietyWebsite/css/classes-levelOne.css",
-		"/C/Users/Patricia/Documents/GitHub/FreestyleSocietyWebsite/css/about-mission-page.css",
 		"/C/Users/Patricia/Documents/GitHub/FreestyleSocietyWebsite/js/custom-scripts.js",
 		"/C/Users/Patricia/Documents/GitHub/FreestyleSocietyWebsite/css/schedule-page.css",
 		"/C/Users/Patricia/Documents/GitHub/FreestyleSocietyWebsite/css/classes-page.css",
@@ -324,15 +316,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 9113,
+						"buffer_size": 9101,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								5468,
-								5468
+								5535,
+								5535
 							]
 						],
 						"settings":
@@ -342,7 +334,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 2537.0,
+						"translation.y": 2485.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -350,48 +342,19 @@
 				},
 				{
 					"buffer": 1,
-					"file": "css/about-mission-page.css",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 625,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								506,
-								506
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 587.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
 					"file": "css/site.css",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2144,
+						"buffer_size": 2200,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1146,
-								1152
+								2172,
+								2172
 							]
 						],
 						"settings":
@@ -399,10 +362,10 @@
 							"syntax": "Packages/CSS/CSS.sublime-syntax"
 						},
 						"translation.x": -0.0,
-						"translation.y": 1326.0,
+						"translation.y": 2451.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
