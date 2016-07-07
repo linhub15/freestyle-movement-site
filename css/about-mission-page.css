@@ -1,6 +1,8 @@
-body{
-	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+@font-face {
+    font-family: "Raleway"; /*a name to be used later*/
+    src: url('../fonts/Raleway/Raleway-Medium.ttf'); /*URL to font*/
 }
+
 h1{
 	font-weight: bold;
 	font-size: 42px;
@@ -11,7 +13,7 @@ h1{
 h2{
 	font-weight: bold;
 	font-size: 32px;
-	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	
 }
 
 .glyphDivider{
@@ -62,7 +64,7 @@ h2{
 .missionDiv p{
 	font-weight: bold;
 	font-size: 18px;
-	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	
 }
 
 .about-section{
