@@ -1,6 +1,8 @@
 h1{
 	font-size: 40px;
 }
+
+
 .level-section {
 	border: solid;
 	border-width: 3px;
@@ -79,6 +81,10 @@ h1{
 	font-weight: bold;
 	color:white;
 }
+.level-content h2{
+		font-size: 30px;
+		font-weight: bold;
+	}
 
 @media(max-width: 990px){
 
@@ -224,10 +230,7 @@ h1{
 	position: relative;
 	left: 14%;
 	}
-	.level-content h2{
-		font-size: 30px;
-		font-weight: bold;
-	}
+	
 	.arrow_box1 {
 	position: relative;
 	background: #474c46;
@@ -378,6 +381,7 @@ h1{
 	border-width: 2px;
 	margin-right: 20px;
 	font-weight: bold;
+	margin-top: 60px;
 }
 #foundation-expansion-div > img {
 	float: left;
