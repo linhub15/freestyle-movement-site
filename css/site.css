@@ -113,14 +113,17 @@ th{
 }
 
 
+
 /*  .page-content is for navbar-fixed-top
 	prevents the <body> content 
 	from getting hidden under the navbar
  */
 .page-content {
-	padding-top: 80px;
+	padding-top: 10px;
 }
-
+.div-gap{
+	padding-top: 60px;
+}
 /* Dynamic sizing for navbar and image */
 #home-navbar {
 	width: 100%;
