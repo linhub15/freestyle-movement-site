@@ -19,6 +19,13 @@ p{
 	font-family: "Raleway";
 }
 
+td{
+	font-size: 16px;
+}
+
+th{
+	font-size: 18px;
+}
 
 /*Navbar design*/
 

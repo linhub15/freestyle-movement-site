@@ -5,7 +5,51 @@
 		[
 			[
 				"fon",
-				"font-weight"
+				"font"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"mar",
+				"margin-bottom"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"border",
+				"border-color"
+			],
+			[
+				"ma",
+				"max-width"
+			],
+			[
+				"pad",
+				"padding-left"
+			],
+			[
+				"marg",
+				"margin-top"
+			],
+			[
+				"le",
+				"letter-spacing"
+			],
+			[
+				"Wa",
+				"Walway-Black"
+			],
+			[
+				"back",
+				"background-image"
+			],
+			[
+				"padd",
+				"padding"
 			],
 			[
 				"pa",
@@ -14,22 +58,6 @@
 			[
 				"fontwei",
 				"font-weight"
-			],
-			[
-				"font",
-				"font-style"
-			],
-			[
-				"margin",
-				"margin-left"
-			],
-			[
-				"padd",
-				"padding-top"
-			],
-			[
-				"pad",
-				"padding-right"
 			],
 			[
 				"text-ali",
@@ -48,20 +76,12 @@
 				"background-color"
 			],
 			[
-				"back",
-				"background-color"
-			],
-			[
 				"padding",
 				"padding-bottom"
 			],
 			[
 				"text",
 				"text-align"
-			],
-			[
-				"border",
-				"border-width"
 			],
 			[
 				"font-",
@@ -78,10 +98,6 @@
 			[
 				"min",
 				"min-width"
-			],
-			[
-				"marg",
-				"margin-right"
 			],
 			[
 				"margin-",
@@ -123,7 +139,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 9101,
+				"buffer_size": 10568,
 				"line_ending": "Windows"
 			}
 		},
@@ -131,7 +147,23 @@
 			"file": "css/site.css",
 			"settings":
 			{
-				"buffer_size": 2200,
+				"buffer_size": 2641,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "foundation_expansion/classes-levelTwo-link.html",
+			"settings":
+			{
+				"buffer_size": 14177,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "css/class-level-two.css",
+			"settings":
+			{
+				"buffer_size": 182,
 				"line_ending": "Windows"
 			}
 		}
@@ -173,17 +205,19 @@
 	],
 	"file_history":
 	[
-		"/C/Users/Patricia/Documents/GitHub/FreestyleSocietyWebsite/css/about-mission-page.css",
-		"/C/Users/Patricia/Documents/GitHub/FreestyleSocietyWebsite/about-mission.html",
-		"/C/Users/Patricia/Documents/GitHub/FreestyleSocietyWebsite/classes-level_one.html",
-		"/C/Users/Patricia/Documents/GitHub/FreestyleSocietyWebsite/schedule.html",
-		"/C/Users/Patricia/Documents/GitHub/FreestyleSocietyWebsite/index.html",
 		"/C/Users/Patricia/Documents/GitHub/FreestyleSocietyWebsite/classes.html",
-		"/C/Users/Patricia/Documents/GitHub/FreestyleSocietyWebsite/css/site.css",
-		"/C/Users/Patricia/Documents/GitHub/FreestyleSocietyWebsite/css/classes-levelOne.css",
-		"/C/Users/Patricia/Documents/GitHub/FreestyleSocietyWebsite/js/custom-scripts.js",
+		"/C/Users/Patricia/Documents/GitHub/FreestyleSocietyWebsite/classes-level_one.html",
+		"/C/Users/Patricia/Documents/GitHub/FreestyleSocietyWebsite/about-team.html",
+		"/C/Users/Patricia/Documents/GitHub/FreestyleSocietyWebsite/about-mission.html",
+		"/C/Users/Patricia/Documents/GitHub/FreestyleSocietyWebsite/schedule.html",
 		"/C/Users/Patricia/Documents/GitHub/FreestyleSocietyWebsite/css/schedule-page.css",
 		"/C/Users/Patricia/Documents/GitHub/FreestyleSocietyWebsite/css/classes-page.css",
+		"/C/Users/Patricia/Documents/GitHub/FreestyleSocietyWebsite/css/site.css",
+		"/C/Users/Patricia/Documents/GitHub/FreestyleSocietyWebsite/css/about-team-page.css",
+		"/C/Users/Patricia/Documents/GitHub/FreestyleSocietyWebsite/css/about-mission-page.css",
+		"/C/Users/Patricia/Documents/GitHub/FreestyleSocietyWebsite/index.html",
+		"/C/Users/Patricia/Documents/GitHub/FreestyleSocietyWebsite/css/classes-levelOne.css",
+		"/C/Users/Patricia/Documents/GitHub/FreestyleSocietyWebsite/js/custom-scripts.js",
 		"/D/School backup/1st semester/COMP1017 (Web Design)/Assignment-03/Assignment-03/boilerplate/css/basic.css",
 		"/D/School backup/1st semester/COMP1017 (Web Design)/Assignment-03/Assignment-03/boilerplate/index.html",
 		"/C/Users/Patricia/Documents/GitHub/FreestyleSocietyWebsite/about.html",
@@ -263,7 +297,7 @@
 	],
 	"find":
 	{
-		"height": 34.0
+		"height": 35.0
 	},
 	"find_in_files":
 	{
@@ -277,6 +311,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"bold",
+			"6",
 			"%;\n",
 			"div",
 			"100",
@@ -307,7 +343,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 3,
 			"sheets":
 			[
 				{
@@ -316,15 +352,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 9101,
+						"buffer_size": 10568,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								5535,
-								5535
+								4514,
+								4514
 							]
 						],
 						"settings":
@@ -334,10 +370,10 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 2485.0,
+						"translation.y": 994.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
@@ -346,26 +382,83 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2200,
+						"buffer_size": 2641,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2172,
-								2172
+								387,
+								387
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 60.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "foundation_expansion/classes-levelTwo-link.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 14177,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								881,
+								881
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 275.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "css/class-level-two.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 182,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								182,
+								182
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/CSS/CSS.sublime-syntax"
 						},
-						"translation.x": -0.0,
-						"translation.y": 2451.0,
+						"translation.x": 0.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 0,
 					"type": "text"
 				}
 			]
@@ -377,7 +470,7 @@
 	},
 	"input":
 	{
-		"height": 0.0
+		"height": 35.0
 	},
 	"layout":
 	{
@@ -448,7 +541,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 150.0,
+	"side_bar_width": 225.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
