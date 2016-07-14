@@ -118,11 +118,11 @@ th{
 	prevents the <body> content 
 	from getting hidden under the navbar
  */
-.page-content {
+/*.page-content {
 	padding-top: 10px;
-}
+}*/
 .div-gap{
-	padding-top: 40px;
+	padding-top: 60px;
 }
 /* Dynamic sizing for navbar and image */
 #home-navbar {

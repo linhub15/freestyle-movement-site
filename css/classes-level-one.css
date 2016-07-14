@@ -1,3 +1,11 @@
+h1{
+	font-weight: bold;
+	font-size: 38px;
+	margin-bottom: 0;	
+}
+h2{
+	font-weight: bold;
+}
 .FB-banner img{
 	width: 100%;
 	margin-top: 50px;
@@ -21,17 +29,28 @@
     margin: 0;
     text-align: center;
 }*/
+.foundation-basics-div{
+	padding-top: 20px;
+}
+.foundation-basics-desc p{
+	font-size: 18px;
+}
+.foundation-basics-desc h3{
+	margin-top: 0;
+}
 
 .foundation-basics-text{
-	padding-top: 30px;
-	font-size: 18px;
+	padding-top: 20px;
+	text-align: center;
+	text-align: justify;
 }
 
 /*Picture transitions*/
 #myGallery{
   /*position:relative;*/
   /*width: 500px;
-  height: 350px; */ 
+  height: 350px; */
+  padding-top: 20px; 
 }
 #myGallery img{
   display:none;
