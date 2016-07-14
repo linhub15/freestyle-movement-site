@@ -21,6 +21,32 @@
     margin: 0;
     text-align: center;
 }*/
+
+.foundation-basics-text{
+	padding-top: 30px;
+	font-size: 18px;
+}
+
+/*Picture transitions*/
+#myGallery{
+  /*position:relative;*/
+  /*width: 500px;
+  height: 350px; */ 
+}
+#myGallery img{
+  display:none;
+  /*position:absolute;
+  top:0;
+  left:0;*/
+  width: 100%;
+}
+#myGallery img.active{
+  display:block;
+}
+
+.curriculum-div{
+	padding-top: 40px;
+}
 .weekOne h3{
 	border-width: 1px;
 	background-color: #474c46;
