@@ -1,7 +1,7 @@
-# FreestyleSocietyWebsite
-## Open Source Website for Freestyle Society
+# FreestyleMovementWebsite
+## Open Source Website for Freestyle Movement Dance Company
 * This website is developed by Patricia Limcangco and Hubert Lin.
-* The code for the website is open source and can be found at github.com/linhub15/FreestyleSocietyWebsite
+* The code for the website is open source and can be found at github.com/linhub15/FreestyleMovementWebsite
 
 ## Contact
 If you would like to contribute to this website or make suggestions please email Hubert at:
