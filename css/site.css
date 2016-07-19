@@ -144,15 +144,45 @@ th{
 	font-size: 42px;
 	font-weight: bold;
 }
-
-.announcement ul{
-	margin:0;
+.overview-price-div{
+	padding-top: 20px;
+}
+.overview-div{
+	background-color: #474c46;
+	text-align: center;
+	color:#fff;
+	height: 350px;
+}
+.overview-text-div{
+	padding-top: 40px;
+}
+.overview-text-div ul{
+	list-style-type: none;
 	padding: 0;
 }
-.announcement li{
-	/*font-weight: bold;*/
+.overview-text-div li{
+	font-weight: bold;
 	font-size: 16px;
-	padding-bottom: 10px;
+	padding-bottom: 5px;
+
+}
+
+.prices-div{
+	background-color: #04e8e8;
+	text-align: center;
+	font-weight: bold;
+	height: 350px;
+	padding-top: 10px;
+}
+.prices-div th{
+	text-align: center;
+	font-size: 18px;
+}
+@media(max-width: 391px){
+
+	.prices-div{
+		height: 430px;
+	}
 }
 
 /*Social Media Icons*/
