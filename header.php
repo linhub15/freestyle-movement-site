@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -78,15 +77,16 @@
                         <li class="dropdown">
                             <a href="classes.html" data-toggle="dropdown" class="dropdown-toggle">Classes<b class="caret"></b></a>
                             <ul class="dropdown-menu">
-                                <li><a href="classes.html">Overview</a>
+                                <li><a href="classes.html">Overview</a></li>
                                 <li class="divider"></li>
-                                <li><a href="classes-level-one.html">Level 1</a>
+                                <li><a href="classes-level-one.html">Level 1</a></li>
                                 <li class="divider"></li>
-                                <li><a href="foundation-expansion/classes-link.html">Level 2</a>
+                                <li><a href="foundation-expansion/classes-link.html">Level 2</a></li>
                                 <!-- <li class="divider"></li>
                                 <li><a href="#">Level 3</a>
                                 <li class="divider"></li>
                                 <li><a href="#">Level 4</a> -->
+                            </ul>
                         </li>
                     </ul>
                 </div><!-- /.navbar-collapse -->
