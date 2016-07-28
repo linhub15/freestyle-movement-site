@@ -1,8 +1,8 @@
 DirectoryIndex index.html 
 
 RewriteEngine on
-RewriteCond %{HTTP_HOST} ^yegfreestylesociety\.com [NC]
-RewriteRule ^(.*)$ http://www.YegFreestyleSociety.com/$1 [L,R=301,NC]
+RewriteCond %{HTTP_HOST} ^freestylemovement\.ca [NC]
+RewriteRule ^(.*)$ http://www.freestylemovement.ca/$1 [L,R=301,NC]
 
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteRule ^([^\.]+)$ $1.html [NC,L]
