@@ -57,7 +57,7 @@
                 <!-- Brand and collapse toggle get grouped for better mobile display -->
                 <div class="navbar-header">
                 
-                	<a class="navbar-brand" href="index.html">
+                	<a class="navbar-brand" href="index.php">
                     	<img src="images/stamp_white.png" alt="Freestyle Movement Text">
                 	</a>
                 	
@@ -75,7 +75,7 @@
                 
                     <ul class="nav navbar-nav">
                         <li>
-                        	<a href="index.html">Home</a>
+                        	<a href="index.php">Home</a>
                         </li>                       
                         <li class="dropdown">
                         
