@@ -20,9 +20,24 @@
     
     <!-- Site Style Sheet -->
     <link href="css/site.css" rel="stylesheet">
-    <link href="css/classes-page.css" rel="stylesheet">
+    
+    <!-- Page specific CSS page -->
+    <?php 
+    	$domain = "localhost/";
+    	$url = $_SERVER['REQUEST_URI'];
+    	if (strstr($url, "about-mission.php")) {
+    		echo ("<link href=\"css/about-mission-page.css\" rel=\"stylesheet\">");
+    	}
+    	else if (strstr($url, "classes.php")) {
+    		echo ("<link href=\"css/classes-page.css\" rel=\"stylesheet\">");
+    	}
+    	else if (strstr($url, "classes-level-one.php")) {
+    		echo ("<link href=\"css/classes-level-one.css\" rel=\"stylesheet\">");
+    	}
+    ?>
     
 	<!-- JQuery Load before page-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="https://code.jquery.com/jquery-2.1.3.js"></script>
     
     <!--Bootstrap JS-->
@@ -79,29 +94,29 @@
                         </li>                       
                         <li class="dropdown">
                         
-                            <a  href="about-mission.html" data-toggle="dropdown" class="dropdown-toggle">About<b class="caret"></b></a>
+                            <a  href="about-mission.php" data-toggle="dropdown" class="dropdown-toggle">About<b class="caret"></b></a>
                             
                             <ul class="dropdown-menu">
-                                <li><a href="about-mission.html">Mission</a></li> 
+                                <li><a href="about-mission.php">Mission</a></li> 
                                 <li class="divider"></li>
-                                <li><a href="about-team.html">Team</a></li>
+                                <li><a href="about-team.php">Team</a></li>
                             </ul>
                             
                         </li>
                         
-                        <li><a href="schedule.html">Schedule</a></li>           
+                        <li><a href="schedule.php">Schedule</a></li>           
                                     
                         <li class="dropdown">
                         
-                            <a href="classes.html" data-toggle="dropdown" class="dropdown-toggle">Classes<b class="caret"></b></a>
+                            <a href="classes.php" data-toggle="dropdown" class="dropdown-toggle">Classes<b class="caret"></b></a>
                             
                             <ul class="dropdown-menu">
                             
-                                <li><a href="classes.html">Overview</a></li>
+                                <li><a href="classes.php">Overview</a></li>
                                 <li class="divider"></li>
-                                <li><a href="classes-level-one.html">Level 1</a></li>
+                                <li><a href="classes-level-one.php">Level 1</a></li>
                                 <li class="divider"></li>
-                                <li><a href="foundation-expansion/classes-link.html">Level 2</a></li>
+                                <li><a href="classes-bboylink.php">Level 2</a></li>
                                 
                                 <!-- <li class="divider"></li>
                                 <li><a href="#">Level 3</a>
