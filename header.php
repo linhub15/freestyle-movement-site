@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width" />
-    <title>Classes</title>
+    <title>Freestyle Movement</title>
 
     <!--Google Analytics Script-->
     <script>
