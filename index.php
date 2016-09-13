@@ -1,6 +1,6 @@
 <?php include 'header.php'; ?>
 <!-- Page Banner Image -->
-<img id="banner-image" class="index-banner" src="images/Banner.png">
+<img id="banner-image" class="index-banner" src="images/Temp Banner.png">
 <!-- Start of Content -->
 	<div class="container">        
 		<div>        	
@@ -78,12 +78,12 @@
                                 <td class="col-md-4">Free</td>
                             </tr>
                             <tr>
-                                <td class="col-md-8">Registered Foundation Expansion (8 Weeks)</td>
-                                <td class="col-md-4">$120</td>
+                                <td class="col-md-8">Weekly Workshops</td>
+                                <td class="col-md-4">Varies every week</td>
                             </tr>
                             <tr>
-                                <td class="col-md-8">Drop-in Breaker's Conditioning</td>
-                                <td class="col-md-4">TBA</td>
+                                <td class="col-md-8">Drop-in Breaker's Conditioning w/ cover</td>
+                                <td class="col-md-4">$5</td>
                             </tr>
                         </table>
                 </div>
