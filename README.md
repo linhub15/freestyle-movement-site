@@ -8,7 +8,7 @@
 
 ## Contact
 If you would like to contribute to this website or make suggestions please email Hubert at:
-H.lin@freestylemovement.ca
+YEG.FreestyleSociety@gmail.com
 
 ## Project References
 
