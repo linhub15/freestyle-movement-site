@@ -11,7 +11,7 @@
 
                 <h4>Contact Us</h4>
                      
-                <p><span class="glyphicon glyphicon-envelope"></span> YEG.FreestyleMovement@gmail.com </p>
+                <p><span class="glyphicon glyphicon-envelope"></span> info@freestylemovement.ca </p>
             </div>           
         </div>        
     </footer>
