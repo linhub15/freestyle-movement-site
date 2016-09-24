@@ -1,6 +1,6 @@
 <?php include 'header.php'; ?>
 <!-- Page Banner Image -->
-<img id="banner-image" class="index-banner" src="images/Temp_Banner.png">
+<img id="banner-image" class="index-banner" src="images/Temp_Banner.jpg">
 <!-- Start of Content -->
 	<div class="container">        
 		<div>        	
