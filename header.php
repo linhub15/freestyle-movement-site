@@ -92,17 +92,21 @@
                         <li>
                         	<a href="index.php">Home</a>
                         </li>                       
-                        <li class="dropdown">
-                        
-                            <a  href="about-mission.php" data-toggle="dropdown" class="dropdown-toggle">About<b class="caret"></b></a>
-                            
-                            <ul class="dropdown-menu">
-                                <li><a href="about-mission.php">Mission</a></li> 
-                                <li class="divider"></li>
-                                <li><a href="about-team.php">Team</a></li>
-                            </ul>
-                            
+                        <li>
+                        	<a  href="about-mission.php">About</a>
                         </li>
+                        
+<!--                         <li class="dropdown"> -->
+                        
+<!--                             <a  href="about-mission.php" data-toggle="dropdown" class="dropdown-toggle">About<b class="caret"></b></a> -->
+                            
+<!--                             <ul class="dropdown-menu"> -->
+<!--                                 <li><a href="about-mission.php">Mission</a></li>  -->
+<!--                                 <li class="divider"></li> -->
+<!--                                 <li><a href="about-team.php">Team</a></li> -->
+<!--                             </ul> -->
+                            
+<!--                         </li> -->
                         
                         <li><a href="schedule.php">Schedule</a></li>           
                                     
