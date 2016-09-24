@@ -42,14 +42,15 @@
                 <!--Announcement-->
                 <div class="col-md-6 overview-div">            
                     <div class="overview-text-div">
-                        <h2><span class="glyphicon glyphicon-info-sign"></span> Overview</h2>
+                        <h2><span class="glyphicon glyphicon-info-sign"></span> Events</h2>
                         <ul>
                         
                         
-                            <li>Drop-in is Cash Only ($2) </li>                           
-                            <li>Bboy Link's Foundation Expansion Registration<br/>
-                            
-                                <a class="btn btn-primary" href="http://goo.gl/forms/NUSOO4vV2TLglyBd2" target="_blank">Register</a>
+                            <li>"Test Your Skills" BBoy Competition - November 5th, 2016<br/>
+                            	<a class="btn btn-primary" href="http://goo.gl/forms/NUSOO4vV2TLglyBd2" target="_blank">Event Info</a>
+                            </li>                           
+                            <li>"Level UP!" 1on1 Bboy Competition - January 2017<br/>                            
+                                <a class="btn btn-primary" href="http://goo.gl/forms/NUSOO4vV2TLglyBd2" target="_blank">Event Info</a>
                             </li>
 <!--                             <li>Waiver &amp; consent form<br/>  -->
 <!--                                 <a href="documents/Waiver_FOIP.pdf" class="btn btn-primary" target="_blank">Download Form</a> -->
@@ -74,16 +75,12 @@
                                 <td class="col-md-4">Free</td>
                             </tr>
                             <tr>
-                                <td class="col-md-8">Drop-in Foundation Basics</td>
-                                <td class="col-md-4">Free</td>
+                                <td class="col-md-8">Workshops</td>
+                                <td class="col-md-4">$5 (with cover)</td>
                             </tr>
                             <tr>
-                                <td class="col-md-8">Weekly Workshops</td>
-                                <td class="col-md-4">Varies every week</td>
-                            </tr>
-                            <tr>
-                                <td class="col-md-8">Drop-in Breaker's Conditioning w/ cover</td>
-                                <td class="col-md-4">$5</td>
+                                <td class="col-md-8">Drop-in Breaker's Conditioning</td>
+                                <td class="col-md-4">$5 (with cover)</td>
                             </tr>
                         </table>
                 </div>
