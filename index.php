@@ -47,10 +47,10 @@
                         
                         
                             <li>"Test Your Skills" BBoy Competition - November 5th, 2016<br/>
-                            	<a class="btn btn-primary" href="http://goo.gl/forms/NUSOO4vV2TLglyBd2" target="_blank">Event Info</a>
+                            	<a class="btn btn-primary" href="https://www.facebook.com/events/1788980458051928/" target="_blank">Event Info</a>
                             </li>                           
                             <li>"Level UP!" 1on1 Bboy Competition - January 2017<br/>                            
-                                <a class="btn btn-primary" href="http://goo.gl/forms/NUSOO4vV2TLglyBd2" target="_blank">Event Info</a>
+                                <a class="btn btn-primary disabled" href="" target="_blank">Event Info</a>
                             </li>
 <!--                             <li>Waiver &amp; consent form<br/>  -->
 <!--                                 <a href="documents/Waiver_FOIP.pdf" class="btn btn-primary" target="_blank">Download Form</a> -->
