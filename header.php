@@ -110,24 +110,24 @@
                         
                         <li><a href="schedule.php">Schedule</a></li>           
                                     
-                        <li class="dropdown">
+<!--                         <li class="dropdown"> -->
                         
-                            <a href="classes.php" data-toggle="dropdown" class="dropdown-toggle">Classes<b class="caret"></b></a>
+<!--                             <a href="classes.php" data-toggle="dropdown" class="dropdown-toggle">Classes<b class="caret"></b></a> -->
                             
-                            <ul class="dropdown-menu">
+<!--                             <ul class="dropdown-menu"> -->
                             
-                                <li><a href="classes.php">Overview</a></li>
-                                <li class="divider"></li>
-                                <li><a href="classes-level-one.php">Level 1</a></li>
-                                <li class="divider"></li>
-                                <li><a href="classes-bboylink.php">Level 2</a></li>
+<!--                                 <li><a href="classes.php">Overview</a></li> -->
+<!--                                 <li class="divider"></li> -->
+<!--                                 <li><a href="classes-level-one.php">Level 1</a></li> -->
+<!--                                 <li class="divider"></li> -->
+<!--                                 <li><a href="classes-bboylink.php">Level 2</a></li> -->
                                 
                                 <!-- <li class="divider"></li>
-                                <li><a href="#">Level 3</a>
-                                <li class="divider"></li>
-                                <li><a href="#">Level 4</a> -->
-                            </ul>
-                        </li>
+<!--                                 <li><a href="#">Level 3</a> -->
+<!--                                 <li class="divider"></li> -->
+<!--                                 <li><a href="#">Level 4</a> --> -->
+<!--                             </ul> -->
+<!--                         </li> -->
                     </ul>
                 </div><!-- /.navbar-collapse -->
                 
