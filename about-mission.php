@@ -1,6 +1,6 @@
 <?php include 'header.php'; ?>
 <!-- Banner Image -->
-<img src="images/FS_Banner.png" alt="Freestyle Movement" class="freestyleSocTypo center-block" />
+<img src="images/about_banner.png" alt="Freestyle Movement" class="freestyleSocTypo center-block" />
 
  <!-- Start of Content -->
     <div class="page-content">
