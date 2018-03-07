@@ -1,14 +1,17 @@
 ---
 ---
-/* Custom Classes*/
 
-.bg-nav {
-  background-color: #505050;
+$primary-color: #000000;
+$nav-color: rgba(255, 255, 255, 0.3);
+
+/* Nav */
+nav {
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: $nav-color;
 }
-.page-heading {
-  color: white;
-  font-size: 45px;
-  font-weight: 600;
+nav li a {
+  color: $nav-color;
 }
 
 /* Newsletter Styling */
@@ -32,13 +35,7 @@
 body p, a{
   font-size: 18px;
 }
-.header-banner{
-  //background-image: url('/images/cropped-DSC_0037.jpg');
-  padding-top: 8%;
-  background-size: cover;
-    background-position: 50% 10%;
-    background-repeat: no-repeat;
-}
+
 .header-content{
   padding-left: 55%;
   padding-right: 0;
@@ -56,7 +53,6 @@ body p, a{
 .page-content hr{
   border-color: rgba(37, 37, 37, 0.1);
 }
-
 header {
   position: relative;
   width: 100%;
