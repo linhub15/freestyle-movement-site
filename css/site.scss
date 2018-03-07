@@ -1,2 +1,134 @@
 ---
 ---
+/* Custom Classes*/
+
+.bg-nav {
+  background-color: #505050;
+}
+
+.bg-light {
+  background-color: #fefefe;
+}
+
+.page-heading {
+  color: white;
+  font-size: 45px;
+  font-weight: 600;
+}
+
+/* Newsletter Styling */
+
+.newsletter-heading h1 {
+    text-align: center;
+    color: white;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#UpcomingEvents ul {
+  padding-left: 0px;
+}
+
+#UpcomingEvents ul > li {
+  list-style: none;
+}
+
+
+body p, a{
+  font-size: 18px;
+}
+.header-banner{
+  background-image: url(cropped-DSC_0037.jpg);
+  padding-top: 8%;
+  background-size: cover;
+    background-position: 50% 10%;
+    background-repeat: no-repeat;
+}
+
+.header-content{
+  background-color: rgba(248, 247, 216, 0.7);
+  padding-left: 55%;
+  padding-right: 0;
+  padding-bottom: 8%;
+}
+.header-content h1{
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.page-content{
+  line-height: 30px;
+  margin-bottom: 30px;
+  padding-top: 20px;
+}
+.page-content hr{
+  border-color: rgba(37, 37, 37, 0.1);
+}
+
+header {
+  position: relative;
+  width: 100%;
+  min-height: auto;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  background-position: center;
+  background-image: url('/images/header.jpg');
+  text-align: center;
+  color: white;
+}
+
+
+header .header-content {
+  position: relative;
+  text-align: center;
+  padding: 100px 15px 100px;
+  width: 100%;
+}
+header .header-content .header-content-inner h1 {
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 31px;
+}
+header .header-content .header-content-inner hr {
+  margin: 30px auto;
+}
+header .header-content .header-content-inner p {
+  font-weight: 300;
+  color: rgba(255, 255, 255, 1.0);
+  font-size: 16px;
+  margin-bottom: 50px;
+  background-color: rgba(100, 100, 100, 0.5);
+}
+@media (min-width: 768px) {
+  header {
+    min-height: 100%;
+  }
+  header .header-content {
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    padding: 0 50px;
+  }
+  header .header-content .header-content-inner {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  header .header-content .header-content-inner h1 {
+    font-size: 50px;
+  }
+  header .header-content .header-content-inner p {
+    font-size: 18px;
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
