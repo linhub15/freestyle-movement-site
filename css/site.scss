@@ -14,45 +14,11 @@ nav li a {
   color: $nav-color;
 }
 
-/* Newsletter Styling */
-.newsletter-heading h1 {
-    text-align: center;
-    color: white;
-    font-weight: 700;
-    text-transform: uppercase;
-    margin-top: 0;
-    margin-bottom: 0;
-}
-
-#UpcomingEvents ul {
-  padding-left: 0px;
-}
-
-#UpcomingEvents ul > li {
-  list-style: none;
-}
-
-body p, a{
-  font-size: 18px;
-}
-
-.header-content{
-  padding-left: 55%;
-  padding-right: 0;
-  padding-bottom: 8%;
-}
 .header-content h1{
   font-size: 40px;
   font-weight: bold;
 }
-.page-content{
-  line-height: 30px;
-  margin-bottom: 30px;
-  padding-top: 20px;
-}
-.page-content hr{
-  border-color: rgba(37, 37, 37, 0.1);
-}
+
 header#home {
   position: relative;
   width: 100%;
