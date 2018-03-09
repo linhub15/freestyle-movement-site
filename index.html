@@ -9,7 +9,7 @@ layout: default
     <div class="header-content-inner">
       <h1>Edmonton's Freestyle Dance Community</h1>
       <hr>
-      <p>Freestyle Movement provides opportunities to breakers, bboys and bgirls, of all skill levels in Edmonton.
+      <p>Freestyle Movement provides opportunities to dancers of all skill levels in Edmonton.
       Help us share the amazing gift of Hiphop and all the life lessons that come with it.
       </p>
       <a href="#services" class="btn btn-primary btn-xl page-scroll">Find Out More</a>
@@ -17,39 +17,57 @@ layout: default
   </div>
 
 </header>
-<div class="bg-dark">
-  <section class="container" id="services">
-    <div class="row">
-      <div class="col-md-4">
-          <div class="text-center">
-            <i class="fas fa-map-marker-alt fa-4x"></i>
-          <h3>Weekly Practice</h3>
+
+<section class="" id="services">
+
+  <div class="container">
+      <div class="row">
+          <div class="col-lg-12 text-center">
+              <h2 class="section-heading">Here's what we offer</h2>
+              <hr class="primary" />
           </div>
-          <hr>
-          <p class="text-faded">Every Friday night we have $5 drop-in practice starting at seven o’clock. All ages and skill-levels welcome.</p>
-          <p class="text-faded"><em>Dance Code Studios Inc. 10575 115 St. NW</em></p>
       </div>
-        <div class="col-md-4">
-          <div class="text-center">
-            <i class="fas fa-graduation-cap fa-4x"></i>
-            <h3>Dance Workshops</h3>
-          </div>
-          <hr>
-          <p class="text-faded">Once in a while we try to spice things up a bit and invite different dancers to share a little bit of their experience.
-          </p>
-        </div>
-        <div class="col-md-4 text-center">
-          <div>
-            <i class="fas fa-calendar-alt fa-4x"></i>
-            <h3>Battles &amp; Events</h3>
-            <hr>
-            <p class="text-faded">Bboys & Bgirls can freestyle in the cypher or battle it out in tournament
-            style competitions. 
-            </p>
-          </div>
+  </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 col-md-6 text-center">
+                <div>
+                    <i class="fas fa-map-marker-alt fa-4x"></i>
+                    <h3>Weekly Practice</h3>
+                    <p class="text-faded">Every Friday night starting at seven o’clock we have drop-in practice session for Bboys & Bgirls of all skill levels and ages. The cost for the practice is $5.</p>
+                    <hr />
+                    <p class="text-faded"><em>Dance Code Studios Inc. 10575 115 St. NW</em></p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 text-center">
+                <div>
+                    <i class="fas fa-graduation-cap fa-4x"></i>
+                    <h3>Dance Workshops</h3>
+                    <p class="text-faded">Once in a while we try to spice things up a bit and invite different dancers to share a little bit of their experience. They teach workshops on Friday nights
+                        to help dancers get a taste of other dance styles like House, Popping, and Locking or focus in on improving core aspects of Breakin, like power-move workshops.
+                    </p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 text-center">
+                <div>
+                    <i class="fas fa-calendar-alt fa-4x"></i>
+                    <h3>Battles &amp; Events</h3>
+                    <p class="text-faded">The best place for Bboys & Bgirls to challenge themselves is in the Cypher. But for those dancers that want to take things more seriously we are hosting tournament
+                        style competitions periodically throughout the year for competitive dancers to win some cash from their hard training.
+                    </p>
+                </div>
+            </div>
         </div>
     </div>
+   
 </section>
-</div>
 
+<aside class="bg-dark">
+    <div class="container text-center">
+        <div class="call-to-action">
+            <h2>Take a peek at our monthly newsletter!</h2>
+            @Html.ActionLink("View Newsletter", "August2017", new { controller = "Newsletter" }, new { @class = "btn btn-default btn-xl" })
+        </div>
+    </div>
+</aside>
 
