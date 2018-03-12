@@ -44,16 +44,14 @@ a:focus {
   background-color: #222222;
   color: white;
 }
-
+/*
 section {
   padding: 100px 0;
 }
 aside {
   padding: 50px 0;
 }
-.no-padding {
-  padding: 0;
-}
+*/
 
 .btn-default {
   color: #222222;
