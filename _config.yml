@@ -1,5 +1,17 @@
-keywords: 
+keywords: >-
+  Edmonton, Breakdance, Practice, Session, Bboy, Bgirl, Breakdancer, break,
+  dance, hiphop, hip hop, yeg
+
 email: info@freestylemovement.ca
 url: https://freestylemovement.ca
 plugins:
   - jekyll-sitemap
+
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
