@@ -1,10 +1,5 @@
+keywords: 
 email: info@freestylemovement.ca
-  
 url: https://freestylemovement.ca
-
-# Build settings
-markdown: kramdown
-theme: 
 plugins:
-  site-map
-
+  - jekyll-sitemap
