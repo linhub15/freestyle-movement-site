@@ -50,10 +50,6 @@ header h1 {
 header#home p {
   background-color: $text-bg-color;
 }
-@media (min-width: 768px) {
-  header#home {
-  }
-}
 section {
   padding-top: 100px;
   padding-bottom: 100px;
