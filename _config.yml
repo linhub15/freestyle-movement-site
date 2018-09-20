@@ -6,4 +6,5 @@ url: https://freestylemovement.ca
 markdown: kramdown
 theme: 
 plugins:
+  site-map
 
