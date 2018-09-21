@@ -2,30 +2,31 @@
 
 ## Website Objectives
 
-* Provide Friday night dance practice information
-* Disclose dance class information (Dance Code, Windermere, Elaine's beginner class)
-* Provide a summary of previous Hosted events
-* Announce next upcoming coming event
-* Connect users to our social media (Instagram, Facebook, Youtube)
+* Provide Friday night **dance practice** information
+* Disclose **dance class** information (Dance Code, Windermere, Elaine's beginner class)
+* Provide a summary of previous Hosted **events**
+* Announce upcoming **event**
+* Connect users to our **social media** (Instagram, Facebook, Youtube)
 
 
 ## Home Page
-* Most recent event
 * Upcoming event
+* Most recent event
 * Description of Freestyle Movement
 * Practices, Classes, Events
 
 ## Edmonton Practice Sessions Page
 * Friday Night Dance Code Session
-    * All ages open studio session 
+    * All ages open studio session
     * Friday night 7:00 - 10:30pm
     * $5 drop-in, $35 punch card, $90 Annual
     * Dance Code Studio Inc. 10575 115 St NW
 * South YMCA Session
     * All ages open studio session
     * Wednesday night 8:30 - 10:30pm
-    * YMCA Membership / $5
+    * YMCA Membership or $5 drop-ins
     * William Lutsky YMCA
+* Follow us on Instagram and Facebook for updates on practices
 
 ## Edmonton Dance Classes Page
 
@@ -48,10 +49,14 @@
     * ?
 
 ### Beginner Hiphop Performance Crew
-* Freestyle Movement (Elaine)
+* Team Name (Elaine)
     * Friday 7:00 - 8:00
     * Registration open
 
 ### Advanced Hiphop Performance Crew
 * Movementality (Amit Vaghela)
     * Registration open
+
+## Events Page
+* Display Upcoming events summary & Facebook event links
+* Display Past event names & Facebook event links
