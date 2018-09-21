@@ -1,0 +1,26 @@
+$body-bg: #000;
+$body-color: #111;
+$primary-color: #000000;
+$nav-color: rgba(255, 255, 255, 0.3);
+$text-bg-color: rgba(100, 100, 100, 0.5);
+$font-color: white;
+
+.nav-link.nav-item, a.navbar-brand {
+    text-decoration: none;
+}
+
+// Required Bootstrap Modules
+@import "bootstrap/functions";
+@import "bootstrap/variables";
+@import "bootstrap/mixins";
+
+// Optional Bootstrap Modules
+@import "bootstrap/transitions";
+@import "bootstrap/type";
+@import "bootstrap/utilities";
+@import "bootstrap/grid";
+
+// Components
+@import "bootstrap/buttons";
+@import "bootstrap/navbar";
+@import "bootstrap/card";
