@@ -1,21 +1,22 @@
 <nav class="navbar">
-  <a class="navbar-toggle">
-      <img src="/images/bars-solid.svg" alt="Toggle Menu">
-  </a>
-  <a class="navbar-brand" href="/">Freestyle Movement</a>
-
-  <div class="navbar-collapse">
-
-    <div class="navbar-nav">
-      {% for item in site.data.nav.pages %}
-        <a class="nav-item" href="{{ item.url }}">{{ item.title }}</a>
-      {% endfor %}
-    </div>
-    <div class="navbar-social">
-      {% for item in site.data.nav.social-media %}
-      <a class="nav-item" href="{{item.url}}">{{item.title}}</a>
-      {% endfor %}
-    </div>
+  <div class="flex-container">
+      <a class="navbar-toggle">
+          <img src="/images/bars-solid.svg" alt="Toggle Menu">
+      </a>
+      <a class="navbar-brand" href="/">Freestyle Movement</a>
     
+      <div class="navbar-collapse">
+        <div class="navbar-nav">
+          {% for item in site.data.nav.pages %}
+            <a class="nav-item" href="{{ item.url }}">{{ item.title }}</a>
+          {% endfor %}
+        </div>
+        <div class="navbar-social">
+          {% for item in site.data.nav.social-media %}
+          <a class="nav-item" href="{{item.url}}">{{item.title}}</a>
+          {% endfor %}
+        </div>
+        
+      </div>
   </div>
 </nav>
