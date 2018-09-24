@@ -1,7 +1,13 @@
 pages:
-- title: Home
-  url: /index.html
 - title: About
   url: /about.html
 - title: Practice Sessions
   url: /edmonton-practice-sessions.html
+
+social-media:
+- title: Instagram
+  url: https://www.instagram.com/freestyle.movement
+- title: Facebook
+  url: https://www.facebook.com/freestylemovement.ca
+- title: Youtube
+  url: https://www.youtube.com/channel/UCKZV387VdbszAIyhbCd_JnA

@@ -3,24 +3,42 @@
 $nav-height: 60px;
 $nav-bg-color: #eee;
 $screen-break-point: 762px;
+$nav-item-color: #222;
 
 .navbar {
     width: 100%;
     height: $nav-height;
+    padding: 0;
     position: fixed;
+    left: 0; top: 0;
     z-index: 1;
     background-color: $nav-bg-color;
-}
+    display: flex;
+    vertical-align: middle;
 
+    a {
+        text-decoration: none;
+        color: $nav-item-color;
+    }
+    a:visited {
+        color: $nav-item-color;
+    }
+}
+.navbar-brand {
+    padding: 0 10px;
+    line-height: $nav-height;
+    white-space: nowrap;
+}
 .navbar-toggle {
     // The hamburger toggle button
+    height: $nav-height;
+    img {
+        padding: 18px;
+        height: 24px;
+    }
 }
 
-.navbar-brand {
-    // The site logo & text
-}
-
-.navbar-nav {
+.navbar-collapse {
     width: 100%;
     height: 0;          // Hidden on load
     position: fixed;
@@ -29,15 +47,23 @@ $screen-break-point: 762px;
     overflow-y: hidden;
     transition: 0.2s ease;
     background-color: $nav-bg-color;
-    .nav-item {
-        text-decoration: none;
-        line-height: $nav-height;
+     
+    &.show {
+        height: 100%;
     }
+    .navbar-nav {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    
     .navbar-social {
         display: flex;
-        .social-item {
-
-        }
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .nav-item {
+        padding: 21px;
     }
 }
 
@@ -47,10 +73,18 @@ $screen-break-point: 762px;
         display: none;  // hide toggle on larger screens
     }
 
-    .navbar-nav {
+    .navbar-collapse {
+        display: flex;
+        justify-content: space-between;
         position: relative;
         top: 0;
-        width: auto;
-        overflow-y: visible;
+        height: $nav-height;
+        width: available;
+        .navbar-nav {
+            flex-direction: row;
+        }
+        .nav-item {
+            display: inline;
+        }
     }
 }
