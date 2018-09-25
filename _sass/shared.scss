@@ -1,7 +1,15 @@
+// Site
 $site-width-max: 1100px;
+$screen-break-point: 762px;
+
+// Nav
+$nav-height: 60px;
+$nav-bg-color: #eee;
+$nav-item-color: #222;
 
 body {
     font-family: 'Roboto', sans-serif;
+    margin-top: $nav-height;
 }
 
 .flex-container {
