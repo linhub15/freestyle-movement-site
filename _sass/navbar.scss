@@ -13,24 +13,26 @@ $nav-item-color: #222;
     left: 0; top: 0;
     z-index: 1;
     background-color: $nav-bg-color;
+    box-shadow: 0 1px 10px #aaa;
     a {
         text-decoration: none;
         color: $nav-item-color;
-    }
-    a:visited {
-        color: $nav-item-color;
+        &:visited {
+            color: $nav-item-color;
+        }
     }
 }
 .navbar-brand {
     padding: 0 10px;
     line-height: $nav-height;
     white-space: nowrap;
+    font-size: 22px;
 }
 .navbar-toggle {
     // The hamburger toggle button
     height: $nav-height;
     img {
-        padding: 18px;
+        padding: 18px; // padding*2 + height = $nav-height;
         height: 24px;
     }
 }

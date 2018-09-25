@@ -1,7 +1,11 @@
 pages:
 - title: About
   url: /about.html
-- title: Practice Sessions
+- title: Classes
+  url: /edmonton-dance-classes.html
+- title: Events
+  url: /edmonton-hiphop-events.html
+- title: Practices
   url: /edmonton-practice-sessions.html
 
 social-media:
