@@ -9,9 +9,8 @@ $nav-item-color: #222;
 
 body {
     font-family: 'Roboto', sans-serif;
-    margin-top: $nav-height;
+    padding-top: $nav-height;
 }
-
 .flex-container {
     margin: 0 auto;
     width: 100%;
