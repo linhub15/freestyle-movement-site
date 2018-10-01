@@ -16,10 +16,18 @@
     }
 }
 .navbar-brand {
-    padding: 0 10px;
-    line-height: $nav-height;
-    white-space: nowrap;
-    font-size: 22px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    img {
+        margin: auto;
+        height: 45px
+    }
+    span {
+        line-height: $nav-height;
+        white-space: nowrap;
+        font-size: 22px;
+    }
 }
 .navbar-toggle {
     // The hamburger toggle button
@@ -48,6 +56,10 @@
     
     .navbar-social {
         justify-content: space-evenly;
+
+        img {
+            width: 22px;
+        }
     }
 
     .navbar-nav, .navbar-social {
@@ -55,7 +67,7 @@
         align-items: center;
     }
     .nav-item {
-        padding: 21px;
+        padding: 23px;
     }
 }
 
@@ -64,7 +76,11 @@
     .navbar-toggle {
         display: none;  // hide toggle on larger screens
     }
-
+    .navbar-brand {
+        span {
+            margin-left: 10px;
+        }
+    }
     .navbar-collapse {
         height: $nav-height;
         display: flex;
@@ -79,6 +95,12 @@
         }
         .nav-item {
             display: inline;
+        }
+        .navbar-social {
+            .nav-item {
+                padding-left: 10px;
+                padding-right: 10px;
+            }
         }
     }
 }

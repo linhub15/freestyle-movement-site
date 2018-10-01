@@ -13,7 +13,9 @@ pages:
 social-media:
 - title: Instagram
   url: https://www.instagram.com/freestyle.movement
+  icon: '/images/icons/instagram.svg'
+  alt: 'Instagram Logo'
 - title: Facebook
   url: https://www.facebook.com/freestylemovement.ca
-- title: Youtube
-  url: https://www.youtube.com/channel/UCKZV387VdbszAIyhbCd_JnA
+  icon: '/images/icons/facebook-square.svg'
+  alt: 'Facebook Logo'
