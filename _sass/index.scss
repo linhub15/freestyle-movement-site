@@ -19,12 +19,11 @@
 }
 .splash-content {
   position: absolute;
-  top: 35%;
-  transform: translateY(-35%);
+  top: 45%;
+  transform: translateY(-45%);
 }
 
 .team-list * { box-sizing: border-box; }
-.team-list .team-member { 
-  .name, .roles { width: 50%; }
-}
+.team-list .team-member .name,
+.team-list .team-member .roles { width: 50%; }
 .team-list .team-member .name { font-weight: bold; }

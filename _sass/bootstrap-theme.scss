@@ -5,14 +5,18 @@ $nav-color: rgba(255, 255, 255, 0.3);
 $text-bg-color: rgba(100, 100, 100, 0.5);
 $font-color: white;
 
-.nav-link.nav-item, a.navbar-brand {
-    text-decoration: none;
-}
+// Full List: https://github.com/twbs/bootstrap/tree/master/scss
 
 // Required Bootstrap Modules
 @import "bootstrap/functions";
 @import "bootstrap/variables";
 @import "bootstrap/mixins";
+
+// Components
+@import "bootstrap/buttons";
+@import "bootstrap/nav";
+@import "bootstrap/navbar";
+@import "bootstrap/card";
 
 // Optional Bootstrap Modules
 @import "bootstrap/transitions";
@@ -20,7 +24,4 @@ $font-color: white;
 @import "bootstrap/utilities";
 @import "bootstrap/grid";
 
-// Components
-@import "bootstrap/buttons";
-@import "bootstrap/navbar";
-@import "bootstrap/card";
+

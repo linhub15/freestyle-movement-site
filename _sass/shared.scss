@@ -18,14 +18,7 @@ $nav-item-color: #222;
     padding-top: 10rem;
 }
 
-body {
-    font-family: 'Roboto', sans-serif;
-    padding-top: $nav-height;
-}
-.flex-container {
-    margin: 0 auto;
-    width: 100%;
-    max-width: $site-width-max;
-    display: flex;
-    vertical-align: middle;
+body { 
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
 }
