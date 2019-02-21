@@ -17,7 +17,7 @@ title: Freestyle Movement | Edmonton Breakdance and Hiphop Community
 
 </header>
 
-<section class="container my-5" id="news">
+<section class="my-5" id="news">
   <div class="card-deck">
     <div class="card">
       <div class="card-body">
@@ -37,13 +37,13 @@ title: Freestyle Movement | Edmonton Breakdance and Hiphop Community
   </div>
 </section>
 
-<section class="container my-5" id="about">
+<section class="my-5" id="about">
   <h2 class="text-center">Our Team</h2>
   <!-- List team members -->
   <div class="team-list">
     {% for member in site.data.team %}
-    <div class="team-member row my-3">
-      <div class="name pr-2 text-right d-inline-block">{{ member.name }}</div>
+    <div class="team-member my-3">
+      <div class="name pr-2 text-right w-50 d-inline-block">{{ member.name }}</div>
       <div class="roles pl-2 d-inline-block">{{ member.roles }}</div>
     </div>
     {% endfor %}

@@ -24,6 +24,8 @@
 }
 
 .team-list * { box-sizing: border-box; }
-.team-list .team-member .name,
-.team-list .team-member .roles { width: 50%; }
-.team-list .team-member .name { font-weight: bold; }
+.team-list .team-member .name { 
+  font-weight: bold; 
+  vertical-align: text-top;
+}
+.team-list .team-member .roles { width: 45%; }
