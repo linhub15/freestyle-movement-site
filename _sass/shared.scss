@@ -7,6 +7,17 @@ $nav-height: 60px;
 $nav-bg-color: #eee;
 $nav-item-color: #222;
 
+#practice{
+    background-image: url(../images/practice-header.jpg);
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    padding-top: 10rem;
+}
+
 body {
     font-family: 'Roboto', sans-serif;
     padding-top: $nav-height;
