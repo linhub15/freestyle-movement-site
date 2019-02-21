@@ -1,106 +1,106 @@
 .navbar {
-    width: 100%;
-    height: $nav-height;
-    padding: 0;
-    position: fixed;
-    left: 0; top: 0;
-    z-index: 1;
-    background-color: $nav-bg-color;
-    box-shadow: 0 1px 10px #aaa;
-    a {
-        text-decoration: none;
-        color: $nav-item-color;
-        &:visited {
-            color: $nav-item-color;
-        }
+  width: 100%;
+  height: $nav-height;
+  padding: 0;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 1;
+  background-color: $nav-bg-color;
+  box-shadow: 0 1px 10px #aaa;
+  a {
+    text-decoration: none;
+    color: $nav-item-color;
+    &:visited {
+      color: $nav-item-color;
     }
+  }
 }
 .navbar-brand {
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    img {
-        margin: auto;
-        height: 45px
-    }
-    span {
-        line-height: $nav-height;
-        white-space: nowrap;
-        font-size: 22px;
-    }
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  img {
+    margin: auto;
+    height: 45px;
+  }
+  span {
+    line-height: $nav-height;
+    white-space: nowrap;
+    font-size: 22px;
+    margin-left: 10px;
+  }
 }
 .navbar-toggle {
-    // The hamburger toggle button
-    height: $nav-height;
-    img {
-        padding: 18px; // padding*2 + height = $nav-height;
-        height: 24px;
-    }
+  // The hamburger toggle button
+  height: $nav-height;
+  img {
+    padding: 18px; // padding*2 + height = $nav-height;
+    height: 24px;
+  }
 }
 
 .navbar-collapse {
-    width: 100%;
-    height: 0;          // Hidden on load
-    top: $nav-height;   // appears from bottom of navbar
-    left: 0;            // flush with left of screen
-    overflow-y: hidden;
-    transition: 0.2s ease-in;
-    background-color: $nav-bg-color;
-    position: absolute;
-    &.show {
-        height: 100vh;
-    }
-    .navbar-nav {
-        flex-direction: column;
-    }
-    
-    .navbar-social {
-        justify-content: space-evenly;
+  width: 100%;
+  height: 0; // Hidden on load
+  top: $nav-height; // appears from bottom of navbar
+  left: 0; // flush with left of screen
+  overflow-y: hidden;
+  transition: 0.2s ease-in;
+  background-color: $nav-bg-color;
+  position: absolute;
+  &.show {
+    height: 100vh;
+  }
+  .navbar-nav {
+    flex-direction: column;
+  }
 
-        img {
-            width: 22px;
-        }
-    }
+  .navbar-social {
+    justify-content: space-evenly;
 
-    .navbar-nav, .navbar-social {
-        display: flex;
-        align-items: center;
+    img {
+      width: 22px;
     }
-    .nav-item {
-        padding: 23px;
-    }
+  }
+
+  .navbar-nav,
+  .navbar-social {
+    display: flex;
+    align-items: center;
+  }
+  .nav-item {
+    padding: 23px;
+  }
 }
 
-
 @media screen and (min-width: $screen-break-point) {
-    .navbar-toggle {
-        display: none;  // hide toggle on larger screens
+  .navbar-toggle {
+    display: none;
+  } // hide toggle on larger screens
+  .navbar-brand span {
+  }
+
+  .navbar-collapse {
+    height: $nav-height;
+    display: flex;
+    position: relative;
+    top: 0;
+    justify-content: space-between;
+    &.show {
+      max-height: $nav-height;
     }
-    .navbar-brand {
-        span {
-            margin-left: 10px;
-        }
+    .navbar-nav {
+      flex-direction: row; // explicit to override the mobile view
     }
-    .navbar-collapse {
-        height: $nav-height;
-        display: flex;
-        position: relative;
-        top: 0;
-        justify-content: space-between;
-        &.show {
-            max-height: $nav-height;
-        }
-        .navbar-nav {
-            flex-direction: row;    // explicit to override the mobile view
-        }
-        .nav-item {
-            display: inline;
-        }
-        .navbar-social {
-            .nav-item {
-                padding-left: 10px;
-                padding-right: 10px;
-            }
-        }
+    .nav-item {
+      display: inline;
     }
+    .navbar-social {
+      .nav-item {
+        padding-left: 10px;
+        padding-right: 10px;
+      }
+    }
+  }
 }
