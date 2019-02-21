@@ -1,39 +1,52 @@
 ---
 title: Freestyle Movement | Edmonton Breakdance and Hiphop Community
 ---
-
-<header id="home" class="align-items-middle">
-  <h1>Join the movement</h1>
-  <p>Freestyle Movement creates opportunities for bboys, bgirls, 
+<!-- <div class="video-background">
+  <div class="video-foreground">
+    <iframe src="https://www.youtube.com/embed/B-gJ2zQo7fI?controls=0&rel=0&modestbranding=1&start=7&end=63&autoplay=1&loop=1&playlist=B-gJ2zQo7fI&mute=1" frameborder="0" allowfullscreen></iframe>
+  </div>
+</div> -->
+<header class="splash d-flex flex-column align-items-center" id="landing">
+  <div class="splash-content">
+    <h1 class="text-center">Join the movement</h1>
+    <p class="mx-auto col-md-6 d-block">Freestyle Movement creates opportunities for bboys, bgirls,
       choreographers and freestyle dancers to grow and build the Hiphop community
-      in Edmonton. We teach classes, organize competitions and 
+      in Edmonton. We teach classes, organize competitions and
       run a weekly open practice session.</p>
+  </div>
+
 </header>
 
-<section id="services">
-  <div>
-    <h3>Classes</h3>
-    <p>We teach breaking (Break Dance), freestyle Hiphop, grooves and choreography.</p>
-
-    <h3>Weekly Practice</h3>
-    <p>Every Friday night we invite dancers to practice and cypher. All ages and skill-levels welcome.</p>
-
-    <h3>Events &amp; Competitions</h3>
-    <p>Throughout the year we work together with university and high school dance clubs to put together
-        dance showcases and competitions.</p>
+<section class="container" id="services">
+  <div class="card-deck">
+    <div class="card">
+      <div class="card-body">
+        <h3 class="card-title text-center">Upcoming Practice</h3>
+        <p class="card-text">Every Friday night we invite dancers to practice and cypher. All ages and skill-levels
+          welcome.</p>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-body">
+        <h3 class="card-title text-center">Events</h3>
+        <p class="card-text">Throughout the year we work together with university and high school dance clubs to put
+          together
+          dance showcases and competitions.</p>
+      </div>
+    </div>
   </div>
-
-
-  <div class="embed-responsive embed-responsive-16by9 mx-auto mt-5">
-    <iframe class="embed-responsive-item" 
-        src="https://www.youtube.com/embed/B-gJ2zQo7fI?controls=0&rel=0&showinfo=0&modestbranding=1&start=2" 
-        frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-  </div>
-
 </section>
 
-<section id="about">
-  <h2>Our Team</h2>
+<section class="container" id="about">
+  <h2 class="text-center">Our Team</h2>
   <!-- List team members -->
-  
+  <div class="team-list">
+    {% for member in site.data.team %}
+    <div class="team-member row my-3">
+      <div class="name pr-2 text-right d-inline-block">{{ member.name }}</div>
+      <div class="roles pl-2 d-inline-block">{{ member.roles }}</div>
+    </div>
+    {% endfor %}
+  </div>
+
 </section>

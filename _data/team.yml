@@ -1,13 +1,13 @@
-team:
-- name: Kevin Carreon
-  roles: Dj, Dance Instructor
-- name: Pranaya Prajapati
-  roles: Social Media, Dance Instructor
-- name: Elaine Ho
-  roles: Finance Exec, Event Planner, Dance Instructor
-- name: Sarah Trawick
-  roles: Event Planner, Dance Instructor
-- name: Patricia Limcangco
-  roles: Graphics & Print, Event Planner
 - name: Hubert Lin
-  roles: Event Planner, Dance Instructor
+  roles: Event planner, dance instructor
+- name: Pranaya Prajapati
+  roles: Social media, dance instructor
+- name: Elaine Ho
+  roles: Finance exec, event planner, dance instructor
+- name: Patricia Limcangco
+  roles: Graphics & print, event planner, developer
+- name: Kevin Carreon
+  roles: Dj, dance instructor
+- name: Sarah Trawick
+  roles: Event planner, dance instructor
+
