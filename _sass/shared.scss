@@ -1,27 +1,28 @@
 // Site
 $site-width-max: 1100px;
-$screen-break-point: 762px;
-
 // Nav
 $nav-height: 60px;
 $nav-bg-color: #eee;
 $nav-item-color: #222;
 
-#practice{
-    background-image: url(../images/practice-header.jpg);
-    height: 50%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    color: #fff;
-    text-align: center;
-    padding-top: 10rem;
-}
-
+* { box-sizing: border-box; }
 html, body { 
   font-family: 'Roboto', sans-serif;
   width: 100%;
   margin: 0;
 }
 
-* {box-sizing: border-box;}
+.splash {
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  text-align: center;
+}
+
+.splash-content {
+  position: absolute;
+  top: 45%;
+  transform: translateY(-45%);
+}

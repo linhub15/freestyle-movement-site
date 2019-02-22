@@ -13,23 +13,11 @@
   pointer-events: none;
 }
 
-.index-splash {
+header#landing { 
   height: 500px;
-  position: relative;
-
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
   background-image: url('/images/home-header.jpg');
+}
 
-  color: #fff;
-  text-align: center;
-}
-.splash-content {
-  position: absolute;
-  top: 45%;
-  transform: translateY(-45%);
-}
 .bg-light-gray { background-color: #64646480; }
 
 .team-list * { box-sizing: border-box; }
