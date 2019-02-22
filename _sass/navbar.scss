@@ -1,4 +1,10 @@
 .navbar { box-shadow: 0 1px 10px #aaa; }
 .navbar a { text-decoration: none; }
-.navbar-brand img { height: 45px; }
-.navbar-social img { width: 22px; }
+
+@include media-breakpoint-up(md) {
+  .navbar-social {
+    height: 100%;
+    position: absolute;
+    right: 0;
+  }
+}

@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-md fixed-top navbar-light bg-light">
+<nav class="navbar navbar-expand-md navbar-dark bg-dark">
   <button class="navbar-toggler"
       type="button" 
       data-toggle="collapse" 
@@ -6,13 +6,10 @@
       aria-controls="navbarNav"
       aria-expanded="false"
       aria-label="Toggle navigation">
-    <img src="/images/icons/bars-solid.svg" alt="Toggle Menu">
+      <span class="navbar-toggler-icon"></span>
   </button>
   
-  <a class="navbar-brand mx-auto d-flex justify-content-center align-items-center" href="/">
-    <img src="/images/logo.png" alt="Freestyle Movement Logo">
-    <span class="mx-2">Freestyle Movement</span>
-  </a>
+  <a class="navbar-brand" href="/">Freestyle Movement</a>
 
   <div class="collapse navbar-collapse" id="navbarNav">
     <div class="navbar-nav">
@@ -20,11 +17,11 @@
         <a class="nav-item nav-link" href="{{ item.url }}">{{ item.title }}</a>
       {% endfor %}
 
-      <div class="navbar-social d-flex align-items-center">
-          {% for item in site.data.nav.social-media %}
-          <a class="nav-item" href="{{item.url}}"><img src="{{ item.icon }}" alt="{{ item.alt }}"></a>
-          {% endfor %}
-        </div>
+      <div class="navbar-social mt-1 mr-2">
+        {% for item in site.data.nav.social-media %}
+        <a class="social-nav-item mx-2" href="{{item.url}}"><img src="{{ item.icon }}" alt="{{ item.alt }}" width="22px"></a>
+        {% endfor %}
+      </div>
     </div>
   </div>
 

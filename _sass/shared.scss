@@ -18,9 +18,10 @@ $nav-item-color: #222;
     padding-top: 10rem;
 }
 
-body { 
+html, body { 
   font-family: 'Roboto', sans-serif;
+  width: 100%;
   margin: 0;
-  padding-left: 8px;
-  padding-right: 8px;
 }
+
+* {box-sizing: border-box;}
