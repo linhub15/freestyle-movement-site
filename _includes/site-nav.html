@@ -17,7 +17,7 @@
         <a class="nav-item nav-link" href="{{ item.url }}">{{ item.title }}</a>
       {% endfor %}
 
-      <div class="navbar-social mt-1 mr-2">
+      <div class="navbar-social mt-1 mr-md-2 mx-auto">
         {% for item in site.data.nav.social-media %}
         <a class="social-nav-item mx-2" href="{{item.url}}"><img src="{{ item.icon }}" alt="{{ item.alt }}" width="22px"></a>
         {% endfor %}
