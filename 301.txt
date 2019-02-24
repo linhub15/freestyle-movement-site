@@ -3,3 +3,5 @@
 /about/ /
 /membership /
 /membership.html /
+/themovement /TheMovement/
+/themovement.html /TheMovement/
