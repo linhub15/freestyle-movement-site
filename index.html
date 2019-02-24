@@ -23,15 +23,19 @@ title: Freestyle Movement | Edmonton Breakdance and Hiphop Community
 <div class="w-100">
 <div class="card-deck mx-auto">
     <div class="card">
-      <div class="card-body">
-        <h3 class="card-title text-center">Next Practice</h3>
-        <p class="card-text">Every Friday night we invite dancers to practice and cypher. All ages and skill-levels
-          welcome.</p>
-      </div>
-      <div class="card-img-bottom">
-          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d9481.888189335097!2d-113.5190123!3d53.5493404!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x2d507982fc4ce573!2sDance+Code+Studio+Inc!5e0!3m2!1sen!2sca!4v1550821146249" width="100%" height="auto" frameborder="0" style="border:0" allowfullscreen></iframe>
-      </div>
+    <div class="card-body">
+      <h3 class="card-title text-center">Next practice session</h3>
+      <h4 class="card-subtitle text-center">
+        <span id="todayBadge" class="badge badge-success mx-2"></span>
+        <span id="dateBadge" class="badge badge-info mx-2"></span>
+      </h4>
     </div>
+    <div class="card-img-bottom">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d9481.888189335097!2d-113.5190123!3d53.5493404!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x2d507982fc4ce573!2sDance+Code+Studio+Inc!5e0!3m2!1sen!2sca!4v1550821146249" width="100%" height="auto" frameborder="0" style="border:0" allowfullscreen></iframe>
+    </div>
+    </div>
+
+
     <div class="card">
       <div class="card-body">
         <h3 class="card-title text-center">Events</h3>
@@ -40,6 +44,7 @@ title: Freestyle Movement | Edmonton Breakdance and Hiphop Community
           dance showcases and competitions.</p>
       </div>
     </div>
+    
 </div>
 </div>
   
@@ -59,3 +64,28 @@ title: Freestyle Movement | Edmonton Breakdance and Hiphop Community
   </div>
 
 </section>
+
+<script>
+  const options = { weekday: 'long', month: 'long', day: 'numeric'}
+  const dateBadge = document.getElementById('dateBadge');
+  const todayBadge = document.getElementById('todayBadge');
+
+  let practiceDate = new Date();
+  if (isFriday(practiceDate)) {
+    todayBadge.innerText = 'Today';
+  } else {
+    practiceDate = getClosestFriday(practiceDate);
+  }
+  dateBadge.innerText = `${practiceDate.toLocaleDateString('en-CAN', options)}`;
+
+  function isFriday(date) {
+    return date.getDay() === 5 ? true : false;
+  }
+
+  function getClosestFriday(date) {
+    while (!isFriday(date)) {
+      date.setDate(date.getDate() + 1);
+    }
+    return date;
+  }
+</script>
