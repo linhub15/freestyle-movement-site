@@ -1,10 +1,10 @@
 pages:
 - title: Classes
-  url: /edmonton-dance-classes.html
+  url: /classes.html
 - title: Events
-  url: /edmonton-hiphop-events.html
+  url: /events.html
 - title: Practices
-  url: /edmonton-practice-sessions.html
+  url: /practices.html
 
 social-media:
 - title: Instagram
@@ -15,3 +15,6 @@ social-media:
   url: https://www.facebook.com/freestylemovement.ca
   icon: '/images/icons/facebook-square.svg'
   alt: 'Facebook Logo'
+- title: Youtube
+  url: 'https://www.youtube.com'
+  icon: '/images/icons/youtube-square-brands.svg'

@@ -26,3 +26,11 @@ header#landing {
   vertical-align: text-top;
 }
 .team-list .team-member .roles { width: 45%; }
+
+.event-list .event {
+  height: 100%;
+  width: 100%;
+
+  max-height: 200px;
+  max-width: 200px;
+}
