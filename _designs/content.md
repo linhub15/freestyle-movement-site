@@ -24,7 +24,7 @@
 * South YMCA Session
     * All ages open studio session
     * Wednesday night 8:30 - 10:30pm
-    * YMCA Membership or $5 drop-ins
+    * YMCA Membership or YMCA $5 drop-ins
     * William Lutsky YMCA
 * Follow us on Instagram and Facebook for updates on practices
 

@@ -26,3 +26,9 @@ html, body {
   top: 45%;
   transform: translateY(-45%);
 }
+
+.max-width { max-width: $site-width-max; }
+
+footer { 
+  height: 6em;
+}
