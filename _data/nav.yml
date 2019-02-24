@@ -16,5 +16,5 @@ social-media:
   icon: '/images/icons/facebook-square.svg'
   alt: 'Facebook Logo'
 - title: Youtube
-  url: 'https://www.youtube.com'
+  url: https://www.youtube.com/channel/UCKZV387VdbszAIyhbCd_JnA
   icon: '/images/icons/youtube-square-brands.svg'
