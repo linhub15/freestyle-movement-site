@@ -11,12 +11,31 @@ description:
         <div class="col-md-8">
           <div class="card-body">
             <h2>Saturday June 15, 2019</h2>
-            <p class="text-muted">Details coming soon</p>
+            <p class="text-muted">6:00 PM - 8:30 PM</p>
+            <p>Ticket sales coming soon</p>
           </div>
         </div>
         <div class="col-md-4">
             <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d9488.145887198152!2d-113.4689427!3d53.5214055!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x303e87f5709c88e2!2sCampus+Saint-Jean!5e0!3m2!1sen!2sca!4v1551043124599" width="100%" height="auto" frameborder="0" style="border:0" allowfullscreen></iframe>
         </div>
+      </div>
+    </div>
+
+    <div>
+      <h2 class="text-center">Performers</h2>
+      <div class="performers mx-auto">
+        <ul class="list-group">
+          {% for performer in site.data.performers %}
+            <li class="list-group-item d-flex justify-content-between align-items-center bg-dark">
+              {{performer.name}}
+              {% if performer.instagram %}
+              <a href="{{performer.instagram}}"><img class="social-media d-block" src="/images/icons/instagram.svg" alt="{{performer.name}}'s instagram account"></a>
+              {% endif %}
+              <span class="badge badge-primary badge-pill">{{performer.group-size}}</span>
+            </li>
+          {% endfor %}
+          </ul>
+
       </div>
     </div>
   </div>
