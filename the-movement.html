@@ -29,7 +29,9 @@ description:
             <li class="list-group-item d-flex justify-content-between align-items-center bg-dark">
               {{performer.name}}
               {% if performer.instagram %}
-              <a href="{{performer.instagram}}"><img class="social-media d-block" src="/images/icons/instagram.svg" alt="{{performer.name}}'s instagram account"></a>
+              <a href="https://www.instagram.com/{{performer.instagram}}/">
+                  <img class="social-media d-block" src="/images/icons/instagram.svg" alt="{{performer.name}}'s instagram account">
+              </a>
               {% endif %}
               <span class="badge badge-primary badge-pill">{{performer.group-size}}</span>
             </li>
