@@ -1,10 +1,12 @@
--
-  name: Lily Way
+- name: Lily Way
   represent:
-  instagram: https://www.instagram.com/lilywdance/
+  instagram: 'https://www.instagram.com/lilywdance/'
   group-size: Solo
--
-  name: Coming soon...
+- name: Coming soon...
   represent:
   instagram:
   group-size:
+- name: JPDC
+  represent: Jasper Place High School
+  instagram: jasperplace.dance
+  group-size: Team
