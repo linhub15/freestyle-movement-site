@@ -1,12 +1,24 @@
 - name: Lily Way
   represent:
-  instagram: 'https://www.instagram.com/lilywdance/'
+  instagram: lilywdance
   group-size: Solo
-- name: Coming soon...
-  represent:
-  instagram:
-  group-size:
 - name: JPDC
   represent: Jasper Place High School
   instagram: jasperplace.dance
   group-size: Team
+- name: Movementality
+  represent:
+  instagram: move.mentality
+  group-size: Team
+- name: Vitty Comittiee
+  represent:
+  instagram:
+  group-size: Team
+- name: ABCD (Anybody Can Dance Club)
+  represent: Old Scona Academic
+  instagram: abcdosa
+  group-size: Team
+- name: Sass and Class
+  represent: 'Edmonton, Movementality'
+  instagram:
+  group-size: Trio
