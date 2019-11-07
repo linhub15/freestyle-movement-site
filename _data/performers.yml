@@ -14,18 +14,14 @@
   represent:
   instagram: vittygonzales
   group-size: Team
-- name: ABCD (Anybody Can Dance Club)
+- name: Mousai
   represent: Old Scona Academic
   instagram: abcdosa
   group-size: Team
-- name: Sass and Class
+- name: Darrien Byers
   represent: 'Edmonton, Movementality'
   instagram:
-  group-size: Trio
-- name: FlyCrew
-  represent:
-  instagram: flycrew.206
-  group-size: Team
+  group-size: Solo
 - name: BollyBeasts
   represent: University of Alberta
   instagram:
@@ -38,13 +34,13 @@
   represent: Ross Sheppard High School
   instagram: shep.hiphopclub
   group-size: Team
-- name: Trentin
+- name: Trentin Legault
   represent: 'Movementality, Edmonton'
   instagram: trentin.Legault
   group-size: Solo
 - name: Toxic 3
   represent:
-  instagram:
+  instagram: senawnd
   group-size: Trio
 - name: UAH Performance Team
   represent: University of Alberta
@@ -57,4 +53,16 @@
 - name: Louis Crew
   represent: Louis St. Laurent
   instagram: lslfinearts
+  group-size: Team
+- name: APRICITY
+  represent: Apricity
+  instagram: official.apricity
+  group-size: Team
+- name: TeamBeatz
+  represent: HDC - NAIT
+  instagram: hdcnait
+  group-size: Team
+- name: Team Vibe
+  represent: Edmonon
+  instagram: teamvibecanada
   group-size: Team
