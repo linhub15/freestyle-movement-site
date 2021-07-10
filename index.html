@@ -1,7 +1,8 @@
 ---
 title: Freestyle Movement | Edmonton Breakdance and Hiphop Community
-description: 
+description:
 ---
+
 <!-- <div class="video-background">
   <div class="video-foreground">
     <iframe src="https://www.youtube.com/embed/B-gJ2zQo7fI?controls=0&rel=0&modestbranding=1&start=7&end=63&autoplay=1&loop=1&playlist=B-gJ2zQo7fI&mute=1" frameborder="0" allowfullscreen></iframe>
@@ -11,46 +12,60 @@ description:
   <div class="splash-content col">
     <h1>Join the movement</h1>
     <div class="row">
-      <p class="mx-auto col-md-6 p-3 bg-light-gray">Freestyle Movement creates opportunities for bboys, bgirls,
-          choreographers and freestyle dancers to grow and build the Hiphop community
-          in Edmonton. We teach classes, organize competitions and
-          run a weekly open practice session.</p>
+      <p class="mx-auto col-md-6 p-3 bg-light-gray">
+        Freestyle Movement creates opportunities for bboys, bgirls,
+        choreographers and freestyle dancers to grow and build the Hiphop
+        community in Edmonton. We teach classes, organize competitions and run a
+        weekly open practice session.
+      </p>
     </div>
   </div>
-
 </header>
 
 <section class="bg-dark py-5 px-2" id="news">
-<div class="w-100">
-<div class="card-deck mx-auto">
-    <div class="card">
-    <div class="card-body">
-      <h3 class="card-title text-center">Next practice session</h3>
-      <h4 class="card-subtitle text-center">
-        <span id="todayBadge" class="badge badge-success mx-2"></span>
-        <span id="dateBadge" class="badge badge-info mx-2"></span>
-        <span class="badge badge-light">7:00 - 10:30 PM</span>
-      </h4>
-    </div>
-    <div class="card-img-bottom">
-      <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d9481.888189335097!2d-113.5190123!3d53.5493404!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x2d507982fc4ce573!2sDance+Code+Studio+Inc!5e0!3m2!1sen!2sca!4v1550821146249" width="100%" height="auto" frameborder="0" style="border:0" allowfullscreen></iframe>
-    </div>
-    </div>
+  <div class="w-100">
+    <div class="card-deck mx-auto">
+      <div class="card">
+        <div class="card-body">
+          <h3 class="card-title text-center">Next practice session</h3>
+          <h4 class="card-subtitle text-center">
+            <span id="todayBadge" class="badge badge-success mx-2"></span>
+            <span id="dateBadge" class="badge badge-info mx-2"></span>
+            <span class="badge badge-light">7:00 - 10:30 PM</span>
+          </h4>
+        </div>
+        <div class="card-img-bottom">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d9481.888189335097!2d-113.5190123!3d53.5493404!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x2d507982fc4ce573!2sDance+Code+Studio+Inc!5e0!3m2!1sen!2sca!4v1550821146249"
+            width="100%"
+            height="auto"
+            frameborder="0"
+            style="border: 0"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </div>
 
-
-    <div class="card">
-      <div class="card-body">
-        <h3 class="card-title text-center">Events</h3>
-        <div class="event-list">
-          <a href="/TheMovement/"><img class="event" src="/images/the-movement-ig(fmdc).png" alt="The Movement 2019"></a>
+      <div class="card">
+        <div class="card-body">
+          <h3 class="card-title text-center">
+            Brookview Breaking Class Registration
+          </h3>
+          <ul>
+            <li>Beginner class</li>
+            <li>Recommended Age: 12-17</li>
+            <li>Location: Brookview Community League</li>
+            <li>Dates: August 3 - November 30, 2021</li>
+            <li>Time: Tuesday night 6:00 PM to 7:00 PM</li>
+          </ul>
+          <p>Dancers under 12 can still participate if they have breaking experience.</p>
+          <div class="text-center">
+            <a class="btn btn-primary" href="https://forms.gle/LXCMYsbaPMS4EP4i9" role="button">Registration Form</a>
+          </div>
         </div>
       </div>
     </div>
-    
-</div>
-</div>
-  
-
+  </div>
 </section>
 
 <section class="my-5" id="about">
@@ -59,16 +74,17 @@ description:
   <div class="team-list">
     {% for member in site.data.team %}
     <div class="team-member my-3">
-      <div class="name pr-2 text-right w-50 d-inline-block">{{ member.name }}</div>
+      <div class="name pr-2 text-right w-50 d-inline-block">
+        {{ member.name }}
+      </div>
       <div class="roles pl-2 d-inline-block">{{ member.roles }}</div>
     </div>
     {% endfor %}
   </div>
-
 </section>
 
 <script>
-  const options = { weekday: 'long', month: 'long', day: 'numeric'}
+  const options = { weekday: 'long', month: 'long', day: 'numeric' };
   const dateBadge = document.getElementById('dateBadge');
   const todayBadge = document.getElementById('todayBadge');
 
