@@ -1,3 +1,13 @@
 baseURL = "https://freestylemovement.ca"
 languageCode = "en-us"
 title = "Freestyle Movement | Edmonton Freestyle Dance Community"
+
+# Excludes `/tags` and `/category` pages
+disableKinds = ["taxonomy", "taxonomyTerm"]
+
+[Params]
+  keywords = ""
+  description = """
+    edmonton, breakdance, practice, session, bboy, bgirl, breakdancer, break,
+    dance, hiphop, hip hop, yeg, choreography, freestyle, movement, art, culture
+  """
