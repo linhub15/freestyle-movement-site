@@ -14,10 +14,10 @@
   <div class="collapse navbar-collapse" id="navbarNav">
     <div class="navbar-nav">
       {{ range .Site.Pages }}
-        <a class="nav-item nav-link" href="{{ .RelPermalink }}">{{ .Title }}</a>
+        <a class="nav-item nav-link" href="{{ .RelPermalink }}">{{ .Params.menu_title }}</a>
       {{ end }}
       
-      <div class="navbar-social mt-1 mr-md-2 mx-auto">
+      <div class="navbar-social mt-1 me-md-2 mx-auto">
         <!-- {% for item in site.data.nav.social-media %} -->
         <a class="social-nav-item mx-2" href=""><img src="" alt="" width="22px"></a>
         <!-- {% endfor %} -->

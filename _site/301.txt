@@ -1,0 +1,8 @@
+/about /
+/about.html /
+/about/ /
+/membership /
+/membership.html /
+/themovement /TheMovement/
+/themovement.html /TheMovement/
+/themovement/ /TheMovement/
