@@ -1,28 +1,33 @@
 <nav class="navbar navbar-expand-md navbar-dark bg-dark">
-  <button class="navbar-toggler"
-      type="button" 
-      data-toggle="collapse" 
-      data-target="#navbarNav"
-      aria-controls="navbarNav"
-      aria-expanded="false"
-      aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-  </button>
-  
-  <a class="navbar-brand" href="/">Freestyle Movement</a>
+  <div class="container-fluid">
+    <a class="navbar-brand" href="/">Freestyle Movement</a>
 
-  <div class="collapse navbar-collapse" id="navbarNav">
-    <div class="navbar-nav">
-      {{ range .Site.Pages }}
-        <a class="nav-item nav-link" href="{{ .RelPermalink }}">{{ .Params.menu_title }}</a>
-      {{ end }}
-      
-      <div class="navbar-social mt-1 me-md-2 mx-auto">
-        <!-- {% for item in site.data.nav.social-media %} -->
-        <a class="social-nav-item mx-2" href=""><img src="" alt="" width="22px"></a>
-        <!-- {% endfor %} -->
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-toggle="collapse"
+      data-target="#site-main-nav"
+      aria-controls="site-main-nav"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="site-main-nav">
+      <div class="navbar-nav">
+        {{ range .Site.Pages }}
+        <a class="nav-item nav-link" href="{{ .RelPermalink }}">
+          {{ .Params.menu_title }}
+        </a>
+        {{ end }}
+
+        <div class="navbar-social mt-1 me-md-2 mx-auto">
+          <a class="social-nav-item mx-2" href=""
+            ><img src="" alt="" width="22px"
+          /></a>
+        </div>
       </div>
     </div>
   </div>
-
 </nav>
