@@ -1,0 +1,31 @@
+ame: Production deployment
+
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+jobs:
+  build:
+    name: hugo
+    runs-on: ubuntu-latest
+    steps:
+
+    - uses: actions/checkout@v2
+
+    - uses: peaceiris/actions-hugo@v2
+      with:
+        hugo-version: '0.87.0'
+        extended: true
+
+    - name: Build
+      run: hugo --minify
+    
+    - name: Deploy
+      uses: sebastianpopp/ftp-action@releases/v2
+      with:
+        host: ${{ secrets.FTP_SERVER }}
+        user: ${{ secrets.FTP_USERNAME }}
+        password: ${{ secrets.FTP_PASSWORD }}
+        localDir: "public"
