@@ -11,3 +11,6 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
     edmonton, breakdance, practice, session, bboy, bgirl, breakdancer, break,
     dance, hiphop, hip hop, yeg, choreography, freestyle, movement, art, culture
   """
+  instagram = "https://www.instagram.com/freestyle.movement"
+  facebook = "https://www.facebook.com/freestylemovement.ca"
+  youtube = "https://www.youtube.com/channel/UCKZV387VdbszAIyhbCd_JnA"
