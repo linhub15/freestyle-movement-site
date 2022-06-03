@@ -1,7 +1,7 @@
 - name: Hubert Lin
   roles: Event planner, dance instructor
 - name: Pranaya Prajapati
-  roles: Social media, dance instructor
+  roles: Social media, event planner, dance instructor
 - name: Elaine Ho
   roles: Finance exec, event planner, dance instructor
 - name: Patricia Limcangco
@@ -10,3 +10,5 @@
   roles: Dj, dance instructor
 - name: Sarah Trawick
   roles: Event planner, dance instructor
+- name: Jeffrey Baglinit
+  roles: Social media, event planner, dance instructor
