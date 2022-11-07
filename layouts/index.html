@@ -9,10 +9,24 @@
   <div class="homepage-content">
     <!-- Note that the content for index.html, as a sort of list page, will pull from content/_index.md -->
     {{.Content}}
+
+    <!-- List team members -->
+    <div class="team-list">
+      {{ range .Site.Data.team }}
+      <div class="team-member my-3">
+        <div class="name w-50 d-inline-block">
+          {{ .name }}
+        </div>
+        <div class="roles ps-2 d-inline-block">
+          {{ .roles }}
+        </div>
+      </div>
+      {{ end }}
+    </div>
   </div>
   <div>
     {{ range first 10 .Site.RegularPages }}
-        {{ .Render "summary"}}
+    {{ .Render "summary"}}
     {{ end }}
   </div>
 </main>
