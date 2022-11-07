@@ -1,5 +1,8 @@
-# Migration to Hugo TODO
-* navbar
-* footer
-* home page
-* classes page
+# Freestyle Movement Dance Company Ltd. website
+
+* Run locally
+```hugo serve```
+
+
+Build 
+```hugo```
