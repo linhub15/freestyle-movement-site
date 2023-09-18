@@ -1,7 +1,11 @@
 source: src
 paths:
   uploads: uploads
-collections_config: {}
+collections_config: {
+  data: {
+    path: '_data'
+  }
+}
 _inputs: {}
 _select_data: {}
 _structures: {}
