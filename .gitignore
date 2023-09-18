@@ -1,5 +1,1 @@
-resources
-public
-.hugo_build.lock
-
-.sass-cache/
+_site

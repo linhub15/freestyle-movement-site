@@ -8,19 +8,17 @@ on:
 
 jobs:
   build:
-    name: hugo
     runs-on: ubuntu-latest
     steps:
 
     - uses: actions/checkout@v2
 
-    - uses: peaceiris/actions-hugo@v2
+    - uses: denoland/setup-deno@v1
       with:
-        hugo-version: "0.87.0"
-        extended: true
+        deno-version: v1.x
 
     - name: Build
-      run: hugo --minify
+      run: deno task build
     
     - name: Deploy
       uses: sebastianpopp/ftp-action@releases/v2
@@ -28,4 +26,4 @@ jobs:
         host: ${{ secrets.FTP_SERVER }}
         user: ${{ secrets.FTP_USERNAME }}
         password: ${{ secrets.FTP_PASSWORD }}
-        localDir: "public"
+        localDir: "_site"

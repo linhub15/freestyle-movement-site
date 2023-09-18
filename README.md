@@ -1,8 +1,10 @@
-# Freestyle Movement Dance Company Ltd. website
+## Tech Stack
 
-* Run locally
-```hugo serve```
+- Deno (runtime)
+- Lume (static site generator)
+- Preact (template engine)
+- Tailwind (CSS styling)
 
-
-Build 
-```hugo```
+```sh
+deno task start
+```
