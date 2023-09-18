@@ -2,6 +2,9 @@ source: src
 paths:
   uploads: uploads
 collections_config: {
+  pages: {
+    path: ''
+  },
   data: {
     path: '_data'
   }
@@ -11,4 +14,4 @@ _select_data: {}
 _structures: {}
 _editables: {}
 data_config: {}
-timezone: Etc/UTC
+timezone: America/Edmonton
