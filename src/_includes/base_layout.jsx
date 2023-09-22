@@ -1,6 +1,5 @@
 export default function ({ title, children, meta, comp }) {
   const title_suffix = title ? ` | ${title}` : "";
-  console.log();
   return (
     <html lang="en">
       <head>
