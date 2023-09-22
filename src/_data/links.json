@@ -1,0 +1,27 @@
+[
+    {
+        "title": "🎉 NEW Teens and Adult breaking class - Contact Jin for more info",
+        "link": "https://jinhyunglee.org/breakdance",
+        "enabled": true
+    },
+    {
+        "title": "Open Practice",
+        "link": "practices",
+        "enabled": false
+    },
+    {
+        "title": "Classes",
+        "link": "classes",
+        "enabled": true
+    },
+    {
+        "title": "Events",
+        "link": "events",
+        "enabled": false
+    },
+    {
+        "title": "Team",
+        "link": "team",
+        "enabled": true
+    }
+]
