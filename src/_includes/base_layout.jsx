@@ -20,7 +20,9 @@ export default function ({ title, children, meta, comp }) {
       </head>
       <body class="bg-gray-200 dark:bg-gray-900 dark:text-gray-200 min-h-screen">
         {children}
-        <comp.facebook_chat />
+        <div class="mb-20" id="facebook_chat_spacer">
+          <comp.facebook_chat />
+        </div>
         <comp.google_analytics />
       </body>
     </html>
