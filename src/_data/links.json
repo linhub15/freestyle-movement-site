@@ -12,7 +12,7 @@
     {
         "title": "Classes",
         "link": "classes",
-        "enabled": true
+        "enabled": false
     },
     {
         "title": "Events",
