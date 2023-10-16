@@ -4,7 +4,7 @@ export default function ({ comp }) {
   return (
     <div class="flex flex-col gap-6 max-w-2xl mx-auto">
       <img
-        class="w-48 mx-auto dark:invert"
+        class="w-48 mx-auto invert"
         src="/imgs/logo.png"
         alt="Freestyle Movement"
       />

@@ -8,9 +8,9 @@ export default function ({ socials }) {
     <>
       {array.map((item, idx) => (
         <a
-          class="flex rounded-xl px-6 py-4 shadow dark:shadow-gray-800 max-w-xs justify-center gap-2
-            hover:shadow-lg hover:bg-gray-50 dark:hover:bg-gray-600 dark:hover:shadow-gray-800
-            bg-gray-100 dark:bg-gray-700"
+          class="flex rounded-xl px-6 py-4 shadow shadow-gray-800 max-w-xs justify-center gap-2
+            hover:shadow-lg hover:bg-gray-600 hover:shadow-gray-800 
+            bg-gray-700"
           href={item.link}
           key={idx}
         >

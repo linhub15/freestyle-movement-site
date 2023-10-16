@@ -1,34 +1,34 @@
 [
-    {
-        "name": "Hubert Lin",
-        "roles": "Event planner, dance instructor, web developer"
-    },
-    {
-        "name": "Pranaya Prajapati",
-        "roles": "Social media, event planner, dance instructor"
-    },
-    {
-        "name": "Elaine Ho",
-        "roles": "Finance exec, event planner, dance instructor"
-    },
-    {
-        "name": "Patricia Limcangco",
-        "roles": "Graphics & print, event planner, web developer"
-    },
-    {
-        "name": "Kevin Carreon",
-        "roles": "Dj, dance instructor"
-    },
-    {
-        "name": "Jeff Baglinit",
-        "roles": "Content creator, videographer, event planner"
-    },
-    {
-        "name": "Sarah Trawick",
-        "roles": "Dance instructor, event planner"
-    },
-    {
-        "name": "Jin Lee",
-        "roles": "Event planner, Dance instructor"
-    }
+  {
+    "name": "Hubert Lin",
+    "roles": "Event planner, dance instructor, web developer"
+  },
+  {
+    "name": "Pranaya Prajapati",
+    "roles": "Social media, event planner, dance instructor"
+  },
+  {
+    "name": "Elaine Ho",
+    "roles": "Finance exec, event planner, dance instructor"
+  },
+  {
+    "name": "Patricia Limcangco",
+    "roles": "Graphics & print, event planner, web developer"
+  },
+  {
+    "name": "Kevin Carreon",
+    "roles": "Dj, dance instructor"
+  },
+  {
+    "name": "Jeff Baglinit",
+    "roles": "Content creator, videographer, event planner"
+  },
+  {
+    "name": "Sarah Trawick",
+    "roles": "Dance instructor, event planner"
+  },
+  {
+    "name": "Jin Lee",
+    "roles": "Event planner, Dance instructor"
+  }
 ]

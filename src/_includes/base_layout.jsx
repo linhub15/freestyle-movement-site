@@ -18,7 +18,7 @@ export default function ({ title, children, meta, comp }) {
 
         <title>Freestyle Movement{title_suffix}</title>
       </head>
-      <body class="bg-gray-200 dark:bg-gray-900 dark:text-gray-200 min-h-screen">
+      <body class="bg-gray-900 text-gray-200 min-h-screen">
         {children}
         <div class="mb-20" id="facebook_chat_spacer">
           <comp.facebook_chat />

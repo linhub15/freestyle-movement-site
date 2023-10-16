@@ -1,18 +1,25 @@
 export const layout = "base_layout.jsx";
 
-export default function ({ children }) {
+export default function ({ children, page }) {
   return (
     <>
       <div class="flex w-full py-4 justify-center items-center">
         <a
-          class="flex gap-2 text-lg px-2 py-2 rounded-lg bg-gray-200 dark:bg-gray-800 hover:invert items-center"
+          class="flex gap-2 text-lg px-2 py-2 rounded-lg bg-gray-800 hover:invert items-center"
           href="/"
         >
           <ArrowBackIcon />
           <span>Go home</span>
         </a>
       </div>
-      <div class="mx-4 lg:mx-0">{children}</div>
+      <div class="mx-4 lg:mx-0">
+        <div class="mx-auto md:max-w-4xl">
+          <h1 class="text-2xl sm:text-3xl font-medium py-8">
+            {page.data.title}
+          </h1>
+          {children}
+        </div>
+      </div>
     </>
   );
 }
