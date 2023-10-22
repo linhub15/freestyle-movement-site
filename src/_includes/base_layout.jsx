@@ -3,6 +3,8 @@ export default function ({ title, children, meta, comp }) {
   return (
     <html lang="en">
       <head>
+        <comp.google_analytics />
+	<meta name="google-site-verification" content="2gaMG4aSqqm3t8cAVbTwSTHfcfIc1cv0OrF0J3DQDLU" />
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -23,7 +25,6 @@ export default function ({ title, children, meta, comp }) {
         <div class="mb-20" id="facebook_chat_spacer">
           <comp.facebook_chat />
         </div>
-        <comp.google_analytics />
       </body>
     </html>
   );
