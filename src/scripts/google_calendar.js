@@ -129,7 +129,7 @@ function buildEvent(event) {
   const end = event.end;
 
   const div = document.createElement("div");
-  const html = `
+  const html = /*html*/`
     <div class="text-lg font-bold inline">${event.summary}</div>
     <div class="font-mono text-sm">
       <div>${maskTime(start)}-${maskTime(end)} • ${maskLocation(event.location)}

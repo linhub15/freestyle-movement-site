@@ -4,14 +4,9 @@ export default function ({ title, children, meta, comp }) {
     <html lang="en">
       <head>
         <comp.google_analytics />
-	<meta name="google-site-verification" content="2gaMG4aSqqm3t8cAVbTwSTHfcfIc1cv0OrF0J3DQDLU" />
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta
-          name="google-site-verification"
-          content="WYeZs0gu8iEOBd-Ez6pyfCsD8gFgq9NG8wjd4KaXGyE"
-        />
         <meta name="description" content={meta.description} />
         <meta name="keywords" content={meta.keywords} />
         <link rel="stylesheet" href="/styles.css" />
