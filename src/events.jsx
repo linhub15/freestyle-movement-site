@@ -49,7 +49,7 @@ export default function ({ comp }) {
 
       <div class="py-8">
         <comp.google_calendar />
-        <p>To see more upcoming events check our {linkToGoogleCalendar()}</p>
+        <p>To see more upcoming events check our <span class="inline-block">{linkToGoogleCalendar()}</span></p>
       </div>
     </>
   );

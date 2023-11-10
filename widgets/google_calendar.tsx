@@ -66,11 +66,11 @@ export default function GoogleCalendar(props: { calendarId: string }) {
   return (
     <div class="event-list flex flex-col gap-8 py-8">
       {events.map((group) => (
-        <div class="">
-          <time class="font-mono border-l-2 border-gray-300 text-gray-300 pl-2">
-            {group.date}
-          </time>
-          <div class="flex flex-col gap-4 py-4">
+        <div>
+          <h2 class="inline-block p-2 text-lg rounded text-gray-900 bg-gray-200 select-none">
+            <time>{group.date}</time>
+          </h2>
+          <div class="flex flex-col gap-5 py-6">
             {group.events.map((event) => <Event event={event} />)}
           </div>
         </div>
@@ -99,22 +99,24 @@ function Event({ event }: { event: Event }) {
   const maskLocation = (location: string) => location.split(",")[0];
 
   return (
-    <>
-      <div class="text-lg font-bold inline">{event.summary}</div>
-      <div class="font-mono text-sm">
-        <div>
+    <div>
+      <h3 class="font-bold inline">{event.summary}</h3>
+      <div>
+        <div class="font-mono text-gray-400 text-sm py-1">
           {maskTime(event.start)}-{maskTime(event.end)}
           {" • "}
-          {maskLocation(event.location)}
-          <pre
-            class="py-4 leading-6 whitespace-pre-wrap"
-            dangerouslySetInnerHTML={{
-              __html: event.description,
-            }}
-          ></pre>
+          <a href={`https://www.google.com/maps/search/${event.location}`}>
+            {maskLocation(event.location)}
+          </a>
         </div>
+        <pre
+          class="font-sans leading-6 whitespace-pre-wrap"
+          dangerouslySetInnerHTML={{
+            __html: event.description,
+          }}
+        ></pre>
       </div>
-    </>
+    </div>
   );
 }
 
