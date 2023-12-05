@@ -1,12 +1,7 @@
 [
   {
-    "title": "🔥 Learn Breaking for FREE - limited time",
-    "link": "https://www.eventbrite.ca/e/complete-beginner-breaking-crash-course-tickets-746597111057",
-    "enabled": true
-  },
-  {
-    "title": "🎉 Adult (16+) breaking class - Contact Jin to register",
-    "link": "https://jinhyunglee.org/breakdance",
+    "title": "Memberships",
+    "link": "memberships",
     "enabled": true
   },
   {
@@ -20,7 +15,7 @@
     "enabled": false
   },
   {
-    "title": "Events",
+    "title": "Event Calendar",
     "link": "events",
     "enabled": true
   },
