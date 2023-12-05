@@ -3,8 +3,8 @@ export const layout = "navbar_layout.jsx";
 export default function ({ comp }) {
   return (
     <>
-      <div class="py-10 text-center rounded-lg outline outline-1 outline-gray-500">
-        <h2 class="py-4 text-2xl font-bold leading-7 text-white sm:truncate sm:text-3xl sm:tracking-tight">
+      <div class="py-10 mx-1 text-center rounded-xl outline outline-1 outline-gray-500 bg-[#29303d]">
+        <h2 class="py-4 text-xl font-bold leading-7 text-white sm:truncate sm:text-2xl sm:tracking-tight">
           Already have a membership?
         </h2>
         <div class="py-3">
