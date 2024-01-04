@@ -14,7 +14,7 @@ export default function ({ children, page }) {
       </div>
       <div class="mx-4 lg:mx-0">
         <div class="mx-auto md:max-w-4xl">
-          <h1 class="text-2xl sm:text-3xl font-medium py-8">
+          <h1 class="text-2xl sm:text-3xl font-medium py-8 text-center">
             {page.data.title}
           </h1>
           {children}
