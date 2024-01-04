@@ -13,7 +13,7 @@
     "start": "deno task lume -s"
   },
   "imports": {
-    "lume/": "https://deno.land/x/lume@v1.19.3/",
+    "lume/": "https://deno.land/x/lume@v2.0.2/",
     "preact": "https://esm.sh/preact@10.17.1",
     "preact/": "https://esm.sh/preact@10.17.1/"
   },
