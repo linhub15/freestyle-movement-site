@@ -19,6 +19,6 @@ site.use(tailwindcss({ extensions: [".html", ".jsx", ".tsx"] }));
 site.use(postcss());
 
 // copy static files
-site.copy([".ico", ".jpg", ".gif", ".png", ".js"]);
+site.copy([".ico", ".jpg", ".gif", ".png", ".js", ".pdf"]);
 
 export default site;
