@@ -52,7 +52,7 @@ export default function ({ comp }) {
                   <dd class="mt-2 text-base leading-7 text-gray-400">
                     No, the practice sessions are open for everyone at all skill
                     levels. Drop-in price is $10 per session. We also offer a
-                    10-session punch card for $80.{" "}
+                    10-session punch card for $75.{" "}
                   </dd>
                 </div>
                 <div>
