@@ -109,12 +109,14 @@ function Event({ event }: { event: Event }) {
             {maskLocation(event.location)}
           </a>
         </div>
-        <pre
-          class="font-sans leading-6 whitespace-pre-wrap"
-          dangerouslySetInnerHTML={{
-            __html: event.description,
-          }}
-        ></pre>
+        {event.description && (
+          <pre
+            class="font-sans leading-6 whitespace-pre-wrap"
+            dangerouslySetInnerHTML={{
+              __html: event.description,
+            }}
+          ></pre>
+        )}
       </div>
     </div>
   );
