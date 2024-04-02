@@ -1,10 +1,11 @@
 ## Tech Stack
 
-- Deno (runtime)
-- Lume (static site generator)
-- Preact (template engine)
+- node
+- pnpm
+- Next.js
+- React
 - Tailwind (CSS styling)
 
 ```sh
-deno task start
+pnpm run
 ```

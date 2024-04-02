@@ -1,5 +1,6 @@
-/** @jsxImportSource preact */
-import { useEffect, useState } from "preact/hooks";
+"use client";
+
+import { useEffect, useState } from "react";
 
 type GoogleCalendar = {
   summary: string;
@@ -35,43 +36,46 @@ type GroupedEvent = {
 export default function GoogleCalendar(props: { calendarId: string }) {
   const [events, setEvents] = useState<GroupedEvent[]>([]);
 
-  const load = async () => {
-    const url = buildUrl(props.calendarId);
-    const response = await fetch(url);
-    const json = await response.json() as GoogleCalendar;
-
-    const sorted = json.items.sort((a, b) => {
-      const aDate = new Date(a.start.dateTime);
-      const bDate = new Date(b.start.dateTime);
-      return aDate.getTime() - bDate.getTime();
-    });
-
-    const events: Event[] = sorted.map((e) => ({
-      summary: e.summary,
-      description: e.description,
-      location: e.location,
-      start: new Date(e?.start.dateTime),
-      end: new Date(e?.end.dateTime),
-    }));
-
-    const grouped = groupByDate(events);
-
-    setEvents(grouped);
-  };
-
   useEffect(() => {
+    const load = async () => {
+      const url = buildUrl(props.calendarId);
+      const response = await fetch(url);
+      const json = await response.json() as GoogleCalendar;
+  
+      const sorted = json.items.sort((a, b) => {
+        const aDate = new Date(a.start.dateTime);
+        const bDate = new Date(b.start.dateTime);
+        return aDate.getTime() - bDate.getTime();
+      });
+  
+      const events: Event[] = sorted.map((e) => ({
+        summary: e.summary,
+        description: e.description,
+        location: e.location,
+        start: new Date(e?.start.dateTime),
+        end: new Date(e?.end.dateTime),
+      }));
+  
+      const grouped = groupByDate(events);
+  
+      setEvents(grouped);
+    };
     load();
-  }, []);
+
+  }, [props.calendarId]);
 
   return (
-    <div class="event-list flex flex-col gap-8 py-8">
-      {events.map((group) => (
-        <div>
-          <h2 class="inline-block p-2 text-lg rounded text-gray-900 bg-gray-200 select-none">
+    <div className="event-list flex flex-col gap-8 py-8">
+      {events.map((group, idx) => (
+        <div key={idx}>
+          <h2 className="inline-block p-2 text-lg rounded text-gray-900 bg-gray-200 select-none">
             <time>{group.date}</time>
           </h2>
-          <div class="flex flex-col gap-5 py-6">
-            {group.events.map((event) => <Event event={event} />)}
+          <div className="flex flex-col gap-5 py-6">
+            {group.events.map((event, idx) => <Event
+              event={event}
+              key={idx}
+            />)}
           </div>
         </div>
       ))}
@@ -100,9 +104,9 @@ function Event({ event }: { event: Event }) {
 
   return (
     <div>
-      <h3 class="font-bold inline">{event.summary}</h3>
+      <h3 className="font-bold inline">{event.summary}</h3>
       <div>
-        <div class="font-mono text-gray-400 text-sm py-1">
+        <div className="font-mono text-gray-400 text-sm py-1">
           {maskTime(event.start)}-{maskTime(event.end)}
           {" • "}
           <a href={`https://www.google.com/maps/search/${event.location}`}>
@@ -111,7 +115,7 @@ function Event({ event }: { event: Event }) {
         </div>
         {event.description && (
           <pre
-            class="font-sans leading-6 whitespace-pre-wrap"
+            className="font-sans leading-6 whitespace-pre-wrap"
             dangerouslySetInnerHTML={{
               __html: event.description,
             }}
