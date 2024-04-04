@@ -10,20 +10,20 @@ type GoogleCalendar = {
 
 type GoogleCalendarEvent = {
   summary: string;
-  description: string;
-  location: string;
+  description?: string;
+  location?: string;
   start: Instant;
   end: Instant;
 };
 
 type Instant = {
-  dateTime: string;
-};
+  dateTime?: string;
+} & { date?: string };
 
 type Event = {
   summary: string;
-  description: string;
-  location: string;
+  description?: string;
+  location?: string;
   start: Date;
   end: Date;
 };
@@ -41,27 +41,26 @@ export default function GoogleCalendar(props: { calendarId: string }) {
       const url = buildUrl(props.calendarId);
       const response = await fetch(url);
       const json = await response.json() as GoogleCalendar;
-  
+
       const sorted = json.items.sort((a, b) => {
-        const aDate = new Date(a.start.dateTime);
-        const bDate = new Date(b.start.dateTime);
+        const aDate = new Date(a.start.dateTime ?? a.start.date ?? "");
+        const bDate = new Date(b.end.dateTime ?? b.end.date ?? "");
         return aDate.getTime() - bDate.getTime();
       });
-  
+
       const events: Event[] = sorted.map((e) => ({
         summary: e.summary,
         description: e.description,
         location: e.location,
-        start: new Date(e?.start.dateTime),
-        end: new Date(e?.end.dateTime),
+        start: new Date(e.start.dateTime ?? e.start.date ?? ""),
+        end: new Date(e.end.dateTime ?? e.end.date ?? ""),
       }));
-  
+
       const grouped = groupByDate(events);
-  
+
       setEvents(grouped);
     };
     load();
-
   }, [props.calendarId]);
 
   return (
@@ -72,10 +71,12 @@ export default function GoogleCalendar(props: { calendarId: string }) {
             <time>{group.date}</time>
           </h2>
           <div className="flex flex-col gap-5 py-6">
-            {group.events.map((event, idx) => <Event
-              event={event}
-              key={idx}
-            />)}
+            {group.events.map((event, idx) => (
+              <Event
+                event={event}
+                key={idx}
+              />
+            ))}
           </div>
         </div>
       ))}
@@ -89,6 +90,8 @@ function Event({ event }: { event: Event }) {
     const minutes = date.getMinutes();
     const period = hours >= 12 ? "PM" : "AM";
 
+    if (!minutes) return;
+
     if (hours > 12) {
       hours -= 12;
     }
@@ -100,18 +103,26 @@ function Event({ event }: { event: Event }) {
     return formattedTime;
   };
 
-  const maskLocation = (location: string) => location.split(",")[0];
-
+  const maskLocation = (location?: string) => location?.split(",")[0];
+  const hasRange = maskTime(event.start) && maskTime(event.end);
+  const timeRange = `${maskTime(event.start)}-${maskTime(event.end)}`;
   return (
     <div>
       <h3 className="font-bold inline">{event.summary}</h3>
       <div>
         <div className="font-mono text-gray-400 text-sm py-1">
-          {maskTime(event.start)}-{maskTime(event.end)}
-          {" • "}
-          <a href={`https://www.google.com/maps/search/${event.location}`}>
-            {maskLocation(event.location)}
-          </a>
+          {hasRange ? timeRange : "All Day"}
+          {event.location &&
+            (
+              <>
+                {" • "}
+                <a
+                  href={`https://www.google.com/maps/search/${event.location}`}
+                >
+                  {maskLocation(event.location)}
+                </a>
+              </>
+            )}
         </div>
         {event.description && (
           <pre
@@ -149,6 +160,7 @@ function buildUrl(calendar_id: string) {
 }
 
 function groupByDate(events: Event[]) {
+  console.log(events);
   const result = events.reduce((acc, event) => {
     const date = maskDate(event.start);
 
