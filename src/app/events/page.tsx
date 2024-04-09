@@ -1,5 +1,6 @@
 import { Container } from "@/components/Container";
 import { Tabs } from "./_components/Tabs";
+import { Suspense } from "react";
 
 export default function Events() {
   return (
@@ -18,8 +19,9 @@ export default function Events() {
         <div className="py-8">
           <div className="h-[2px] bg-zinc-700 rounded-md"></div>
         </div>
-
-        <Tabs />
+        <Suspense>
+          <Tabs />
+        </Suspense>
       </div>
     </Container>
   );
