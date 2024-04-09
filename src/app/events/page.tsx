@@ -1,29 +1,25 @@
-import { Container } from "../../components/Container";
-import GoogleCalendar from "../../components/GoogleCalendar";
+import { Container } from "@/components/Container";
+import { Tabs } from "./_components/Tabs";
 
 export default function Events() {
   return (
     <Container>
       <div>
         <h1 className="text-3xl tracking-tight text-zinc-300">
-          Event Calendar
+          Events
         </h1>
         <p className="text-zinc-400 py-2">
-          A collection of classes, practices spots, and community events
+          A collection of{" "}
+          <span className="text-zinc-300 font-medium">
+            classes, practices spots, and community events
+          </span>.
         </p>
 
-        <div className="flex py-4 align-middle gap-4 flex-wrap">
-          <ICalDownloadLink />
-          <LinkToGoogleCalendar />
+        <div className="py-8">
+          <div className="h-[2px] bg-zinc-700 rounded-md"></div>
         </div>
-      </div>
 
-      <div className="py-8">
-        <GoogleCalendar calendarId="c_55f824ce3f7c0b678d69eaa3ee663fbbd97a1e981f4f198207400b02707af382@group.calendar.google.com" />
-        <p>
-          To see more upcoming events check our{" "}
-          <span className="inline-block">{LinkToGoogleCalendar()}</span>
-        </p>
+        <Tabs />
       </div>
     </Container>
   );
@@ -58,7 +54,7 @@ function LinkToGoogleCalendar() {
       className="justify-center rounded-lg px-3 py-2 border border-gray-500 hover:bg-gray-500 hover:text-black visited:text-gray-300"
       href="https://calendar.google.com/calendar/embed?src=c_55f824ce3f7c0b678d69eaa3ee663fbbd97a1e981f4f198207400b02707af382%40group.calendar.google.com&ctz=America%2FEdmonton"
     >
-      📅 View Calendar
+      📅 Gooogle Calendar
     </a>
   );
 }
