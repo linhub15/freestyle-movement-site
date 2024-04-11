@@ -30,7 +30,7 @@ export default function Memberships() {
           </h2>
 
           <a
-            className="w-fit h-fit flex items-center rounded-md bg-blue-600 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-blue-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+            className="w-fit h-fit flex items-center rounded-md bg-blue-600 px-3 py-2 text-sm font-medium text-white shadow-sm hover:bg-blue-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
             href="https://billing.stripe.com/p/login/28o3fwari7UtfHadQQ"
           >
             Manage membership
@@ -68,7 +68,7 @@ export default function Memberships() {
                   </dd>
                 </div>
                 <div>
-                  <dt className="text-base font-semibold leading-7 text-zinc-300">
+                  <dt className="text-base font-medium leading-7 text-zinc-300">
                     How do I view and manage my membership?
                   </dt>
                   <dd className="mt-2 text-base leading-7 text-zinc-400">
@@ -116,7 +116,7 @@ export default function Memberships() {
                     <p>
                       For detailed dates and times check the{"  "}
                       <a
-                        className="font-semibold text-indigo-500 hover:text-indigo-400"
+                        className="font-medium text-indigo-500 hover:text-indigo-400"
                         href="/events"
                       >
                         event calendar

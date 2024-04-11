@@ -10,11 +10,16 @@ export default function Events() {
           Events
         </h1>
         <p className="text-zinc-400 py-2">
-          A collection of{" "}
-          <span className="text-zinc-300 font-medium">
+          A collection of Edmonton&apos;s{" "}
+          <span className="text-zinc-300">
             classes, practices spots, and community events
           </span>.
         </p>
+
+        <div className="flex gap-2 flex-wrap">
+          <LinkToGoogleCalendar />
+          <ICalDownloadLink />
+        </div>
 
         <div className="py-8">
           <div className="h-[2px] bg-zinc-700 rounded-md"></div>
@@ -30,14 +35,14 @@ export default function Events() {
 function ICalDownloadLink() {
   return (
     <a
-      className="flex justify-center rounded-lg px-3 py-2 gap-2 bg-blue-600 hover:bg-blue-500 w-fit"
+      className="flex justify-center items-center text-sm rounded-lg px-3 py-1 gap-2 bg-blue-600 hover:bg-blue-500 w-fit h-9"
       href="https://calendar.google.com/calendar/ical/c_55f824ce3f7c0b678d69eaa3ee663fbbd97a1e981f4f198207400b02707af382%40group.calendar.google.com/public/basic.ics"
     >
       <svg
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 24 24"
         fill="currentColor"
-        className="w-6 h-6"
+        className="w-5 h-5"
       >
         <path
           fillRule="evenodd"
@@ -53,10 +58,10 @@ function ICalDownloadLink() {
 function LinkToGoogleCalendar() {
   return (
     <a
-      className="justify-center rounded-lg px-3 py-2 border border-gray-500 hover:bg-gray-500 hover:text-black visited:text-gray-300"
+      className="justify-center rounded-lg px-3 py-2 border border-gray-500 hover:bg-gray-500 hover:text-black visited:text-gray-300 text-sm"
       href="https://calendar.google.com/calendar/embed?src=c_55f824ce3f7c0b678d69eaa3ee663fbbd97a1e981f4f198207400b02707af382%40group.calendar.google.com&ctz=America%2FEdmonton"
     >
-      📅 Gooogle Calendar
+      📅 Google Calendar
     </a>
   );
 }
