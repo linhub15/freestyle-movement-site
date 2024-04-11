@@ -4,42 +4,43 @@ import Stripe from "./Stripe";
 export default function Memberships() {
   return (
     <Container>
-      <div className="flex flex-col gap-8">
+      <div className="flex flex-col gap-6">
         <div>
           <h1 className="text-3xl tracking-tight text-zinc-300">
             Memberships
           </h1>
-          <p className="text-zinc-400 py-2">
+          <p className="text-zinc-400">
             Prices for drop-in and recurring practice sessions
           </p>
+          <p className="text-zinc-400">
+            For questions or issues with payment please{" "}
+            <a
+              className="underline"
+              href="mailto:hubert@freestylemovement.ca"
+            >
+              email Hubert
+            </a>
+            .
+          </p>
         </div>
-        <div className="mx-1 w-full text-center">
-          <div className="outline outline-1 outline-zinc-500 rounded-xl">
-            <h2 className="py-4 text-lg font-semibold leading-7 text-white sm:truncate sm:text-2xl sm:tracking-tight">
-              Already have a membership?
-            </h2>
-            <div className="py-3">
-              <a
-                className="ml-3 inline-flex items-center rounded-md bg-blue-600 px-8 py-3 text-sm font-semibold text-white shadow-sm hover:bg-blue-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
-                href="https://billing.stripe.com/p/login/28o3fwari7UtfHadQQ"
-              >
-                Manage my membership
-              </a>
-            </div>
-            <div className="px-8 py-4 text-sm text-zinc-400">
-              <p>
-                For questions or issues with payment please{" "}
-                <a
-                  className="underline"
-                  href="mailto:hubert@freestylemovement.ca"
-                >
-                  email Hubert
-                </a>
-                .
-              </p>
-            </div>
-          </div>
+
+        <div>
+          <h2 className="py-4 text-lg leading-5 text-zinc-300 sm:truncate sm:text-xl sm:tracking-tight">
+            Already have a membership?
+          </h2>
+
+          <a
+            className="w-fit h-fit flex items-center rounded-md bg-blue-600 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-blue-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+            href="https://billing.stripe.com/p/login/28o3fwari7UtfHadQQ"
+          >
+            Manage membership
+          </a>
         </div>
+
+        <div className="py-8">
+          <div className="h-[2px] bg-zinc-700 rounded-md"></div>
+        </div>
+
         <div className="w-full">
           <Stripe />
         </div>
