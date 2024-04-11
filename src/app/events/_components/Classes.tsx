@@ -42,12 +42,12 @@ export default function Classes() {
         location="9435 73 St NW, Edmonton"
         description={
           <>
-            Check the Street Style 780{" "}
+            Check out{" "}
             <a
               className="underline"
               href="https://www.streetstyles780.com/courses/beginner-break-dance-ottewell"
             >
-              website
+              Street Style 780
             </a>{" "}
             for more information
           </>

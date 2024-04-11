@@ -6,9 +6,11 @@ import { useRouter, useSearchParams } from "next/navigation";
 import Classes from "./Classes";
 import PracticeSpots from "./PracticeSpots";
 import GoogleCalendar from "@/components/GoogleCalendar";
+import { Route } from "next";
 
 const tabs = [
   { name: "Classes", id: "classes", content: <Classes /> },
+  { name: "Practices Spots", id: "practices", content: <PracticeSpots /> },
   {
     name: "Community Events",
     id: "events",
@@ -24,7 +26,7 @@ export function Tabs() {
   const activeTabId = useSearchParams().get(searchKey);
 
   const activeTab = tabs.find((t) => t.id === activeTabId) ?? tabs[0];
-  const pathname = (tabId: string) => `/events?${searchKey}=${tabId}`;
+  const pathname = (tabId: string): Route => `/events?${searchKey}=${tabId}`;
   const isActive = (tabId: string) => tabId === activeTab.id;
 
   return (
