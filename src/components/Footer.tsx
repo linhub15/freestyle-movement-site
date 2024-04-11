@@ -2,12 +2,13 @@ import Link from "next/link";
 
 import { ContainerInner, ContainerOuter } from "@/components/Container";
 import { FacebookIcon, InstagramIcon, YouTubeIcon } from "./SocialIcons";
+import { Route } from "next";
 
 function NavLink({
   href,
   children,
 }: {
-  href: string;
+  href: Route;
   children: React.ReactNode;
 }) {
   return (

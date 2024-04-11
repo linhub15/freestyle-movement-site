@@ -7,6 +7,7 @@ import { Popover, Transition } from '@headlessui/react'
 import clsx from 'clsx'
 
 import { Container } from '@/components/Container'
+import { Route } from 'next'
 
 function CloseIcon(props: React.ComponentPropsWithoutRef<'svg'>) {
   return (
@@ -41,7 +42,7 @@ function MobileNavItem({
   href,
   children,
 }: {
-  href: string
+  href: Route
   children: React.ReactNode
 }) {
   return (
@@ -113,7 +114,7 @@ function NavItem({
   href,
   children,
 }: {
-  href: string
+  href: Route
   children: React.ReactNode
 }) {
   let isActive = usePathname() === href
@@ -158,7 +159,7 @@ function clamp(number: number, a: number, b: number) {
   return Math.min(Math.max(number, min), max)
 }
 
-type NavItem = { title: string; href: string }
+type NavItem = { title: string; href: Route }
 
 export function Header({ links }: { links?: NavItem[] }) {
   if (!links?.length) {
