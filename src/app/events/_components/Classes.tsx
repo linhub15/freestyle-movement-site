@@ -26,11 +26,14 @@ export default function Classes() {
         location="280 Bulyea Rd NW, Edmonton"
         description={
           <>
-            Registration closed.<br />1-hour youth breaking class. Contact{" "}
+            1-hour youth breaking class. Contact{" "}
             <a className="underline" href="mailto:hubert@freestylemovement.ca">
               Hubert Lin
             </a>{" "}
-            for future registration and inquiries.
+            for registration and inquiries.
+            <br />
+            This is an intermediate class. Beginners will need to contact Hubert
+            for a trial.
           </>
         }
       />
