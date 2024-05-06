@@ -1,0 +1,28 @@
+import { Container } from "@/components/Container";
+import { Stripe } from "@/components/Stripe";
+
+export default function Unrivaled2024() {
+  return (
+    <Container>
+      <h1 className="text-3xl tracking-tight text-zinc-300">
+        Unrivaled 2024
+      </h1>
+      <div className="space-y-2 text-zinc-400 py-8">
+        <p>
+          Follow us on Instagram{" "}
+          <a className="text-white underline" href="https://instagram.com/freestyle.movement">
+            @freestyle.movement
+          </a>{" "}
+          for updates.
+        </p>
+        <p>More info coming soon...</p>
+      </div>
+      <div className="w-full">
+        <Stripe
+          pricingTableId="prctbl_1PDGFVJ1kSEluvIzlrItRLy6"
+          publishableKey="pk_live_51OJll2J1kSEluvIzvRDs6akU2WNo5RQ2xUNd5MQ92CAyA4J7CpOTdFm15g4jqoKPm9ip9hc9CR3KTXv0CBEVFa1I00VKExIAPZ"
+        />
+      </div>
+    </Container>
+  );
+}

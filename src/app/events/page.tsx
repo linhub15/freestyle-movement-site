@@ -1,29 +1,39 @@
 import { Container } from "@/components/Container";
 import { Tabs } from "./_components/Tabs";
 import { Suspense } from "react";
+import { Hr } from "@/components/Divider";
+import Link from "next/link";
+import { EventPoster } from "./_components/EventPoster";
 
 export default function Events() {
   return (
     <Container>
       <div>
-        <h1 className="text-3xl tracking-tight text-zinc-300">
-          Events
-        </h1>
-        <p className="text-zinc-400 py-2">
-          A collection of Edmonton&apos;s{" "}
-          <span className="text-zinc-300">
-            classes, practices spots, and community events
-          </span>.
-        </p>
+        <div>
+          <h1 className="text-3xl tracking-tight text-zinc-300">
+            Events
+          </h1>
+          <p className="text-zinc-400 py-2">
+            A collection of Edmonton&apos;s{" "}
+            <span className="text-zinc-300">
+              classes, practices spots, and community events
+            </span>.
+          </p>
 
-        <div className="flex gap-2 flex-wrap">
-          <LinkToGoogleCalendar />
-          <ICalDownloadLink />
+          <div className="flex gap-2 flex-wrap">
+            <LinkToGoogleCalendar />
+            <ICalDownloadLink />
+          </div>
+
+          <div className="py-8 w-fit">
+            <Link href="/events/unrivaled-2024">
+              <EventPoster src="/images/unrivaled-2024/teaser-poster.png" />
+            </Link>
+          </div>
         </div>
 
-        <div className="py-8">
-          <div className="h-[2px] bg-zinc-700 rounded-md"></div>
-        </div>
+        <Hr />
+
         <Suspense>
           <Tabs />
         </Suspense>

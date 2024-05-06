@@ -1,5 +1,6 @@
+import { Stripe } from "@/components/Stripe";
 import { Container } from "../../components/Container";
-import Stripe from "./Stripe";
+import { Hr } from "@/components/Divider";
 
 export default function Memberships() {
   return (
@@ -37,12 +38,13 @@ export default function Memberships() {
           </a>
         </div>
 
-        <div className="py-8">
-          <div className="h-[2px] bg-zinc-700 rounded-md"></div>
-        </div>
+        <Hr />
 
         <div className="w-full">
-          <Stripe />
+          <Stripe
+            pricingTableId="prctbl_1OJmUqJ1kSEluvIzLYyAqLOG"
+            publishableKey="pk_live_51OJll2J1kSEluvIzvRDs6akU2WNo5RQ2xUNd5MQ92CAyA4J7CpOTdFm15g4jqoKPm9ip9hc9CR3KTXv0CBEVFa1I00VKExIAPZ"
+          />
         </div>
       </div>
 
