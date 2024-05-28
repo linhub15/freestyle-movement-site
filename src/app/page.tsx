@@ -6,6 +6,11 @@ import logo from "../images/logo.png";
 
 const links = [
   {
+    title: "Unrivaled 2024 (Driven Battle)",
+    href: "/events/unrivaled-2024",
+    enabled: true,
+  },
+  {
     "title": "West Edmonton classes - accepting students",
     "href": "https://jinhyunglee.org/dance-classes/",
     "enabled": true,
