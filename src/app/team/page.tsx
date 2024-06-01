@@ -43,6 +43,14 @@ const members: Member[] = [
     "name": "Phil De Castro",
     "roles": "Graphic designer, videographer",
   },
+  {
+    "name": "Josh Kearney",
+    "roles": "Event planner",
+  },
+  {
+    "name": "Sion Kim",
+    "roles": "Event planner, dance instructor, photographer"
+  }
 ];
 
 export const metadata: Metadata = {

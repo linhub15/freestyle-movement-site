@@ -1,5 +1,7 @@
 import { Container } from "@/components/Container";
 import { Stripe } from "@/components/Stripe";
+import { Schedule } from "./schedule";
+import { ArrowTopRightOnSquareIcon } from "@heroicons/react/16/solid";
 
 export default function Unrivaled2024() {
   return (
@@ -27,26 +29,24 @@ export default function Unrivaled2024() {
         <p>West Edmonton Mall South Parkade</p>
 
         <ul className="list-disc px-4">
-          <li>$200 - 1v1 Footwork (Judged by Eazy)</li>
           <li>$200 - 1v1 Open Styles (Judged by AJ)</li>
-          <li>$100 - 2v2 Youth Breaking (Judged by Eazy & Link)</li>
+          <li>$200 - 1v1 Footwork (Judged by Eazy)</li>
+          <li>$100 - 2v2 Youth Breaking (Judged by Eazy & Link?)</li>
         </ul>
 
-        <div className="py-4">
-          <h3 className="font-semibold text-lg">Schedule</h3>
-          <p>coming soon...</p>
-        </div>
+        <Schedule />
 
         <div className="py-4">
           <h3 className="font-semibold text-lg">Tickets</h3>
           <p>
-            Spectator tickets are purchased through Driven{" "}
+            Spectator tickets are purchased through the Driven{" "}
             <a
               className="text-zinc-300 underline"
               href="https://www.showpass.com/drivenedmonton2024/"
               target="_blank"
             >
-              https://www.showpass.com/drivenedmonton2024/
+              Ticket Site{" "}
+              <ArrowTopRightOnSquareIcon className="w-4 h-4 inline" />
             </a>
           </p>
           <div className="w-full">
