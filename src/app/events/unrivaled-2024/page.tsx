@@ -3,6 +3,8 @@ import { Stripe } from "@/components/Stripe";
 import { Schedule } from "./schedule";
 import { ArrowTopRightOnSquareIcon } from "@heroicons/react/16/solid";
 
+import Image from "next/image";
+
 export default function Unrivaled2024() {
   return (
     <Container>
@@ -26,7 +28,10 @@ export default function Unrivaled2024() {
           DJ Carry ON | MC Teio | MC Miracle
         </p>
 
-        <p>West Edmonton Mall South Parkade</p>
+        <p>
+          West Edmonton Mall South Parkade -{" "}
+          <a className="underline font-medium" href="#map">View Map</a>
+        </p>
 
         <ul className="list-disc px-4">
           <li>$200 - 1v1 Open Styles (Judged by AJ)</li>
@@ -55,6 +60,18 @@ export default function Unrivaled2024() {
               publishableKey="pk_live_51OJll2J1kSEluvIzvRDs6akU2WNo5RQ2xUNd5MQ92CAyA4J7CpOTdFm15g4jqoKPm9ip9hc9CR3KTXv0CBEVFa1I00VKExIAPZ"
             />
           </div>
+        </div>
+
+        <div id="map">
+          <a href="https://maps.app.goo.gl/o3LtfiF3NGUNh8Sa7" target="_blank">
+            <Image
+              className="mx-auto"
+              src="/images/unrivaled-2024/map.png"
+              alt="Map of event"
+              width="900"
+              height="530"
+            />
+          </a>
         </div>
       </div>
     </Container>

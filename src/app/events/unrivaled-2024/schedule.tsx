@@ -19,9 +19,9 @@ export function Schedule() {
         tournament bracket position. Only top 8 will advance.
       </p>
 
-      <dl className="py-2 space-y-1">
+      <dl className="pl-2 py-2 space-y-0.5">
         {schedule.map(({ time, event }) => (
-          <div className="flex space-x-6" key={time}>
+          <div className="flex space-x-4" key={time}>
             <dt className="">{time}</dt>
             <dd>{event}</dd>
           </div>
