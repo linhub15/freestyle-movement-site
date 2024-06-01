@@ -65,7 +65,7 @@ export default function Unrivaled2024() {
         <div id="map">
           <a href="https://maps.app.goo.gl/o3LtfiF3NGUNh8Sa7" target="_blank">
             <Image
-              className="mx-auto"
+              className="mx-auto rounded-lg"
               src="/images/unrivaled-2024/map.png"
               alt="Map of event"
               width="900"
