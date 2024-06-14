@@ -10,8 +10,8 @@ export default function Events() {
     <Container>
       <div>
         <div>
-          <h1 className="text-3xl tracking-tight text-zinc-300">Events</h1>
-          <p className="text-zinc-400 py-2">
+          <h1 className="text-3xl text-zinc-300 tracking-tight">Events</h1>
+          <p className="py-2 text-zinc-400">
             A collection of Edmonton&apos;s{" "}
             <span className="text-zinc-300">
               classes, practices spots, and community events
@@ -19,12 +19,12 @@ export default function Events() {
             .
           </p>
 
-          <div className="flex gap-2 flex-wrap">
+          <div className="flex flex-wrap gap-2">
             <LinkToGoogleCalendar />
             <ICalDownloadLink />
           </div>
 
-          <div className="py-8 w-fit">
+          <div className="w-fit py-8">
             <Link href="/events/unrivaled-2024">
               <EventPoster src="/images/unrivaled-2024/teaser-poster.png" />
             </Link>
@@ -44,14 +44,14 @@ export default function Events() {
 function ICalDownloadLink() {
   return (
     <a
-      className="flex justify-center items-center text-sm rounded-lg px-3 py-1 gap-2 bg-blue-600 hover:bg-blue-500 w-fit h-9"
+      className="flex h-9 w-fit items-center justify-center gap-2 rounded-lg bg-blue-600 px-3 py-1 text-sm hover:bg-blue-500"
       href="https://calendar.google.com/calendar/ical/c_55f824ce3f7c0b678d69eaa3ee663fbbd97a1e981f4f198207400b02707af382%40group.calendar.google.com/public/basic.ics"
     >
       <svg
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 24 24"
         fill="currentColor"
-        className="w-5 h-5"
+        className="h-5 w-5"
       >
         <title>Calendar</title>
         <path
@@ -68,7 +68,7 @@ function ICalDownloadLink() {
 function LinkToGoogleCalendar() {
   return (
     <a
-      className="justify-center rounded-lg px-3 py-2 border border-gray-500 hover:bg-gray-500 hover:text-black visited:text-gray-300 text-sm"
+      className="justify-center rounded-lg border border-gray-500 px-3 py-2 text-sm hover:bg-gray-500 hover:text-black visited:text-gray-300"
       href="https://calendar.google.com/calendar/embed?src=c_55f824ce3f7c0b678d69eaa3ee663fbbd97a1e981f4f198207400b02707af382%40group.calendar.google.com&ctz=America%2FEdmonton"
     >
       📅 Google Calendar

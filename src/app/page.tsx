@@ -21,13 +21,13 @@ export default function Home() {
   return (
     <>
       <Container>
-        <div className="flex flex-col gap-6 max-w-2xl mx-auto">
+        <div className="mx-auto flex max-w-2xl flex-col gap-6">
           <Image
-            className="w-48 mx-auto invert"
+            className="mx-auto w-48 invert"
             src={logo}
             alt="Freestyle Movement"
           />
-          <h1 className="text-4xl font-bold tracking-tight md:text-5xl text-center text-zinc-100">
+          <h1 className="text-center font-bold text-4xl text-zinc-100 tracking-tight md:text-5xl">
             Freestyle Movement
           </h1>
 

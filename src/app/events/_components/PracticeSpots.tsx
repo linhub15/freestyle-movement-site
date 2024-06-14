@@ -3,7 +3,7 @@ import { EventCard } from "./EventCard";
 
 export default function PracticeSpots() {
   return (
-    <div className="py-12 space-y-8">
+    <div className="space-y-8 py-12">
       <EventCard
         day="Mon"
         time="7:30-9:30 pm"

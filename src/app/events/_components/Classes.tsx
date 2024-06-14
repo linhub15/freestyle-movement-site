@@ -2,7 +2,7 @@ import { EventCard } from "./EventCard";
 
 export default function Classes() {
   return (
-    <div className="py-12 space-y-8">
+    <div className="space-y-8 py-12">
       <EventCard
         day="Mon"
         time="6:00 pm"

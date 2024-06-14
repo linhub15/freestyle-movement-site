@@ -41,7 +41,7 @@ export function Tabs() {
           <select
             id="tabs"
             name="tabs"
-            className="block w-full rounded-md border-0 bg-zinc-800/90 px-4 py-2 text-sm  font-medium text-zinc-200 shadow-lg shadow-zinc-800/5 ring-1 ring-white/10 backdrop-blur hover:ring-white/20"
+            className="block w-full rounded-md border-0 bg-zinc-800/90 px-4 py-2 font-medium text-sm text-zinc-200 shadow-lg shadow-zinc-800/5 ring-1 ring-white/10 backdrop-blur hover:ring-white/20"
             onChange={(e) => router.push(pathname(e.target.value))}
             value={activeTab.id}
           >
@@ -62,7 +62,7 @@ export function Tabs() {
                   isActive(tab.id)
                     ? "bg-zinc-100 text-teal-900"
                     : "text-zinc-400 hover:text-teal-400",
-                  "rounded-md px-3 py-2 text-sm font-medium",
+                  "rounded-md px-3 py-2 font-medium text-sm",
                 )}
                 aria-current={isActive(tab.id) ? "page" : undefined}
               >

@@ -22,7 +22,7 @@ export function Footer() {
   return (
     <footer className="mt-32 flex-none">
       <ContainerOuter>
-        <div className="border-t pb-16 pt-10 border-zinc-700/40">
+        <div className="border-zinc-700/40 border-t pt-10 pb-16">
           <ContainerInner>
             <div className="flex flex-col items-center justify-between gap-6 sm:flex-row">
               <div className="flex flex-wrap justify-center gap-6">
@@ -68,7 +68,7 @@ function SocialLink({
 }) {
   return (
     <Link className="group -m-1 p-1" {...props}>
-      <Icon className="h-6 w-6 transition fill-zinc-400 group-hover:fill-zinc-300" />
+      <Icon className="h-6 w-6 fill-zinc-400 transition group-hover:fill-zinc-300" />
     </Link>
   );
 }

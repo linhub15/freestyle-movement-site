@@ -67,7 +67,7 @@ export default function GoogleCalendar(props: { calendarId: string }) {
     <div className="event-list flex flex-col gap-8 py-8">
       {events.map((group) => (
         <div key={group.date}>
-          <h2 className="inline-block p-2 text-lg rounded text-gray-900 bg-gray-200 select-none">
+          <h2 className="inline-block select-none rounded bg-gray-200 p-2 text-gray-900 text-lg">
             <time>{group.date}</time>
           </h2>
           <div className="flex flex-col gap-5 py-6">
@@ -108,9 +108,9 @@ function Event({ event }: { event: Event }) {
   const timeRange = `${maskTime(event.start)}-${maskTime(event.end)}`;
   return (
     <div>
-      <h3 className="font-bold inline">{event.summary}</h3>
+      <h3 className="inline font-bold">{event.summary}</h3>
       <div>
-        <div className="font-mono text-gray-400 text-sm py-1">
+        <div className="py-1 font-mono text-gray-400 text-sm">
           {hasRange ? timeRange : "All Day"}
           {event.location && (
             <>
@@ -123,7 +123,7 @@ function Event({ event }: { event: Event }) {
         </div>
         {event.description && (
           <pre
-            className="font-sans leading-6 whitespace-pre-wrap"
+            className="whitespace-pre-wrap font-sans leading-6"
             // biome-ignore lint/security/noDangerouslySetInnerHtml: <explanation>
             dangerouslySetInnerHTML={{
               __html: event.description,

@@ -6,9 +6,9 @@ import Image from "next/image";
 export default function Unrivaled2024() {
   return (
     <Container>
-      <h1 className="text-3xl tracking-tight text-zinc-300">Unrivaled 2024</h1>
+      <h1 className="text-3xl text-zinc-300 tracking-tight">Unrivaled 2024</h1>
 
-      <div className="space-y-2 text-zinc-400 py-8">
+      <div className="space-y-2 py-8 text-zinc-400">
         <p>
           Follow us on Instagram{" "}
           <a
@@ -19,12 +19,12 @@ export default function Unrivaled2024() {
           </a>{" "}
           for updates.
         </p>
-        <p className="text-lg font-semibold">Saturday June 8, 2024</p>
+        <p className="font-semibold text-lg">Saturday June 8, 2024</p>
         <p className="">DJ Carry On | MC Teio | MC Miracle</p>
 
         <p>
           West Edmonton Mall South Parkade -{" "}
-          <a className="underline font-medium" href="#map">
+          <a className="font-medium underline" href="#map">
             View Map
           </a>
         </p>

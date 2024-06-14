@@ -19,7 +19,7 @@ export function Schedule() {
         Only top 8 will advance.
       </p>
 
-      <dl className="pl-2 py-2 space-y-0.5">
+      <dl className="space-y-0.5 py-2 pl-2">
         {schedule.map(({ time, event }) => (
           <div className="flex space-x-4" key={time}>
             <dt className="">{time}</dt>

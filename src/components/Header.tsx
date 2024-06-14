@@ -61,7 +61,7 @@ function MobileNavigation(
 ) {
   return (
     <Popover {...props}>
-      <Popover.Button className="group flex items-center rounded-full bg-zinc-800/90 px-4 py-2 text-sm  font-medium text-zinc-200 shadow-lg shadow-zinc-800/5 ring-1 ring-white/10 backdrop-blur hover:ring-white/20">
+      <Popover.Button className="group flex items-center rounded-full bg-zinc-800/90 px-4 py-2 font-medium text-sm text-zinc-200 shadow-lg shadow-zinc-800/5 ring-1 ring-white/10 backdrop-blur hover:ring-white/20">
         Menu
         <ChevronDownIcon className="ml-3 h-auto w-2 stroke-zinc-500 group-hover:stroke-zinc-400" />
       </Popover.Button>
@@ -94,7 +94,7 @@ function MobileNavigation(
               <Popover.Button aria-label="Close menu" className="-m-1 p-1">
                 <CloseIcon className="h-6 w-6 text-zinc-400" />
               </Popover.Button>
-              <h2 className="text-sm font-medium text-zinc-400">Navigation</h2>
+              <h2 className="font-medium text-sm text-zinc-400">Navigation</h2>
             </div>
             <nav className="mt-6">
               <ul className="-my-2 divide-y divide-zinc-100 divide-zinc-100/5 text-base text-zinc-300">
@@ -132,7 +132,7 @@ function NavItem({
       >
         {children}
         {isActive && (
-          <span className="absolute inset-x-1 -bottom-px h-px bg-gradient-to-r from-teal-400/0 via-teal-400/40 to-teal-400/0" />
+          <span className="-bottom-px absolute inset-x-1 h-px bg-gradient-to-r from-teal-400/0 via-teal-400/40 to-teal-400/0" />
         )}
       </Link>
     </li>
@@ -144,7 +144,7 @@ function DesktopNavigation(
 ) {
   return (
     <nav {...props}>
-      <ul className="flex rounded-full bg-zinc-800/90 px-3 text-sm font-medium text-zinc-200 shadow-lg shadow-zinc-800/5 ring-1 ring-white/10 backdrop-blur">
+      <ul className="flex rounded-full bg-zinc-800/90 px-3 font-medium text-sm text-zinc-200 shadow-lg shadow-zinc-800/5 ring-1 ring-white/10 backdrop-blur">
         {props.links.map((link) => (
           <NavItem href={link.href} key={link.title}>
             {link.title}

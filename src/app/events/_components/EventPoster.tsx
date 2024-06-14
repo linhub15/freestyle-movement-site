@@ -7,7 +7,7 @@ type Props = {
 };
 export function EventPoster(props: Props) {
   return (
-    <div className="rounded-lg overflow-hidden">
+    <div className="overflow-hidden rounded-lg">
       <motion.div
         whileFocus={{ scale: 1.1 }}
         whileHover={{ scale: 1.1 }}

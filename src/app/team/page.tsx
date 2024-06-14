@@ -62,8 +62,8 @@ export default function Team() {
   return (
     <>
       <Container>
-        <h1 className="text-3xl tracking-tight text-zinc-300">Meet the Team</h1>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 py-16 gap-12">
+        <h1 className="text-3xl text-zinc-300 tracking-tight">Meet the Team</h1>
+        <div className="grid grid-cols-1 gap-12 py-16 lg:grid-cols-3 md:grid-cols-2">
           {members.map((item) => (
             <div key={item.name}>
               <h2 className="text-lg">{item.name}</h2>
