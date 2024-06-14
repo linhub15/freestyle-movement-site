@@ -40,7 +40,7 @@ export default function GoogleCalendar(props: { calendarId: string }) {
     const load = async () => {
       const url = buildUrl(props.calendarId);
       const response = await fetch(url);
-      const json = await response.json() as GoogleCalendar;
+      const json = (await response.json()) as GoogleCalendar;
 
       const sorted = json.items.sort((a, b) => {
         const aDate = new Date(a.start.dateTime ?? a.start.date ?? "");
@@ -65,16 +65,16 @@ export default function GoogleCalendar(props: { calendarId: string }) {
 
   return (
     <div className="event-list flex flex-col gap-8 py-8">
-      {events.map((group, idx) => (
-        <div key={idx}>
-          <h2 className="inline-block p-2 text-lg rounded text-gray-900 bg-gray-200 select-none">
+      {events.map((group) => (
+        <div key={group.date}>
+          <h2 className="inline-block select-none rounded bg-gray-200 p-2 text-gray-900 text-lg">
             <time>{group.date}</time>
           </h2>
           <div className="flex flex-col gap-5 py-6">
             {group.events.map((event, idx) => (
               <Event
                 event={event}
-                key={idx}
+                key={event.summary.trim().replaceAll(" ", "-")}
               />
             ))}
           </div>
@@ -108,29 +108,27 @@ function Event({ event }: { event: Event }) {
   const timeRange = `${maskTime(event.start)}-${maskTime(event.end)}`;
   return (
     <div>
-      <h3 className="font-bold inline">{event.summary}</h3>
+      <h3 className="inline font-bold">{event.summary}</h3>
       <div>
-        <div className="font-mono text-gray-400 text-sm py-1">
+        <div className="py-1 font-mono text-gray-400 text-sm">
           {hasRange ? timeRange : "All Day"}
-          {event.location &&
-            (
-              <>
-                {" • "}
-                <a
-                  href={`https://www.google.com/maps/search/${event.location}`}
-                >
-                  {maskLocation(event.location)}
-                </a>
-              </>
-            )}
+          {event.location && (
+            <>
+              {" • "}
+              <a href={`https://www.google.com/maps/search/${event.location}`}>
+                {maskLocation(event.location)}
+              </a>
+            </>
+          )}
         </div>
         {event.description && (
           <pre
-            className="font-sans leading-6 whitespace-pre-wrap"
+            className="whitespace-pre-wrap font-sans leading-6"
+            // biome-ignore lint/security/noDangerouslySetInnerHtml: <explanation>
             dangerouslySetInnerHTML={{
               __html: event.description,
             }}
-          ></pre>
+          />
         )}
       </div>
     </div>
@@ -161,17 +159,20 @@ function buildUrl(calendar_id: string) {
 
 function groupByDate(events: Event[]) {
   console.log(events);
-  const result = events.reduce((acc, event) => {
-    const date = maskDate(event.start);
+  const result = events.reduce(
+    (acc, event) => {
+      const date = maskDate(event.start);
 
-    if (!acc[date]) {
-      acc[date] = [];
-    }
+      if (!acc[date]) {
+        acc[date] = [];
+      }
 
-    acc[date].push(event);
+      acc[date].push(event);
 
-    return acc;
-  }, {} as { [date: string]: Event[] });
+      return acc;
+    },
+    {} as { [date: string]: Event[] },
+  );
 
   const asArray = Object.keys(result).map((date) => ({
     date: date,

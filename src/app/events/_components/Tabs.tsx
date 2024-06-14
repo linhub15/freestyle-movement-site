@@ -1,12 +1,12 @@
 "use client";
 
+import GoogleCalendar from "@/components/GoogleCalendar";
 import { cn } from "@/lib/utils/cn";
+import type { Route } from "next";
 import Link from "next/link";
 import { useRouter, useSearchParams } from "next/navigation";
 import Classes from "./Classes";
 import PracticeSpots from "./PracticeSpots";
-import GoogleCalendar from "@/components/GoogleCalendar";
-import { Route } from "next";
 
 const tabs = [
   { name: "Classes", id: "classes", content: <Classes /> },
@@ -41,12 +41,14 @@ export function Tabs() {
           <select
             id="tabs"
             name="tabs"
-            className="block w-full rounded-md border-0 bg-zinc-800/90 px-4 py-2 text-sm  font-medium text-zinc-200 shadow-lg shadow-zinc-800/5 ring-1 ring-white/10 backdrop-blur hover:ring-white/20"
+            className="block w-full rounded-md border-0 bg-zinc-800/90 px-4 py-2 font-medium text-sm text-zinc-200 shadow-lg shadow-zinc-800/5 ring-1 ring-white/10 backdrop-blur hover:ring-white/20"
             onChange={(e) => router.push(pathname(e.target.value))}
             value={activeTab.id}
           >
             {tabs.map((tab) => (
-              <option key={tab.id} value={tab.id}>{tab.name}</option>
+              <option key={tab.id} value={tab.id}>
+                {tab.name}
+              </option>
             ))}
           </select>
         </div>
@@ -60,7 +62,7 @@ export function Tabs() {
                   isActive(tab.id)
                     ? "bg-zinc-100 text-teal-900"
                     : "text-zinc-400 hover:text-teal-400",
-                  "rounded-md px-3 py-2 text-sm font-medium",
+                  "rounded-md px-3 py-2 font-medium text-sm",
                 )}
                 aria-current={isActive(tab.id) ? "page" : undefined}
               >
@@ -72,9 +74,7 @@ export function Tabs() {
       </div>
 
       {/* Content */}
-      <div>
-        {activeTab.content}
-      </div>
+      <div>{activeTab.content}</div>
     </>
   );
 }

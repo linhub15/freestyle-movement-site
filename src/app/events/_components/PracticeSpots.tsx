@@ -3,7 +3,7 @@ import { EventCard } from "./EventCard";
 
 export default function PracticeSpots() {
   return (
-    <div className="py-12 space-y-8">
+    <div className="space-y-8 py-12">
       <EventCard
         day="Mon"
         time="7:30-9:30 pm"
@@ -14,8 +14,9 @@ export default function PracticeSpots() {
             Public and open practice spot for all ages and skill levels.
             <br />
             Purchase{" "}
-            <Link className="underline" href="/memberships">membership</Link>
-            {" "}
+            <Link className="underline" href="/memberships">
+              membership
+            </Link>{" "}
             or $10 drop-in.
           </>
         }
@@ -31,8 +32,9 @@ export default function PracticeSpots() {
             Public and open practice spot for all ages and skill levels.
             <br />
             Purchase{" "}
-            <Link className="underline" href="/memberships">membership</Link>
-            {" "}
+            <Link className="underline" href="/memberships">
+              membership
+            </Link>{" "}
             or $10 drop-in.
           </>
         }
@@ -48,8 +50,9 @@ export default function PracticeSpots() {
             Public and open practice spot for all ages and skill levels.
             <br />
             Purchase{" "}
-            <Link className="underline" href="/memberships">membership</Link>
-            {" "}
+            <Link className="underline" href="/memberships">
+              membership
+            </Link>{" "}
             or $10 drop-in.
           </>
         }
@@ -67,8 +70,9 @@ export default function PracticeSpots() {
             Public, and open for all ages and skill levels.
             <br />
             Purchase{" "}
-            <Link className="underline" href="/memberships">membership</Link>
-            {" "}
+            <Link className="underline" href="/memberships">
+              membership
+            </Link>{" "}
             or $10 drop-in.
           </>
         }
