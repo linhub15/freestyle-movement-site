@@ -1,4 +1,4 @@
-import { ComponentProps, ReactNode } from "react";
+import type { ReactNode } from "react";
 
 type Props = {
   day: string;
@@ -17,15 +17,11 @@ export function EventCard(props: Props) {
       </div>
       <div className="space-y-3">
         <div>
-          <h3 className="md:text-xl font-medium">
-            {props.heading}
-          </h3>
+          <h3 className="md:text-xl font-medium">{props.heading}</h3>
           <p className="text-sm text-zinc-400">{props.location}</p>
         </div>
 
-        <p className="text-sm text-zinc-300">
-          {props.description}
-        </p>
+        <p className="text-sm text-zinc-300">{props.description}</p>
       </div>
     </div>
   );

@@ -1,24 +1,19 @@
+import { Hr } from "@/components/Divider";
 import { Stripe } from "@/components/Stripe";
 import { Container } from "../../components/Container";
-import { Hr } from "@/components/Divider";
 
 export default function Memberships() {
   return (
     <Container>
       <div className="flex flex-col gap-6">
         <div>
-          <h1 className="text-3xl tracking-tight text-zinc-300">
-            Memberships
-          </h1>
+          <h1 className="text-3xl tracking-tight text-zinc-300">Memberships</h1>
           <p className="text-zinc-400">
             Prices for drop-in and recurring practice sessions
           </p>
           <p className="text-zinc-400">
             For questions or issues with payment please{" "}
-            <a
-              className="underline"
-              href="mailto:hubert@freestylemovement.ca"
-            >
+            <a className="underline" href="mailto:hubert@freestylemovement.ca">
               email Hubert
             </a>
             .
@@ -55,7 +50,7 @@ export default function Memberships() {
               <h2 className="text-2xl font-bold leading-10 tracking-tight">
                 Frequently asked questions
               </h2>
-              <p className="mt-4 text-base leading-7"></p>
+              <p className="mt-4 text-base leading-7" />
             </div>
             <div className="mt-10 lg:col-span-7 lg:mt-0">
               <dl className="space-y-10">

@@ -15,8 +15,8 @@ export function Schedule() {
       <h3 className="font-semibold text-lg">Schedule</h3>
       <p>Open styles 1v1 | Footwork 1v1 | Youth breaking 2v2.</p>
       <p>
-        Your showcase rounds will determine your
-        tournament bracket position. Only top 8 will advance.
+        Your showcase rounds will determine your tournament bracket position.
+        Only top 8 will advance.
       </p>
 
       <dl className="pl-2 py-2 space-y-0.5">

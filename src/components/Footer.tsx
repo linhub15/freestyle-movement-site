@@ -1,8 +1,8 @@
 import Link from "next/link";
 
 import { ContainerInner, ContainerOuter } from "@/components/Container";
+import type { Route } from "next";
 import { FacebookIcon, InstagramIcon, YouTubeIcon } from "./SocialIcons";
-import { Route } from "next";
 
 function NavLink({
   href,
@@ -12,10 +12,7 @@ function NavLink({
   children: React.ReactNode;
 }) {
   return (
-    <Link
-      href={href}
-      className="transition hover:text-teal-400"
-    >
+    <Link href={href} className="transition hover:text-teal-400">
       {children}
     </Link>
   );
@@ -52,8 +49,8 @@ export function Footer() {
               </div>
 
               <p className="text-sm text-zinc-500">
-                &copy; {new Date().getFullYear()}{" "}
-                Freestyle Movement Dance Company Ltd.
+                &copy; {new Date().getFullYear()} Freestyle Movement Dance
+                Company Ltd.
               </p>
             </div>
           </ContainerInner>

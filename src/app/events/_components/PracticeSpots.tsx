@@ -14,8 +14,9 @@ export default function PracticeSpots() {
             Public and open practice spot for all ages and skill levels.
             <br />
             Purchase{" "}
-            <Link className="underline" href="/memberships">membership</Link>
-            {" "}
+            <Link className="underline" href="/memberships">
+              membership
+            </Link>{" "}
             or $10 drop-in.
           </>
         }
@@ -31,8 +32,9 @@ export default function PracticeSpots() {
             Public and open practice spot for all ages and skill levels.
             <br />
             Purchase{" "}
-            <Link className="underline" href="/memberships">membership</Link>
-            {" "}
+            <Link className="underline" href="/memberships">
+              membership
+            </Link>{" "}
             or $10 drop-in.
           </>
         }
@@ -48,8 +50,9 @@ export default function PracticeSpots() {
             Public and open practice spot for all ages and skill levels.
             <br />
             Purchase{" "}
-            <Link className="underline" href="/memberships">membership</Link>
-            {" "}
+            <Link className="underline" href="/memberships">
+              membership
+            </Link>{" "}
             or $10 drop-in.
           </>
         }
@@ -67,8 +70,9 @@ export default function PracticeSpots() {
             Public, and open for all ages and skill levels.
             <br />
             Purchase{" "}
-            <Link className="underline" href="/memberships">membership</Link>
-            {" "}
+            <Link className="underline" href="/memberships">
+              membership
+            </Link>{" "}
             or $10 drop-in.
           </>
         }

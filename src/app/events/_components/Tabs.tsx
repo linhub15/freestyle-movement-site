@@ -1,12 +1,12 @@
 "use client";
 
+import GoogleCalendar from "@/components/GoogleCalendar";
 import { cn } from "@/lib/utils/cn";
+import type { Route } from "next";
 import Link from "next/link";
 import { useRouter, useSearchParams } from "next/navigation";
 import Classes from "./Classes";
 import PracticeSpots from "./PracticeSpots";
-import GoogleCalendar from "@/components/GoogleCalendar";
-import { Route } from "next";
 
 const tabs = [
   { name: "Classes", id: "classes", content: <Classes /> },
@@ -46,7 +46,9 @@ export function Tabs() {
             value={activeTab.id}
           >
             {tabs.map((tab) => (
-              <option key={tab.id} value={tab.id}>{tab.name}</option>
+              <option key={tab.id} value={tab.id}>
+                {tab.name}
+              </option>
             ))}
           </select>
         </div>
@@ -72,9 +74,7 @@ export function Tabs() {
       </div>
 
       {/* Content */}
-      <div>
-        {activeTab.content}
-      </div>
+      <div>{activeTab.content}</div>
     </>
   );
 }

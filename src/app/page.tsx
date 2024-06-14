@@ -11,9 +11,9 @@ const links = [
     enabled: true,
   },
   {
-    "title": "West Edmonton classes - accepting students",
-    "href": "https://jinhyunglee.org/dance-classes/",
-    "enabled": true,
+    title: "West Edmonton classes - accepting students",
+    href: "https://jinhyunglee.org/dance-classes/",
+    enabled: true,
   },
 ];
 
@@ -34,8 +34,8 @@ export default function Home() {
           <p className="py-8 text-base text-zinc-400 ">
             Freestyle Movement is an Edmonton non-profit that creates
             opportunities for bboys, bgirls, choreographers and freestyle
-            dancers to grow. We teach classes, organize competitions and run regular
-            open practice sessions.
+            dancers to grow. We teach classes, organize competitions and run
+            regular open practice sessions.
           </p>
 
           <div className="flex flex-col items-center gap-6">
@@ -46,4 +46,3 @@ export default function Home() {
     </>
   );
 }
-
