@@ -1,5 +1,7 @@
+import { ArrowTopRightOnSquareIcon } from "@heroicons/react/16/solid";
+
 type Props = {
-  links: { enabled: boolean; title: string; href: string }[];
+  links: { enabled: boolean; title: string; href: string; external?: true }[];
 };
 
 export default function LinkTree({ links }: Props) {
@@ -14,6 +16,7 @@ export default function LinkTree({ links }: Props) {
               key={item.title}
             >
               {item.title}
+              {item.external && <ArrowTopRightOnSquareIcon className="size-4"/>}
             </a>
           ),
       )}

@@ -4,19 +4,6 @@ import { Container } from "../components/Container";
 import LinkTree from "../components/LinkTree";
 import logo from "../images/logo.png";
 
-const links = [
-  {
-    title: "Unrivaled 2024 (Driven Battle)",
-    href: "/events/unrivaled-2024",
-    enabled: true,
-  },
-  {
-    title: "West Edmonton classes - accepting students",
-    href: "https://jinhyunglee.org/dance-classes/",
-    enabled: true,
-  },
-];
-
 export default function Home() {
   return (
     <>
@@ -39,7 +26,16 @@ export default function Home() {
           </p>
 
           <div className="flex flex-col items-center gap-6">
-            <LinkTree links={links} />
+            <LinkTree
+              links={[
+                {
+                  title: "Unrivaled 2024 Video Playlist",
+                  href: "https://www.youtube.com/playlist?list=PLcWvW4pP19bv27WCUckTDnup-lcjhP5cU",
+                  enabled: true,
+                  external: true,
+                },
+              ]}
+            />
           </div>
         </div>
       </Container>
