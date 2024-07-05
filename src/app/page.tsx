@@ -1,8 +1,9 @@
 import Image from "next/image";
 
-import { Container } from "../components/Container";
-import LinkTree from "../components/LinkTree";
+import { Container } from "@/components/ui/Container";
+import LinkTree from "@/components/LinkTree";
 import logo from "../images/logo.png";
+import { LumaCalendar } from "@/components/widgets/Luma";
 
 export default function Home() {
   return (
@@ -20,22 +21,34 @@ export default function Home() {
 
           <p className="py-8 text-base text-zinc-400 ">
             Freestyle Movement is an Edmonton non-profit that creates
-            opportunities for bboys, bgirls, choreographers and freestyle
-            dancers to grow. We teach classes, organize competitions and run
-            regular open practice sessions.
+            opportunities for bboys, bgirls and freestyle dancers to grow. We
+            teach classes, organize competitions and run practice sessions for
+            all ages and skill levels.
           </p>
 
           <div className="flex flex-col items-center gap-6">
             <LinkTree
               links={[
                 {
-                  title: "Unrivaled 2024 Video Playlist",
-                  href: "https://www.youtube.com/playlist?list=PLcWvW4pP19bv27WCUckTDnup-lcjhP5cU",
+                  title: "Breakmont July 1 Videos",
+                  href:
+                    "https://www.youtube.com/watch?v=k9Og6yFDBzs&list=PLcWvW4pP19bulBthPZ-NccDSxRoEoCQWf",
+                  enabled: true,
+                  external: true,
+                },
+                {
+                  title: "Unrivaled 2024 Video",
+                  href:
+                    "https://www.youtube.com/playlist?list=PLcWvW4pP19bv27WCUckTDnup-lcjhP5cU",
                   enabled: true,
                   external: true,
                 },
               ]}
             />
+          </div>
+
+          <div className="py-6">
+            <LumaCalendar />
           </div>
         </div>
       </Container>

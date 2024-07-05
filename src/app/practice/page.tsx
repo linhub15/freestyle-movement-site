@@ -1,45 +1,50 @@
-import { Hr } from "@/components/Divider";
-import { Stripe } from "@/components/Stripe";
-import { Container } from "../../components/Container";
+import { Stripe } from "@/components/widgets/Stripe";
+import { Container } from "@/components/ui/Container";
+import PracticeSpots from "./PracticeSpots";
+import { Hr } from "@/components/ui/Divider";
 
 export default function Memberships() {
   return (
     <Container>
-      <div className="flex flex-col gap-6">
-        <div>
-          <h1 className="text-3xl text-zinc-300 tracking-tight">Memberships</h1>
-          <p className="text-zinc-400">
-            Prices for drop-in and recurring practice sessions
-          </p>
-          <p className="text-zinc-400">
-            For questions or issues with payment please{" "}
-            <a className="underline" href="mailto:hubert@freestylemovement.ca">
-              email Hubert
-            </a>
-            .
-          </p>
+      <div>
+        <div className="flex justify-between">
+          <h1 className="text-3xl text-zinc-300 tracking-tight">
+            Practice Sessions
+          </h1>
         </div>
 
-        <div>
-          <h2 className="py-4 text-lg text-zinc-300 leading-5 sm:truncate sm:text-xl sm:tracking-tight">
-            Already have a membership?
-          </h2>
+        <div className="grid gap-x-2 gap-y-16 py-8 lg:grid-cols-2">
+          <PracticeSpots />
+          <div className="w-full">
+            <div className="px-14">
+              <a
+                className="block w-full rounded-md bg-gray-700 py-3 text-center font-medium text-white shadow-sm hover:bg-gray-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-indigo-600 focus-visible:outline-offset-2"
+                href="https://billing.stripe.com/p/login/28o3fwari7UtfHadQQ"
+              >
+                Manage my membership
+              </a>
 
-          <a
-            className="flex h-fit w-fit items-center rounded-md bg-blue-600 px-3 py-2 font-medium text-sm text-white shadow-sm hover:bg-blue-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-indigo-600 focus-visible:outline-offset-2"
-            href="https://billing.stripe.com/p/login/28o3fwari7UtfHadQQ"
-          >
-            Manage membership
-          </a>
-        </div>
+              <p className="py-2 text-center text-sm text-zinc-400">
+                For issues with memberships{" "}
+                <a
+                  className="underline"
+                  href="mailto:hubert@freestylemovement.ca"
+                >
+                  email Hubert
+                </a>
+                .
+              </p>
+            </div>
 
-        <Hr />
+            <div className="px-14">
+              <Hr />
+            </div>
 
-        <div className="w-full">
-          <Stripe
-            pricingTableId="prctbl_1OJmUqJ1kSEluvIzLYyAqLOG"
-            publishableKey="pk_live_51OJll2J1kSEluvIzvRDs6akU2WNo5RQ2xUNd5MQ92CAyA4J7CpOTdFm15g4jqoKPm9ip9hc9CR3KTXv0CBEVFa1I00VKExIAPZ"
-          />
+            <Stripe
+              pricingTableId="prctbl_1OJmUqJ1kSEluvIzLYyAqLOG"
+              publishableKey="pk_live_51OJll2J1kSEluvIzvRDs6akU2WNo5RQ2xUNd5MQ92CAyA4J7CpOTdFm15g4jqoKPm9ip9hc9CR3KTXv0CBEVFa1I00VKExIAPZ"
+            />
+          </div>
         </div>
       </div>
 
@@ -107,16 +112,6 @@ export default function Memberships() {
                         href="https://maps.app.goo.gl/qEE9yfbEuzzS6THi9"
                       >
                         The Code YEG
-                      </a>
-                      .
-                    </p>
-                    <p>
-                      For detailed dates and times check the{"  "}
-                      <a
-                        className="font-medium text-indigo-500 hover:text-indigo-400"
-                        href="/events"
-                      >
-                        event calendar
                       </a>
                       .
                     </p>

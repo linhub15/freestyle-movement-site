@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Container } from "../../components/Container";
+import { Container } from "@/components/ui/Container";
 
 type Member = {
   name: string;
@@ -37,7 +37,7 @@ const members: Member[] = [
   },
   {
     name: "Jin Lee",
-    roles: "Event planner, Dance instructor",
+    roles: "Event planner, dance instructor",
   },
   {
     name: "Phil De Castro",
@@ -45,7 +45,7 @@ const members: Member[] = [
   },
   {
     name: "Josh Kearney",
-    roles: "Event planner",
+    roles: "Event planner, dance instructor",
   },
   {
     name: "Sion Kim",
@@ -58,20 +58,18 @@ export const metadata: Metadata = {
   description: "Our team  of volunteers",
 };
 
-export default function Team() {
+export function Team() {
   return (
-    <>
-      <Container>
-        <h1 className="text-3xl text-zinc-300 tracking-tight">Meet the Team</h1>
-        <div className="grid grid-cols-1 gap-12 py-16 lg:grid-cols-3 md:grid-cols-2">
-          {members.map((item) => (
-            <div key={item.name}>
-              <h2 className="text-lg">{item.name}</h2>
-              <p className="text-zinc-500">{item.roles}</p>
-            </div>
-          ))}
-        </div>
-      </Container>
-    </>
+    <Container>
+      <h1 className="text-3xl text-zinc-300 tracking-tight">Meet the Team</h1>
+      <div className="grid grid-cols-1 gap-12 py-16 lg:grid-cols-3 md:grid-cols-2">
+        {members.map((item) => (
+          <div key={item.name}>
+            <h2 className="text-lg">{item.name}</h2>
+            <p className="text-zinc-500">{item.roles}</p>
+          </div>
+        ))}
+      </div>
+    </Container>
   );
 }

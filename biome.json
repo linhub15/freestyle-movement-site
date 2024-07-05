@@ -3,9 +3,17 @@
   "organizeImports": {
     "enabled": true
   },
-  "files": { "include": ["./src/**/*"], "ignore": [".next"] },
+  "files": {
+    "include": [
+      "./src/**/*"
+    ],
+    "ignore": [
+      ".next"
+    ]
+  },
   "formatter": {
-    "indentStyle": "space"
+    "indentStyle": "space",
+    "indentWidth": 2
   },
   "linter": {
     "enabled": true,
@@ -16,8 +24,14 @@
           "fix": "unsafe",
           "level": "warn",
           "options": {
-            "attributes": ["classList"],
-            "functions": ["clsx", "cva", "tw"]
+            "attributes": [
+              "classList"
+            ],
+            "functions": [
+              "clsx",
+              "cva",
+              "tw"
+            ]
           }
         }
       }

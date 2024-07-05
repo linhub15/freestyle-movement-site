@@ -1,12 +1,19 @@
 "use client";
 
-import { Popover, Transition } from "@headlessui/react";
+import {
+  Popover,
+  PopoverButton,
+  PopoverOverlay,
+  PopoverPanel,
+  Transition,
+  TransitionChild,
+} from "@headlessui/react";
 import clsx from "clsx";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { Fragment, useEffect, useRef } from "react";
 
-import { Container } from "@/components/Container";
+import { Container } from "@/components/ui/Container";
 import type { Route } from "next";
 
 function CloseIcon(props: React.ComponentPropsWithoutRef<"svg">) {
@@ -49,9 +56,9 @@ function MobileNavItem({
 }) {
   return (
     <li>
-      <Popover.Button as={Link} href={href} className="block py-2">
+      <PopoverButton as={Link} href={href} className="block py-2">
         {children}
-      </Popover.Button>
+      </PopoverButton>
     </li>
   );
 }
@@ -61,12 +68,12 @@ function MobileNavigation(
 ) {
   return (
     <Popover {...props}>
-      <Popover.Button className="group flex items-center rounded-full bg-zinc-800/90 px-4 py-2 font-medium text-sm text-zinc-200 shadow-lg shadow-zinc-800/5 ring-1 ring-white/10 backdrop-blur hover:ring-white/20">
+      <PopoverButton className="group flex items-center rounded-full bg-zinc-800/90 px-4 py-2 font-medium text-sm text-zinc-200 shadow-lg shadow-zinc-800/5 ring-1 ring-white/10 backdrop-blur hover:ring-white/20">
         Menu
         <ChevronDownIcon className="ml-3 h-auto w-2 stroke-zinc-500 group-hover:stroke-zinc-400" />
-      </Popover.Button>
-      <Transition.Root>
-        <Transition.Child
+      </PopoverButton>
+      <Transition>
+        <TransitionChild
           as={Fragment}
           enter="duration-150 ease-out"
           enterFrom="opacity-0"
@@ -75,9 +82,9 @@ function MobileNavigation(
           leaveFrom="opacity-100"
           leaveTo="opacity-0"
         >
-          <Popover.Overlay className="fixed inset-0 z-50 bg-black/80 backdrop-blur-sm" />
-        </Transition.Child>
-        <Transition.Child
+          <PopoverOverlay className="fixed inset-0 z-50 bg-black/80 backdrop-blur-sm" />
+        </TransitionChild>
+        <TransitionChild
           as={Fragment}
           enter="duration-150 ease-out"
           enterFrom="opacity-0 scale-95"
@@ -86,14 +93,14 @@ function MobileNavigation(
           leaveFrom="opacity-100 scale-100"
           leaveTo="opacity-0 scale-95"
         >
-          <Popover.Panel
+          <PopoverPanel
             focus
             className="fixed inset-x-4 top-8 z-50 origin-top rounded-3xl bg-zinc-900 p-8 ring-1 ring-zinc-800"
           >
             <div className="flex flex-row-reverse items-center justify-between">
-              <Popover.Button aria-label="Close menu" className="-m-1 p-1">
+              <PopoverButton aria-label="Close menu" className="-m-1 p-1">
                 <CloseIcon className="h-6 w-6 text-zinc-400" />
-              </Popover.Button>
+              </PopoverButton>
               <h2 className="font-medium text-sm text-zinc-400">Navigation</h2>
             </div>
             <nav className="mt-6">
@@ -105,9 +112,9 @@ function MobileNavigation(
                 ))}
               </ul>
             </nav>
-          </Popover.Panel>
-        </Transition.Child>
-      </Transition.Root>
+          </PopoverPanel>
+        </TransitionChild>
+      </Transition>
     </Popover>
   );
 }
@@ -163,13 +170,8 @@ function clamp(number: number, a: number, b: number) {
 
 type NavItem = { title: string; href: Route };
 
-export function Header({ links }: { links?: NavItem[] }) {
-  if (!links?.length) {
-    links = [];
-  }
-
+export function Header({ links = [] }: { links?: NavItem[] }) {
   const isHomePage = usePathname() === "/";
-
   const headerRef = useRef<React.ElementRef<"div">>(null);
   const isInitial = useRef(true);
 
@@ -259,8 +261,9 @@ export function Header({ links }: { links?: NavItem[] }) {
           <Container
             className="top-[var(--header-top,theme(spacing.6))] w-full"
             style={{
-              position:
-                "var(--header-inner-position)" as React.CSSProperties["position"],
+              position: "var(--header-inner-position)" as React.CSSProperties[
+                "position"
+              ],
             }}
           >
             <div className="relative flex gap-4">

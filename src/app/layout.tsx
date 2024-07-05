@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import { GoogleAnalytics } from "@next/third-parties/google";
-import { Footer } from "../components/Footer";
-import { Header } from "../components/Header";
+import { Footer } from "@/components/Footer";
+import { Header } from "@/components/Header";
 import { Providers } from "./providers";
 
 export const metadata: Metadata = {
@@ -69,9 +69,9 @@ function Layout({ children }: { children: React.ReactNode }) {
         <Header
           links={[
             { title: "Home", href: "/" },
-            { title: "Memberships", href: "/memberships" },
-            { title: "Events", href: "/events" },
-            { title: "Team", href: "/team" },
+            { title: "Learn", href: "/learn" },
+            { title: "Practice", href: "/practice" },
+            { title: "About", href: "/about" },
           ]}
         />
         <main className="flex-auto pt-10 text-zinc-100">{children}</main>

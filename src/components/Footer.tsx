@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-import { ContainerInner, ContainerOuter } from "@/components/Container";
+import { ContainerInner, ContainerOuter } from "@/components/ui/Container";
 import type { Route } from "next";
 import { FacebookIcon, InstagramIcon, YouTubeIcon } from "./SocialIcons";
 

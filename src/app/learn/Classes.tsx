@@ -1,8 +1,8 @@
-import { EventCard } from "./EventCard";
+import { EventCard } from "@/components/ui/EventCard";
 
-export default function Classes() {
+export function Classes() {
   return (
-    <div className="space-y-8 py-12">
+    <div className="space-y-8">
       <EventCard
         day="Mon"
         time="6:00 pm"
@@ -10,7 +10,7 @@ export default function Classes() {
         location="8535 182 St NW, Edmonton"
         description={
           <>
-            Contact{" "}
+            1.5 hour beginner breaking class. Contact{" "}
             <a className="underline" href="mailto:jin@freestylemovement.ca">
               Jin Lee
             </a>{" "}
@@ -38,7 +38,8 @@ export default function Classes() {
         }
       />
 
-      <EventCard
+      {
+        /* <EventCard
         day="Wed"
         time="6:30 pm"
         heading="Beginner Break Dance Ottewell • Ages 8 - 17"
@@ -55,7 +56,8 @@ export default function Classes() {
             for more information
           </>
         }
-      />
+      /> */
+      }
     </div>
   );
 }
