@@ -5,9 +5,7 @@ export default function LearnPage() {
   return (
     <Container>
       <div className="flex justify-between">
-        <h1 className="text-3xl text-zinc-300 tracking-tight">
-          Learn
-        </h1>
+        <h1 className="text-3xl text-zinc-300 tracking-tight">Learn</h1>
       </div>
 
       <div className="text-zinc-400">

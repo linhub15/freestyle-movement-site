@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import { GoogleAnalytics } from "@next/third-parties/google";
 import { Footer } from "@/components/Footer";
 import { Header } from "@/components/Header";
+import { GoogleAnalytics } from "@next/third-parties/google";
 import { Providers } from "./providers";
 
 export const metadata: Metadata = {

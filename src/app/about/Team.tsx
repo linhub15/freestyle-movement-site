@@ -1,5 +1,5 @@
-import type { Metadata } from "next";
 import { Container } from "@/components/ui/Container";
+import type { Metadata } from "next";
 
 type Member = {
   name: string;

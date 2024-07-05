@@ -261,9 +261,8 @@ export function Header({ links = [] }: { links?: NavItem[] }) {
           <Container
             className="top-[var(--header-top,theme(spacing.6))] w-full"
             style={{
-              position: "var(--header-inner-position)" as React.CSSProperties[
-                "position"
-              ],
+              position:
+                "var(--header-inner-position)" as React.CSSProperties["position"],
             }}
           >
             <div className="relative flex gap-4">

@@ -1,7 +1,7 @@
-import { Stripe } from "@/components/widgets/Stripe";
 import { Container } from "@/components/ui/Container";
-import PracticeSpots from "./PracticeSpots";
 import { Hr } from "@/components/ui/Divider";
+import { Stripe } from "@/components/widgets/Stripe";
+import PracticeSpots from "./PracticeSpots";
 
 export default function Memberships() {
   return (

@@ -4,12 +4,8 @@
     "enabled": true
   },
   "files": {
-    "include": [
-      "./src/**/*"
-    ],
-    "ignore": [
-      ".next"
-    ]
+    "include": ["./src/**/*"],
+    "ignore": [".next"]
   },
   "formatter": {
     "indentStyle": "space",
@@ -24,14 +20,8 @@
           "fix": "unsafe",
           "level": "warn",
           "options": {
-            "attributes": [
-              "classList"
-            ],
-            "functions": [
-              "clsx",
-              "cva",
-              "tw"
-            ]
+            "attributes": ["classList"],
+            "functions": ["clsx", "cva", "tw"]
           }
         }
       }

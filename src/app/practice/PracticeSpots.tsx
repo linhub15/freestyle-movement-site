@@ -31,8 +31,7 @@ export default function PracticeSpots() {
         }
       />
 
-      {
-        /* <EventCard
+      {/* <EventCard
         day="Wed"
         time="7:30-9:30 pm"
         heading="Ottewell Session • East"
@@ -45,8 +44,7 @@ export default function PracticeSpots() {
 
           </>
         }
-      /> */
-      }
+      /> */}
 
       <EventCard
         day="Fri"

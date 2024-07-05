@@ -16,7 +16,9 @@ export default function LinkTree({ links }: Props) {
               key={item.title}
             >
               {item.title}
-              {item.external && <ArrowTopRightOnSquareIcon className="size-4"/>}
+              {item.external && (
+                <ArrowTopRightOnSquareIcon className="size-4" />
+              )}
             </a>
           ),
       )}

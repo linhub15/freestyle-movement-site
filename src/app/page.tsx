@@ -1,9 +1,9 @@
 import Image from "next/image";
 
-import { Container } from "@/components/ui/Container";
 import LinkTree from "@/components/LinkTree";
-import logo from "../images/logo.png";
+import { Container } from "@/components/ui/Container";
 import { LumaCalendar } from "@/components/widgets/Luma";
+import logo from "../images/logo.png";
 
 export default function Home() {
   return (
@@ -31,15 +31,13 @@ export default function Home() {
               links={[
                 {
                   title: "Breakmont July 1 Videos",
-                  href:
-                    "https://www.youtube.com/watch?v=k9Og6yFDBzs&list=PLcWvW4pP19bulBthPZ-NccDSxRoEoCQWf",
+                  href: "https://www.youtube.com/watch?v=k9Og6yFDBzs&list=PLcWvW4pP19bulBthPZ-NccDSxRoEoCQWf",
                   enabled: true,
                   external: true,
                 },
                 {
                   title: "Unrivaled 2024 Video",
-                  href:
-                    "https://www.youtube.com/playlist?list=PLcWvW4pP19bv27WCUckTDnup-lcjhP5cU",
+                  href: "https://www.youtube.com/playlist?list=PLcWvW4pP19bv27WCUckTDnup-lcjhP5cU",
                   enabled: true,
                   external: true,
                 },

@@ -38,8 +38,7 @@ export function Classes() {
         }
       />
 
-      {
-        /* <EventCard
+      {/* <EventCard
         day="Wed"
         time="6:30 pm"
         heading="Beginner Break Dance Ottewell • Ages 8 - 17"
@@ -56,8 +55,7 @@ export function Classes() {
             for more information
           </>
         }
-      /> */
-      }
+      /> */}
     </div>
   );
 }
