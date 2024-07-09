@@ -7,10 +7,14 @@ export default function Memberships() {
   return (
     <Container>
       <div>
-        <div className="flex justify-between">
+        <div>
           <h1 className="text-3xl text-zinc-300 tracking-tight">
             Practice Sessions
           </h1>
+          <p className="max-w-lg py-8 text-zinc-400">
+            Are you looking to practice breaking in Edmonton? Here are some of
+            our open practice spots for all ages and skill levels.
+          </p>
         </div>
 
         <div className="grid gap-x-2 gap-y-16 py-8 lg:grid-cols-2">

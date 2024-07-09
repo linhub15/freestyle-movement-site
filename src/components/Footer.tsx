@@ -48,7 +48,7 @@ export function Footer() {
                 </div>
               </div>
 
-              <p className="text-sm text-zinc-500">
+              <p className="text-sm text-zinc-400">
                 &copy; {new Date().getFullYear()} Freestyle Movement Dance
                 Company Ltd.
               </p>
