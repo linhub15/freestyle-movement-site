@@ -75,7 +75,9 @@ export function Team() {
       <div className="grid grid-cols-1 gap-8 py-16 lg:grid-cols-3 md:grid-cols-2 md:gap-12">
         {members.map((item) => (
           <div key={item.name}>
-            <h3 className="text-xl text-zinc-300 leading-8 tracking-tight">{item.name}</h3>
+            <h3 className="text-xl text-zinc-300 leading-8 tracking-tight">
+              {item.name}
+            </h3>
             <p className="font-light text-zinc-400 leading-7">{item.roles}</p>
           </div>
         ))}

@@ -1,4 +1,3 @@
-
 import { Container } from "@/components/ui/Container";
 import type { StaticImageData } from "next/image";
 import Image from "next/image";
@@ -22,50 +21,43 @@ const leaders: Leader[] = [
     name: "Jeff Baglinit",
     image: jeffHeadshot,
     role: "Community Leader",
-    bio:
-      "Jeff has built his reputation as a community leader in Edmonton starting from his presidency of multiple university dance clubs to organizing large provincial dance events.",
+    bio: "Jeff has built his reputation as a community leader in Edmonton starting from his presidency of multiple university dance clubs to organizing large provincial dance events.",
   },
   {
     name: "Jin Lee",
     image: jinHeadshot,
     role: "Community Leader",
-    bio:
-      "Jin is a respected community leader and one of the top competitive breakers in Edmonton. He has hosted numerous events and teaches breaking to the new generation.",
+    bio: "Jin is a respected community leader and one of the top competitive breakers in Edmonton. He has hosted numerous events and teaches breaking to the new generation.",
   },
   {
     name: "Josh Kearney",
     image: joshHeadshot,
     role: "Community Leader",
-    bio:
-      "Josh is the co-president of the Open Styles Dance club at the University of Alberta. He has been a key part in organizing Unrivaled 2024 and is stepping up to teach classes in Edmonton.",
+    bio: "Josh is the co-president of the Open Styles Dance club at the University of Alberta. He has been a key part in organizing Unrivaled 2024 and is stepping up to teach classes in Edmonton.",
   },
   {
     name: "Patricia Limcangco",
     image: patriciaHeadshot,
     role: "Director",
-    bio:
-      "Patricia is a co-founder of Freestyle Movement. She built our first website, designed event posters and engaged with the community through social media and in-person",
+    bio: "Patricia is a co-founder of Freestyle Movement. She built our first website, designed event posters and engaged with the community through social media and in-person",
   },
   {
     name: "Elaine Ho",
     image: elaineHeadshot,
     role: "Director",
-    bio:
-      "Elaine is a co-founder and finance executive of Freestyle Movement. She manages the books and is a key part of our annual programming.",
+    bio: "Elaine is a co-founder and finance executive of Freestyle Movement. She manages the books and is a key part of our annual programming.",
   },
   {
     name: "Pranaya Prajapati",
     image: pranayaHeadshot,
     role: "Director",
-    bio:
-      "Pranaya is a co-founder of Freestyle Movement. He has been a large part of organizing events and teaching classes in Edmonton. Sometimes he even picks up the mic to Emcee.",
+    bio: "Pranaya is a co-founder of Freestyle Movement. He has been a large part of organizing events and teaching classes in Edmonton. Sometimes he even picks up the mic to Emcee.",
   },
   {
     name: "Hubert Lin",
     image: hubertHeadshot,
     role: "Director",
-    bio:
-      "Hubert is a co-founder of Freestyle Movement. He helps out with event planning, practice space scheduling and website maintenance. He also teaches breaking classes.",
+    bio: "Hubert is a co-founder of Freestyle Movement. He helps out with event planning, practice space scheduling and website maintenance. He also teaches breaking classes.",
   },
 ];
 

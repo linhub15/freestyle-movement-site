@@ -1,7 +1,7 @@
-import type { Metadata } from "next";
 import { Container } from "@/components/ui/Container";
-import { Team } from "./Team";
+import type { Metadata } from "next";
 import { Leadership } from "./Leadership";
+import { Team } from "./Team";
 
 export const metadata: Metadata = {
   title: "About | Freestyle Movement",
