@@ -75,6 +75,8 @@ export function Leadership() {
                 className="aspect-[4/5] h-52 w-full max-w-80 flex-none rounded-2xl object-cover grayscale sm:h-auto sm:w-52"
                 src={leader.image}
                 alt={leader.name}
+                width={320}
+                height={260}
               />
             )}
             <div className="flex-auto">
