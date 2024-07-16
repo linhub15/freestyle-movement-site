@@ -5,7 +5,7 @@ import elaineHeadshot from "./images/elaine-headshot.webp";
 import hubertHeadshot from "./images/hubert-headshot.jpeg";
 import jeffHeadshot from "./images/jeff-headshot.jpeg";
 import jinHeadshot from "./images/jin-headshot.jpeg";
-import joshHeadshot from "./images/josh-headshot.png";
+import joshHeadshot from "./images/josh-headshot.jpeg";
 import patriciaHeadshot from "./images/patricia-headshot.jpeg";
 import pranayaHeadshot from "./images/pranaya-headshot.jpeg";
 
