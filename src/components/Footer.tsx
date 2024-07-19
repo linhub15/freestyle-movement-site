@@ -1,28 +1,28 @@
 import Link from "next/link";
 
 import { ContainerInner, ContainerOuter } from "@/components/ui/Container";
-import type { Route } from "next";
+import type { PropsWithChildren } from "react";
 import { FacebookIcon, InstagramIcon, YouTubeIcon } from "./SocialIcons";
-
-function NavLink({
-  href,
-  children,
-}: {
-  href: Route;
-  children: React.ReactNode;
-}) {
-  return (
-    <Link href={href} className="transition hover:text-teal-400">
-      {children}
-    </Link>
-  );
-}
 
 export function Footer() {
   return (
     <footer className="mt-32 flex-none">
+      <h2 id="footer-heading" className="sr-only">
+        Footer
+      </h2>
       <ContainerOuter>
-        <div className="border-zinc-700/40 border-t pt-10 pb-16">
+        <div className="space-y-16 border-zinc-700/40 border-t pt-10 pb-16 lg:pt-16">
+          <ContainerInner>
+            <div className="grid grid-cols-2 gap-8">
+              <LinkGroup title="Freestyle Movement">
+                <LinkItem title="Home" href="/" />
+                <LinkItem title="Learn" href="/learn" />
+                <LinkItem title="Practice" href="/practice" />
+                <LinkItem title="About" href="/about" />
+              </LinkGroup>
+            </div>
+          </ContainerInner>
+
           <ContainerInner>
             <div className="flex flex-col items-center justify-between gap-6 sm:flex-row">
               <div className="flex flex-wrap justify-center gap-6">
@@ -34,15 +34,15 @@ export function Footer() {
                     target="_blank"
                   />
                   <SocialLink
-                    href="https://www.youtube.com/@freestyle.movement"
-                    aria-label="Follow on YouTube"
-                    icon={YouTubeIcon}
-                    target="_blank"
-                  />
-                  <SocialLink
                     href="https://www.facebook.com/freestylemovement.ca"
                     aria-label="Follow on Facebook"
                     icon={FacebookIcon}
+                    target="_blank"
+                  />
+                  <SocialLink
+                    href="https://www.youtube.com/@freestyle.movement"
+                    aria-label="Follow on YouTube"
+                    icon={YouTubeIcon}
                     target="_blank"
                   />
                 </div>
@@ -68,7 +68,38 @@ function SocialLink({
 }) {
   return (
     <Link className="group -m-1 p-1" {...props}>
-      <Icon className="h-6 w-6 fill-zinc-400 transition group-hover:fill-zinc-300" />
+      <Icon className="h-6 w-6 fill-zinc-400 transition group-hover:fill-teal-400" />
     </Link>
+  );
+}
+
+function LinkGroup(props: { title: string } & PropsWithChildren) {
+  return (
+    <div>
+      {props.title && (
+        <h3 className="font-semibold text-sm text-zinc-100 leading-6">
+          {props.title}
+        </h3>
+      )}
+      <ul className="mt-6 space-y-4">{props.children}</ul>
+    </div>
+  );
+}
+
+function LinkItem({
+  title,
+  ...linkProps
+}: React.ComponentPropsWithoutRef<typeof Link> & {
+  title: string;
+}) {
+  return (
+    <li>
+      <Link
+        className="text-sm text-zinc-400 leading-6 hover:text-teal-400"
+        {...linkProps}
+      >
+        {title}
+      </Link>
+    </li>
   );
 }

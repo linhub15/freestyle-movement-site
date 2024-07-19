@@ -2,50 +2,21 @@
 
 import {
   Popover,
+  PopoverBackdrop,
   PopoverButton,
-  PopoverOverlay,
   PopoverPanel,
   Transition,
   TransitionChild,
 } from "@headlessui/react";
-import clsx from "clsx";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { Fragment, useEffect, useRef } from "react";
 
 import { Container } from "@/components/ui/Container";
+import { cn } from "@/lib/utils/cn";
+import { XMarkIcon } from "@heroicons/react/24/outline";
+import { ChevronDownIcon } from "@heroicons/react/24/solid";
 import type { Route } from "next";
-
-function CloseIcon(props: React.ComponentPropsWithoutRef<"svg">) {
-  return (
-    <svg viewBox="0 0 24 24" aria-hidden="true" {...props}>
-      <title>Close</title>
-      <path
-        d="m17.25 6.75-10.5 10.5M6.75 6.75l10.5 10.5"
-        fill="none"
-        stroke="currentColor"
-        strokeWidth="1.5"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-      />
-    </svg>
-  );
-}
-
-function ChevronDownIcon(props: React.ComponentPropsWithoutRef<"svg">) {
-  return (
-    <svg viewBox="0 0 8 6" aria-hidden="true" {...props}>
-      <title>Chevron Down</title>
-      <path
-        d="M1.75 1.75 4 4.25l2.25-2.5"
-        fill="none"
-        strokeWidth="1.5"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-      />
-    </svg>
-  );
-}
 
 function MobileNavItem({
   href,
@@ -70,7 +41,7 @@ function MobileNavigation(
     <Popover {...props}>
       <PopoverButton className="group flex items-center rounded-full bg-zinc-800/90 px-4 py-2 font-medium text-sm text-zinc-200 shadow-lg shadow-zinc-800/5 ring-1 ring-white/10 backdrop-blur hover:ring-white/20">
         Menu
-        <ChevronDownIcon className="ml-3 h-auto w-2 stroke-zinc-500 group-hover:stroke-zinc-400" />
+        <ChevronDownIcon className="ml-3 size-2 stroke-zinc-500 group-hover:stroke-zinc-400" />
       </PopoverButton>
       <Transition>
         <TransitionChild
@@ -82,7 +53,7 @@ function MobileNavigation(
           leaveFrom="opacity-100"
           leaveTo="opacity-0"
         >
-          <PopoverOverlay className="fixed inset-0 z-50 bg-black/80 backdrop-blur-sm" />
+          <PopoverBackdrop className="fixed inset-0 z-50 bg-black/80 backdrop-blur-sm" />
         </TransitionChild>
         <TransitionChild
           as={Fragment}
@@ -99,7 +70,7 @@ function MobileNavigation(
           >
             <div className="flex flex-row-reverse items-center justify-between">
               <PopoverButton aria-label="Close menu" className="-m-1 p-1">
-                <CloseIcon className="h-6 w-6 text-zinc-400" />
+                <XMarkIcon className="h-6 w-6 text-zinc-400" />
               </PopoverButton>
               <h2 className="font-medium text-sm text-zinc-400">Navigation</h2>
             </div>
@@ -132,7 +103,7 @@ function NavItem({
     <li>
       <Link
         href={href}
-        className={clsx(
+        className={cn(
           "relative block px-3 py-2 transition",
           isActive ? "text-teal-400" : "hover:text-teal-400",
         )}
