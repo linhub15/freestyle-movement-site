@@ -2,6 +2,7 @@ import Link from "next/link";
 
 import { ContainerInner, ContainerOuter } from "@/components/ui/Container";
 import { ArrowTopRightOnSquareIcon } from "@heroicons/react/16/solid";
+import type { Route } from "next";
 import type { PropsWithChildren } from "react";
 import { FacebookIcon, InstagramIcon, YouTubeIcon } from "./SocialIcons";
 
@@ -24,7 +25,7 @@ export function Footer() {
 
               <div className="space-y-8">
                 <LinkGroup title="Resources">
-                  <LinkItem title="Code of conduct" href="/code-of-conduct" />
+                  <LinkItem title="Code of conduct" href={"/code-of-conduct" as Route} />
                   <LinkItem
                     title="Event Calendar (Luma)"
                     href="https://lu.ma/freestyle.movement"
