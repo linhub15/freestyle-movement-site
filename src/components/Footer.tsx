@@ -1,6 +1,7 @@
 import Link from "next/link";
 
 import { ContainerInner, ContainerOuter } from "@/components/ui/Container";
+import { ArrowTopRightOnSquareIcon } from "@heroicons/react/16/solid";
 import type { PropsWithChildren } from "react";
 import { FacebookIcon, InstagramIcon, YouTubeIcon } from "./SocialIcons";
 
@@ -20,6 +21,23 @@ export function Footer() {
                 <LinkItem title="Practice" href="/practice" />
                 <LinkItem title="About" href="/about" />
               </LinkGroup>
+
+              <div className="space-y-8">
+                <LinkGroup title="Resources">
+                  <LinkItem title="Code of conduct" href="/code-of-conduct" />
+                  <LinkItem
+                    title="Event Calendar (Luma)"
+                    href="https://lu.ma/freestyle.movement"
+                  />
+                </LinkGroup>
+
+                <LinkGroup title="Partners">
+                  <LinkItem
+                    title="Street Styles 780"
+                    href="https://www.streetstyles780.com/"
+                  />
+                </LinkGroup>
+              </div>
             </div>
           </ContainerInner>
 
@@ -81,7 +99,7 @@ function LinkGroup(props: { title: string } & PropsWithChildren) {
           {props.title}
         </h3>
       )}
-      <ul className="mt-6 space-y-4">{props.children}</ul>
+      <ul className="mt-4 space-y-4">{props.children}</ul>
     </div>
   );
 }
@@ -92,6 +110,8 @@ function LinkItem({
 }: React.ComponentPropsWithoutRef<typeof Link> & {
   title: string;
 }) {
+  const isExternalLink = linkProps.href.toString().startsWith("http");
+
   return (
     <li>
       <Link
@@ -99,6 +119,9 @@ function LinkItem({
         {...linkProps}
       >
         {title}
+        {isExternalLink && (
+          <ArrowTopRightOnSquareIcon className="ml-1 inline-block size-3" />
+        )}
       </Link>
     </li>
   );
