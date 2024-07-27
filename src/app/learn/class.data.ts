@@ -52,7 +52,7 @@ const tuesdayClasses: Class = {
   },
   classes: [
     {
-      title: "New Student Breaking Class",
+      title: "New Student Breaking",
       time: "5:30 - 6:00 PM",
       canRegister: undefined,
       ageRange: "Ages 10+",
