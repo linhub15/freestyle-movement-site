@@ -25,7 +25,10 @@ export function Footer() {
 
               <div className="space-y-8">
                 <LinkGroup title="Resources">
-                  <LinkItem title="Code of conduct" href={"/code-of-conduct" as Route} />
+                  <LinkItem
+                    title="Code of conduct"
+                    href={"/code-of-conduct" as Route}
+                  />
                   <LinkItem
                     title="Event Calendar (Luma)"
                     href="https://lu.ma/freestyle.movement"

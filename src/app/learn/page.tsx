@@ -1,5 +1,8 @@
 import { Container } from "@/components/ui/Container";
-import { Classes } from "./Classes";
+import { Pill } from "@/components/ui/Pill";
+import { classes, type DanceClass } from "./class.data";
+import Link from "next/link";
+import { ArrowRightIcon } from "@heroicons/react/16/solid";
 
 export default function LearnPage() {
   return (
@@ -7,19 +10,79 @@ export default function LearnPage() {
       <div className="flex justify-between">
         <h1 className="text-3xl text-zinc-300 tracking-tight">Learn</h1>
       </div>
-
-      <div className="text-zinc-400">
-        <p>
-          Registration for fall 2024 breaking classes will be available soon.
-        </p>
-      </div>
+      <p className="text-zinc-400">
+        Fall 2024 classes go from September to December.
+        <br />
+        Registration forms and pricing coming in August 2024.
+      </p>
 
       <div className="py-12">
-        <h2 className="py-4 text-lg text-zinc-300 leading-5 sm:truncate sm:text-xl sm:tracking-tight">
-          Ongoing Classes
+        <h2 className="py-8 text-lg text-zinc-300 leading-5 sm:truncate sm:text-xl sm:tracking-tight">
+          Fall 2024 Schedule
         </h2>
-        <Classes />
+
+        <div className="space-y-16">
+          {classes.map((item) => (
+            <div key={item.dayOfWeek}>
+              <div className="mb-2 text-2xl">{item.dayOfWeek}</div>
+              <div className="gap-x-4 sm:flex">
+                <div className="w-full max-w-xs">
+                  <div>{item.location.name}</div>
+                  <div className="text-zinc-400">{item.location.address}</div>
+
+                  <div className="py-6">
+                    {item.href && (
+                      <Link href={item.href}>
+                        <div className="flex w-fit items-center rounded-md bg-gray-700 px-3 py-1 text-sm text-zinc-200 hover:bg-gray-600">
+                          Class Details
+                          <ArrowRightIcon className="ml-1.5 inline-block size-3" />
+                        </div>
+                      </Link>
+                    )}
+                  </div>
+                </div>
+
+                <div className="flex flex-col">
+                  {item.classes.map((danceClass) => (
+                    <div
+                      key={danceClass.title}
+                      className="relative flex overflow-hidden pb-6"
+                    >
+                      <span
+                        className="-ml-px absolute top-8 left-4 h-full w-px bg-zinc-600"
+                        aria-hidden="true"
+                      />
+                      <div className="flex h-8 w-8 items-center justify-center rounded-full ">
+                        <div className="size-1.5 rounded-full ring-1 ring-zinc-500" />
+                      </div>
+
+                      <ClassCard {...danceClass} />
+                    </div>
+                  ))}
+                </div>
+              </div>
+            </div>
+          ))}
+        </div>
       </div>
     </Container>
+  );
+}
+
+function ClassCard(props: DanceClass) {
+  return (
+    <div>
+      <h3 className="text-lg">{props.title}</h3>
+      <div className="text-zinc-400">
+        <div>{props.time}</div>
+        <div className="flex gap-3 py-2">
+          {props.ageRange && <Pill>{props.ageRange}</Pill>}
+          {props.canRegister === true && (
+            <Pill variant="success">Registration Open</Pill>
+          )}
+          {props.canRegister === false && <Pill>Registration Closed</Pill>}
+        </div>
+      </div>
+    </div>
   );
 }
