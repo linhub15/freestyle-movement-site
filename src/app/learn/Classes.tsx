@@ -37,25 +37,6 @@ export function Classes() {
           </>
         }
       />
-
-      {/* <EventCard
-        day="Wed"
-        time="6:30 pm"
-        heading="Beginner Break Dance Ottewell • Ages 8 - 17"
-        location="9435 73 St NW, Edmonton"
-        description={
-          <>
-            Check out{" "}
-            <a
-              className="underline"
-              href="https://www.streetstyles780.com/courses/beginner-break-dance-ottewell"
-            >
-              Street Style 780
-            </a>{" "}
-            for more information
-          </>
-        }
-      /> */}
     </div>
   );
 }
