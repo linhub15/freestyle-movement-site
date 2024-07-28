@@ -1,4 +1,4 @@
-import { cva, type VariantProps } from "@/lib/utils/cva";
+import { type VariantProps, cva } from "@/lib/utils/cva";
 import type { Prettify } from "@/lib/utils/prettify";
 import type { PropsWithChildren } from "react";
 

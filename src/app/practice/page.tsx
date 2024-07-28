@@ -1,6 +1,7 @@
 import { Container } from "@/components/ui/Container";
-import { Hr } from "@/components/ui/Divider";
+import { Hr } from "@/components/ui/Hr";
 import { Stripe } from "@/components/widgets/Stripe";
+import { PLACES } from "@/data/places";
 import PracticeSpots from "./PracticeSpots";
 
 export default function Memberships() {
@@ -41,7 +42,7 @@ export default function Memberships() {
             </div>
 
             <div className="px-14">
-              <Hr />
+              <Hr className="my-8" />
             </div>
 
             <Stripe
@@ -97,18 +98,12 @@ export default function Memberships() {
                   <dd className="mt-2 text-base text-zinc-400 leading-7">
                     <p>
                       Monday{" "}
-                      <a
-                        className="underline"
-                        href="https://maps.app.goo.gl/25Y1MXtwDDzogxh97"
-                      >
-                        Aldergrove Community League
+                      <a className="underline" href={PLACES.aldergrove.mapUrl}>
+                        {PLACES.aldergrove.name}
                       </a>{" "}
                       session, Tuesday{" "}
-                      <a
-                        className="underline"
-                        href="https://maps.app.goo.gl/qj14QES7gk65wWSNA"
-                      >
-                        Brookview Community League
+                      <a className="underline" href={PLACES.brookview.mapUrl}>
+                        {PLACES.brookview.name}
                       </a>{" "}
                       session, and Friday at{" "}
                       <a

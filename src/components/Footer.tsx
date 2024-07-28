@@ -1,7 +1,7 @@
 import Link from "next/link";
 
 import { ContainerInner, ContainerOuter } from "@/components/ui/Container";
-import { ArrowTopRightOnSquareIcon } from "@heroicons/react/16/solid";
+import { ArrowUpRightIcon } from "@heroicons/react/16/solid";
 import type { Route } from "next";
 import type { PropsWithChildren } from "react";
 import { FacebookIcon, InstagramIcon, YouTubeIcon } from "./SocialIcons";
@@ -15,7 +15,7 @@ export function Footer() {
       <ContainerOuter>
         <div className="space-y-16 border-zinc-700/40 border-t pt-10 pb-16 lg:pt-16">
           <ContainerInner>
-            <div className="grid grid-cols-2 gap-8">
+            <div className="grid grid-cols-2 gap-4 sm:gap-8">
               <LinkGroup title="Freestyle Movement">
                 <LinkItem title="Home" href="/" />
                 <LinkItem title="Learn" href="/learn" />
@@ -119,12 +119,14 @@ function LinkItem({
   return (
     <li>
       <Link
-        className="text-sm text-zinc-400 leading-6 hover:text-teal-400"
+        className="flex text-sm text-zinc-400 leading-6 hover:text-teal-400"
         {...linkProps}
       >
-        {title}
+        <span className="min-w-0 shrink overflow-hidden text-ellipsis whitespace-nowrap">
+          {title}
+        </span>
         {isExternalLink && (
-          <ArrowTopRightOnSquareIcon className="ml-1 inline-block size-3" />
+          <ArrowUpRightIcon className="inline size-4 shrink-0 self-center" />
         )}
       </Link>
     </li>

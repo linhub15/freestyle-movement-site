@@ -1,3 +1,4 @@
+import { PLACES, type Place } from "@/data/places";
 import type { Route } from "next";
 
 export type DanceClass = {
@@ -9,11 +10,7 @@ export type DanceClass = {
 
 type Class = {
   dayOfWeek: string;
-  location: {
-    name: string;
-    address: string;
-    mapUrl: string;
-  };
+  location: Place;
   href?: Route;
   classes: DanceClass[];
 };
@@ -21,14 +18,10 @@ type Class = {
 const mondayClasses: Class = {
   href: "/learn/aldergrove-breaking-class",
   dayOfWeek: "Monday",
-  location: {
-    name: "Aldergrove Community Center",
-    address: "8535 182 St NW, Edmonton",
-    mapUrl: "",
-  },
+  location: PLACES.aldergrove,
   classes: [
     {
-      title: "New Student Breaking",
+      title: "Intro to Breaking",
       time: "6:30 - 7:00 PM",
       canRegister: undefined,
       ageRange: "Ages 8+",
@@ -45,14 +38,10 @@ const mondayClasses: Class = {
 const tuesdayClasses: Class = {
   href: "/learn/brookview-breaking-class",
   dayOfWeek: "Tuesday",
-  location: {
-    name: "Brookview Community Center",
-    address: "280 Bulyea Rd NW, Edmonton",
-    mapUrl: "",
-  },
+  location: PLACES.brookview,
   classes: [
     {
-      title: "New Student Breaking",
+      title: "Intro to Breaking",
       time: "5:30 - 6:00 PM",
       canRegister: undefined,
       ageRange: "Ages 10+",

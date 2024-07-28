@@ -1,8 +1,8 @@
 import { Container } from "@/components/ui/Container";
 import { Pill } from "@/components/ui/Pill";
-import { classes, type DanceClass } from "./class.data";
-import Link from "next/link";
 import { ArrowRightIcon } from "@heroicons/react/16/solid";
+import Link from "next/link";
+import { type DanceClass, classes } from "./class.data";
 
 export default function LearnPage() {
   return (
@@ -30,7 +30,7 @@ export default function LearnPage() {
                   <div>{item.location.name}</div>
                   <div className="text-zinc-400">{item.location.address}</div>
 
-                  <div className="py-6">
+                  <div className="w-fit py-6">
                     {item.href && (
                       <Link href={item.href}>
                         <div className="flex w-fit items-center rounded-md bg-gray-700 px-3 py-1 text-sm text-zinc-200 hover:bg-gray-600">
@@ -48,14 +48,13 @@ export default function LearnPage() {
                       key={danceClass.title}
                       className="relative flex overflow-hidden pb-6"
                     >
-                      <span
-                        className="-ml-px absolute top-8 left-4 h-full w-px bg-zinc-600"
-                        aria-hidden="true"
-                      />
                       <div className="flex h-8 w-8 items-center justify-center rounded-full ">
                         <div className="size-1.5 rounded-full ring-1 ring-zinc-500" />
                       </div>
-
+                      <div
+                        className="-ml-px absolute top-8 left-4 h-full border-zinc-500 border-l border-dashed"
+                        aria-hidden="true"
+                      />
                       <ClassCard {...danceClass} />
                     </div>
                   ))}
