@@ -97,12 +97,12 @@ export default function Page() {
               <div className="space-y-2 text-zinc-300">
                 <p>
                   If you're new to breaking, this is the class for you! I will
-                  be teaching foundation moves, and what the dance is about.
+                  be teaching foundation moves, and what breaking is all about.
                 </p>
                 <p>
                   We will learning top rock, footwork, freezes and various
-                  transitions. There will be some movements with body parts on
-                  the floor but no inverting.
+                  transitions. There will be some movements with floor work but
+                  no inverting.
                 </p>
               </div>
             </ContentCard>
@@ -168,9 +168,8 @@ export default function Page() {
             <ContentCard className="py-2" title="About the class">
               <div className="space-y-2 text-zinc-300">
                 <p>
-                  Students in this class have an understanding of basic
-                  foundation moves and are able to freestyle independantly
-                  without prompts.
+                  Students in this class already have an understanding of
+                  breaking foundation and are able to freestyle independantly.
                 </p>
                 <p>
                   In this class, we focus on developing the dancer's ability to
