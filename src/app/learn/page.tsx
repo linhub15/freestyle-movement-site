@@ -1,8 +1,14 @@
 import { Container } from "@/components/ui/Container";
 import { Pill } from "@/components/ui/Pill";
 import { ArrowRightIcon } from "@heroicons/react/16/solid";
+import type { Metadata } from "next";
 import Link from "next/link";
 import { type DanceClass, classes } from "./class.data";
+
+export const metadata: Metadata = {
+  title: "Edmonton breaking classes",
+  description: "Beginner breaking (break dance) classes for youth in Edmonton.",
+};
 
 export default function LearnPage() {
   return (
