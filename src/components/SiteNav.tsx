@@ -141,7 +141,7 @@ function clamp(number: number, a: number, b: number) {
 
 type NavItem = { title: string; href: Route };
 
-export function Header({ links = [] }: { links?: NavItem[] }) {
+export function SiteNav({ links = [] }: { links?: NavItem[] }) {
   const isHomePage = usePathname() === "/";
   const headerRef = useRef<React.ElementRef<"div">>(null);
   const isInitial = useRef(true);

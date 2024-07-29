@@ -6,16 +6,17 @@ export type DanceClass = {
   time: string;
   canRegister?: boolean;
   ageRange?: string;
+  href: Route;
 };
 
-type Class = {
+type ClassLocation = {
   dayOfWeek: string;
   location: Place;
   href?: Route;
   classes: DanceClass[];
 };
 
-const mondayClasses: Class = {
+const mondayClasses: ClassLocation = {
   href: "/learn/aldergrove-breaking-class",
   dayOfWeek: "Monday",
   location: PLACES.aldergrove,
@@ -24,18 +25,20 @@ const mondayClasses: Class = {
       title: "Intro to Breaking",
       time: "6:30 - 7:00 PM",
       canRegister: undefined,
-      ageRange: "Ages 8+",
+      ageRange: "Kids all ages",
+      href: "/learn/aldergrove-breaking-class#intro-to-breaking",
     },
     {
       title: "Beginner Youth Breaking",
-      time: "7:00 - 8:00 PM",
+      time: "7:00 - 8:30 PM",
       canRegister: undefined,
       ageRange: "Ages 8+",
+      href: "/learn/aldergrove-breaking-class#beginner-youth-breaking",
     },
   ],
 };
 
-const tuesdayClasses: Class = {
+const tuesdayClasses: ClassLocation = {
   href: "/learn/brookview-breaking-class",
   dayOfWeek: "Tuesday",
   location: PLACES.brookview,
@@ -45,12 +48,14 @@ const tuesdayClasses: Class = {
       time: "5:30 - 6:00 PM",
       canRegister: undefined,
       ageRange: "Ages 10+",
+      href: "/learn/brookview-breaking-class#intro-to-breaking",
     },
     {
       title: "Intermediate Youth Breaking",
       time: "6:00 - 7:00 PM",
       canRegister: undefined,
       ageRange: "Ages 10+",
+      href: "/learn/brookview-breaking-class#intermediate-youth-breaking",
     },
   ],
 };

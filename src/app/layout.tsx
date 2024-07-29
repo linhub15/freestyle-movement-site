@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import { Footer } from "@/components/Footer";
-import { Header } from "@/components/Header";
+import { SiteNav } from "@/components/SiteNav";
 import { GoogleAnalytics } from "@next/third-parties/google";
 import { Providers } from "./providers";
 
@@ -66,7 +66,7 @@ function Layout({ children }: { children: React.ReactNode }) {
         </div>
       </div>
       <div className="relative flex w-full flex-col">
-        <Header
+        <SiteNav
           links={[
             { title: "Home", href: "/" },
             { title: "Learn", href: "/learn" },

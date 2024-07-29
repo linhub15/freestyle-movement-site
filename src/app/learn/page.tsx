@@ -71,17 +71,19 @@ export default function LearnPage() {
 function ClassCard(props: DanceClass) {
   return (
     <div>
-      <h3 className="text-lg">{props.title}</h3>
-      <div className="text-zinc-400">
-        <div>{props.time}</div>
-        <div className="flex gap-3 py-2">
-          {props.ageRange && <Pill>{props.ageRange}</Pill>}
-          {props.canRegister === true && (
-            <Pill variant="success">Registration Open</Pill>
-          )}
-          {props.canRegister === false && <Pill>Registration Closed</Pill>}
+      <Link href={props.href}>
+        <h3 className="text-lg">{props.title}</h3>
+        <div className="text-zinc-400">
+          <div>{props.time}</div>
+          <div className="flex gap-3 py-2">
+            {props.ageRange && <Pill>{props.ageRange}</Pill>}
+            {props.canRegister === true && (
+              <Pill variant="success">Registration Open</Pill>
+            )}
+            {props.canRegister === false && <Pill>Registration Closed</Pill>}
+          </div>
         </div>
-      </div>
+      </Link>
     </div>
   );
 }

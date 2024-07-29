@@ -17,8 +17,8 @@ export function Description(props: Props) {
         </div>
       )}
       <div className="flex flex-col">
-        <dt className="font-medium">{props.term}</dt>
-        <dd className="font-light">{props.details}</dd>
+        <dt>{props.term}</dt>
+        <dd className="font-light text-sm">{props.details}</dd>
       </div>
     </div>
   );
