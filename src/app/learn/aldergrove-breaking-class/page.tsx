@@ -104,7 +104,26 @@ export default function Page() {
 
             <ContentCard className="py-2" title="About the class">
               <div className="space-y-2 text-zinc-300">
-                <p>More info coming soon.</p>
+                <p>
+                  Intro to Breaking with Josh and Ralphy is a 30 minute class
+                  where your kids will be exposed to the Foundations of Breaking
+                  through{" "}
+                  <span className="font-medium">
+                    Basic Breaking Conditioning
+                  </span>{" "}
+                  - whether that be basic workouts or breaking focused games -
+                  as well as the{" "}
+                  <span className="font-medium">
+                    Breaking Move Fundamentals
+                  </span>{" "}
+                  of Toprock, Footwork, and Freezes.
+                </p>
+                <p>
+                  After completing their time in this class, kids will have a
+                  foundational understanding of the world of Breaking as well as
+                  the way the different movements work to create the greater
+                  dance style.
+                </p>
               </div>
             </ContentCard>
           </div>
@@ -169,7 +188,35 @@ export default function Page() {
 
             <ContentCard className="py-2" title="About the class">
               <div className="space-y-2 text-zinc-300">
-                <p>More info coming soon.</p>
+                <p>
+                  Beginner Breaking with Josh and Ralphy is 1.5 hour class every
+                  Monday where your kids will{" "}
+                  <span className="font-medium">
+                    Expand on their Foundational Knowledge of Breaking
+                  </span>{" "}
+                  and it's movements.
+                </p>
+                <p>
+                  In this class, we will{" "}
+                  <span className="font-medium">
+                    Grow their Vocabulary of Breaking Moves
+                  </span>{" "}
+                  (Toprock, Footwork, Go-Downs, Freezes, and Power) through
+                  teaching new moves, learning how to exist in group dancing
+                  formats (known as Cyphers), and simulating Battle environments
+                  in order to{" "}
+                  <span className="font-medium">
+                    Prepare them to Exist in the Greater Breaking Community
+                  </span>{" "}
+                  around Edmonton and the world.
+                </p>
+                <p>
+                  By the end of their time in this class, kids will have grown
+                  in their confidence to engage in different Breaking
+                  environments as well as establish a strong base of
+                  Breaking moves that will prepare them to continue to grow
+                  their Breaking Move Dictionary.
+                </p>
               </div>
             </ContentCard>
           </div>
