@@ -213,9 +213,9 @@ export default function Page() {
                 <p>
                   By the end of their time in this class, kids will have grown
                   in their confidence to engage in different Breaking
-                  environments as well as establish a strong base of
-                  Breaking moves that will prepare them to continue to grow
-                  their Breaking Move Dictionary.
+                  environments as well as establish a strong base of Breaking
+                  moves that will prepare them to continue to grow their
+                  Breaking Move Dictionary.
                 </p>
               </div>
             </ContentCard>
