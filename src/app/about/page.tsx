@@ -19,7 +19,7 @@ export default function AboutPage() {
         <div className="max-w-2xl space-y-8 py-4 text-zinc-400">
           <p>
             Freestyle Movement is about enabling the local breaking and
-            freestyle dance ccommunity to grow and thrive. Our founding
+            freestyle dance community to grow and thrive. Our founding
             objectives are based on three key pillars. Teaching dance classes,
             hosting dance events, and providing practice space.
           </p>
