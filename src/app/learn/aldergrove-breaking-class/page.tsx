@@ -12,7 +12,10 @@ import {
   MapPinIcon,
 } from "@heroicons/react/24/outline";
 import { ContentCard } from "../components/ContentCard";
+import { ETransferInfo } from "../components/ETransferInfo";
 import { NoClass } from "../components/NoClass";
+import { RegisterButton } from "../components/RegisterButton";
+import { StripePayButton } from "../components/StripePayButton";
 
 export default function Page() {
   return (
@@ -43,8 +46,11 @@ export default function Page() {
           Aldergrove youth breaking classes are taught by Josh and Ralphy and
           run from September to December 2024.
           <br />
-          Registration will open in August.
         </p>
+
+        <div className="max-w-sm">
+          <RegisterButton href="https://forms.gle/mvPt1d1dr9ggU2DD9" />
+        </div>
       </section>
 
       <section
@@ -100,6 +106,15 @@ export default function Page() {
                 </li>
                 <li>Dec 2, 9, 16</li>
               </ul>
+
+              <div className="pt-8 pb-4">
+                <StripePayButton
+                  href="https://buy.stripe.com/4gw8xagE7bV8fW83ci"
+                  amount="$5.00"
+                />
+                <div className="py-2 text-center text-sm text-zinc-300">OR</div>
+                <ETransferInfo amount="$5.00" />
+              </div>
             </ContentCard>
 
             <ContentCard className="py-2" title="About the class">
@@ -184,6 +199,15 @@ export default function Page() {
                 </li>
                 <li>Dec 2, 9, 16</li>
               </ul>
+
+              <div className="pt-8 pb-4">
+                <StripePayButton
+                  href="https://buy.stripe.com/6oEbJm87BgbobFS004"
+                  amount="$180"
+                />
+                <div className="py-2 text-center text-sm text-zinc-300">OR</div>
+                <ETransferInfo amount="$180" />
+              </div>
             </ContentCard>
 
             <ContentCard className="py-2" title="About the class">
