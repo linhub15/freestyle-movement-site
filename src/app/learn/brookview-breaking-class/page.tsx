@@ -88,7 +88,7 @@ export default function Page() {
               <ul>
                 <li>Sep 3, 10, 17, 24</li>
                 <li>
-                  Oct 1, 8, <NoClass>15</NoClass>, 22, 29
+                  Oct 1, 8, 15, 22, <NoClass>29</NoClass>
                 </li>
                 <li>Nov 5, 12, 19, 26</li>
                 <li>Dec 3, 10</li>
@@ -165,7 +165,7 @@ export default function Page() {
               <ul>
                 <li>Sep 3, 10, 17, 24</li>
                 <li>
-                  Oct 1, 8, <NoClass>15</NoClass>, 22, 29
+                  Oct 1, 8, 15, 22, <NoClass>29</NoClass>
                 </li>
                 <li>Nov 5, 12, 19, 26</li>
                 <li>Dec 3, 10</li>
