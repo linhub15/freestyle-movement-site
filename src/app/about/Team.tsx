@@ -30,7 +30,7 @@ const members: Member[] = [
   },
   {
     name: "Ralphy Miracle",
-    roles: "Emceem, Dance Instructor",
+    roles: "Emcee, Dance Instructor",
   },
   {
     name: "Randall Liew",
