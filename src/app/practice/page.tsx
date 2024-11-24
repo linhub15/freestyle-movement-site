@@ -26,7 +26,7 @@ export default function Memberships() {
                 className="block w-full rounded-md bg-gray-700 py-3 text-center font-medium text-white shadow-sm hover:bg-gray-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-indigo-600 focus-visible:outline-offset-2"
                 href="https://billing.stripe.com/p/login/28o3fwari7UtfHadQQ"
               >
-                Manage my membership
+                Subscription Login
               </a>
 
               <p className="py-2 text-center text-sm text-zinc-400">
