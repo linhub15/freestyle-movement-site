@@ -5,7 +5,7 @@ export default function PracticeSpots() {
     <div className="space-y-8">
       <EventCard
         day="Mon"
-        time="7:30-9:30 pm"
+        time="8-9:30 pm"
         heading="Aldergrove Session • West"
         location="8535 182 St NW, Edmonton"
         description={
