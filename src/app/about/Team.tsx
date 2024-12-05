@@ -72,7 +72,7 @@ export function Team() {
           like to be help out in any way.
         </p>
       </div>
-      <div className="grid grid-cols-1 gap-8 py-16 lg:grid-cols-3 md:grid-cols-2 md:gap-12">
+      <div className="grid grid-cols-1 gap-8 py-16 md:grid-cols-2 md:gap-12 lg:grid-cols-3">
         {members.map((item) => (
           <div key={item.name}>
             <h3 className="text-xl text-zinc-300 leading-8 tracking-tight">

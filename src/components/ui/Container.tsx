@@ -19,7 +19,7 @@ export const ContainerInner = forwardRef<
   return (
     <div
       ref={ref}
-      className={cn("relative px-4 lg:px-12 sm:px-8", className)}
+      className={cn("relative px-4 sm:px-8 lg:px-12", className)}
       {...props}
     >
       <div className="mx-auto max-w-2xl lg:max-w-5xl">{children}</div>

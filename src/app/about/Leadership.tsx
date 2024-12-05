@@ -67,7 +67,7 @@ export function Leadership() {
       <h2 className="py-4 text-lg text-zinc-300 leading-5 sm:truncate sm:text-xl sm:tracking-tight">
         Our Leadership Team
       </h2>
-      <ul className="mx-auto mt-8 grid max-w-2xl grid-cols-1 gap-x-6 gap-y-20 lg:max-w-4xl xl:max-w-none sm:grid-cols-2 lg:gap-x-8">
+      <ul className="mx-auto mt-8 grid max-w-2xl grid-cols-1 gap-x-6 gap-y-20 sm:grid-cols-2 lg:max-w-4xl lg:gap-x-8 xl:max-w-none">
         {leaders.map((leader) => (
           <li className="flex flex-col gap-6 xl:flex-row" key={leader.name}>
             {leader.image && (

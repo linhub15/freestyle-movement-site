@@ -16,11 +16,19 @@ export default function LearnPage() {
       <div className="flex justify-between">
         <h1 className="text-3xl text-zinc-300 tracking-tight">Learn</h1>
       </div>
+
       <p className="text-zinc-400">
-        Fall 2024 classes go from September to December.
+        Winter 2025 classes go from January to April.
         <br />
-        Registration forms and pricing coming in August 2024.
+        Registration opens on December 08, 2024.
       </p>
+
+      <div className="py-12">
+        <h2 className="py-8 text-lg text-zinc-300 leading-5 sm:truncate sm:text-xl sm:tracking-tight">
+          Winter 2025 Schedule
+        </h2>
+        <div className="space-y-16">Registration coming soon...</div>
+      </div>
 
       <div className="py-12">
         <h2 className="py-8 text-lg text-zinc-300 leading-5 sm:truncate sm:text-xl sm:tracking-tight">
