@@ -5,6 +5,7 @@ type Props = {
   /** stripe payment link */
   href: string;
   amount: string;
+  action?: string;
 };
 
 export function StripePayButton(props: Props) {
@@ -17,7 +18,7 @@ export function StripePayButton(props: Props) {
       href={props.href}
     >
       <CreditCardIcon className="mr-1 size-6" />
-      <span className="font-normal">Pay</span>
+      <span className="font-normal">{props.action ?? "Pay"}</span>
       <span className="">{props.amount}</span>
     </a>
   );

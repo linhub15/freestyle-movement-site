@@ -32,19 +32,19 @@ export default function Page() {
           <Description
             Icon={<AcademicCapIcon className="size-6" />}
             term="Ralphy Miracle"
-            details="Dance Instructor"
+            details="ralphymiracle1@gmail.com"
           />
         </DescriptionList>
 
         <p className="py-4 text-zinc-400">
           Aldergrove youth breaking classes are taught by Ralphy and run from
           January to April 2025.
-          <br />
         </p>
-
-        <div className="max-w-sm">
-          <RegisterButton href="https://forms.gle/mvPt1d1dr9ggU2DD9" />
-        </div>
+        <p>
+          Register through the payment link below and include the dancer's name.
+          Or send e-transfer to pay@freestylemovement.ca and include the
+          dancer's name in the e-transfer message.
+        </p>
       </section>
 
       <section
@@ -77,7 +77,7 @@ export default function Page() {
               <Description
                 Icon={<CurrencyDollarIcon className="size-6" />}
                 term="Drop-in"
-                details="$5 per class"
+                details="Free"
               />
             </DescriptionList>
           </div>
@@ -89,25 +89,28 @@ export default function Page() {
             >
               <ul>
                 <li>
-                  Sep <NoClass reason="Labour Day">2</NoClass>, 9, 16, 23,{" "}
-                  <NoClass reason="Truth and Reconciliation">30</NoClass>
+                  Jan 6, 13, 20, 27
                 </li>
                 <li>
-                  Oct 7, <NoClass reason="Thanksgiving">14</NoClass>, 21, 28
+                  Feb 3, 10, <NoClass reason="Family Day">17</NoClass>, 24
                 </li>
                 <li>
-                  Nov 4, <NoClass reason="Remembrance">11</NoClass>, 18, 25
+                  Mar 3, 10, 17, 24, 31
                 </li>
-                <li>Dec 2, 9, 16</li>
+                <li>
+                  Apr 7, 14, <NoClass reason="Easter">21</NoClass>, 28
+                </li>
               </ul>
 
               <div className="pt-8 pb-4">
-                <StripePayButton
-                  href="https://buy.stripe.com/4gw8xagE7bV8fW83ci"
-                  amount="$5.00"
-                />
-                <div className="py-2 text-center text-sm text-zinc-300">OR</div>
-                <ETransferInfo amount="$5.00" />
+                <div className="rounded-lg border border-zinc-700 py-2 text-center text-zinc-300">
+                  <div className="text-sm">
+                    <span>
+                      Donation of any amount would help support our programs
+                    </span>
+                  </div>
+                  <div>e-Transfer pay@freestylemovement.ca</div>
+                </div>
               </div>
             </ContentCard>
 
@@ -115,8 +118,7 @@ export default function Page() {
               <div className="space-y-2 text-zinc-300">
                 <p>
                   Intro to Breaking with Ralphy is a 30 minute class where your
-                  kids will be exposed to the Foundations of Breaking through
-                  {" "}
+                  kids will learn the Foundations of Breaking through{" "}
                   <span className="font-medium">
                     Basic Breaking Conditioning
                   </span>{" "}
@@ -171,14 +173,8 @@ export default function Page() {
 
               <Description
                 Icon={<CurrencyDollarIcon className="size-6" />}
-                term="Full semester - 12 classes"
-                details="$180"
-              />
-
-              <Description
-                Icon={<CurrencyDollarIcon className="size-6" />}
-                term="Full semester - 12 classes"
-                details="$180"
+                term="Full semester - 15 classes"
+                details="$240"
               />
             </DescriptionList>
           </div>
@@ -190,25 +186,27 @@ export default function Page() {
             >
               <ul>
                 <li>
-                  Sep <NoClass reason="Labour Day">2</NoClass>, 9, 16, 23,{" "}
-                  <NoClass reason="Truth and Reconciliation">30</NoClass>
+                  Jan 6, 13, 20, 27
                 </li>
                 <li>
-                  Oct 7, <NoClass reason="Thanksgiving">14</NoClass>, 21, 28
+                  Feb 3, 10, <NoClass reason="Family Day">17</NoClass>, 24
                 </li>
                 <li>
-                  Nov 4, <NoClass reason="Remembrance">11</NoClass>, 18, 25
+                  Mar 3, 10, 17, 24, 31
                 </li>
-                <li>Dec 2, 9, 16</li>
+                <li>
+                  Apr 7, 14, <NoClass reason="Easter">21</NoClass>, 28
+                </li>
               </ul>
 
               <div className="pt-8 pb-4">
                 <StripePayButton
-                  href="https://buy.stripe.com/6oEbJm87BgbobFS004"
-                  amount="$180"
+                  href="https://buy.stripe.com/8wM28MfA3cZc8tGdQY"
+                  action="Register for"
+                  amount="$240"
                 />
                 <div className="py-2 text-center text-sm text-zinc-300">OR</div>
-                <ETransferInfo amount="$180" />
+                <ETransferInfo amount="$240" />
               </div>
             </ContentCard>
 

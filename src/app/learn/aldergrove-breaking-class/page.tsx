@@ -38,7 +38,7 @@ export default function Page() {
           <Description
             Icon={<AcademicCapIcon className="size-6" />}
             term="Ralphy Miracle"
-            details="Dance Instructor"
+            details="ralphymiracle1@gmail.com"
           />
         </DescriptionList>
 

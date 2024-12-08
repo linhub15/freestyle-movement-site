@@ -13,7 +13,6 @@ import {
 } from "@heroicons/react/24/outline";
 import { ContentCard } from "../../components/ContentCard";
 import { ETransferInfo } from "../../components/ETransferInfo";
-import { RegisterButton } from "../../components/RegisterButton";
 import { StripePayButton } from "../../components/StripePayButton";
 
 export default function Page() {
@@ -39,11 +38,11 @@ export default function Page() {
         <p className="py-4 text-zinc-300">
           Classes begin in January 2025 and run to April 2025.
         </p>
-
-        <div className="max-w-sm">
-          {/* todo */}
-          <RegisterButton href="https://forms.gle/DC34aMjXn6BibNMe8" />
-        </div>
+        <p>
+          Register through the payment link below and include the dancer's name.
+          Or send e-transfer to pay@freestylemovement.ca and include the
+          dancer's name in the e-transfer message.
+        </p>
       </section>
 
       <section
@@ -145,13 +144,13 @@ export default function Page() {
               <Description
                 Icon={<CheckBadgeIcon className="size-6" />}
                 term="Intermediate"
-                details="Ages 10+ or with approval"
+                details="Ages 10+"
               />
 
               <Description
                 Icon={<CurrencyDollarIcon className="size-6" />}
-                term="Full semester - 14 classes"
-                details="$240"
+                term="Full semester - 16 classes"
+                details="$256"
               />
             </DescriptionList>
           </div>
@@ -170,12 +169,12 @@ export default function Page() {
 
               <div className="pt-8 pb-4">
                 <StripePayButton
-                  // TODO new stripe link
-                  href="https://buy.stripe.com/cN2dRu0F91gu6lydQV"
-                  amount="$240"
+                  href="https://buy.stripe.com/7sI5kYcnR5wKfW83cj"
+                  action="Register for"
+                  amount="$256"
                 />
                 <div className="py-2 text-center text-sm text-zinc-300">OR</div>
-                <ETransferInfo amount="$240" />
+                <ETransferInfo amount="$256" />
               </div>
             </ContentCard>
 

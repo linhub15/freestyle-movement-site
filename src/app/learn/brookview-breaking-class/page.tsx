@@ -170,15 +170,6 @@ export default function Page() {
                 <li>Nov 5, 12, 19, 26</li>
                 <li>Dec 3, 10</li>
               </ul>
-
-              <div className="pt-8 pb-4">
-                <StripePayButton
-                  href="https://buy.stripe.com/cN2dRu0F91gu6lydQV"
-                  amount="$210"
-                />
-                <div className="py-2 text-center text-sm text-zinc-300">OR</div>
-                <ETransferInfo amount="$210" />
-              </div>
             </ContentCard>
 
             <ContentCard className="py-2" title="About the class">
