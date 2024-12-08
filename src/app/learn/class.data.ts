@@ -104,9 +104,6 @@ const tuesdayWinter2025: ClassLocation = {
   ],
 };
 
-export const winter2025Classes = [
-  mondayWinter2025,
-  tuesdayWinter2025,
-]
+export const winter2025Classes = [mondayWinter2025, tuesdayWinter2025];
 
 export const classes = [mondayClasses, tuesdayClasses];

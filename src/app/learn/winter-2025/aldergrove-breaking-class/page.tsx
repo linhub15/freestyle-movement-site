@@ -14,7 +14,6 @@ import {
 import { ContentCard } from "../../components/ContentCard";
 import { ETransferInfo } from "../../components/ETransferInfo";
 import { NoClass } from "../../components/NoClass";
-import { RegisterButton } from "../../components/RegisterButton";
 import { StripePayButton } from "../../components/StripePayButton";
 
 export default function Page() {
@@ -88,15 +87,11 @@ export default function Page() {
               title="2025 Winter Schedule (Mondays)"
             >
               <ul>
-                <li>
-                  Jan 6, 13, 20, 27
-                </li>
+                <li>Jan 6, 13, 20, 27</li>
                 <li>
                   Feb 3, 10, <NoClass reason="Family Day">17</NoClass>, 24
                 </li>
-                <li>
-                  Mar 3, 10, 17, 24, 31
-                </li>
+                <li>Mar 3, 10, 17, 24, 31</li>
                 <li>
                   Apr 7, 14, <NoClass reason="Easter">21</NoClass>, 28
                 </li>
@@ -185,15 +180,11 @@ export default function Page() {
               title="2025 Winter Schedule (Mondays)"
             >
               <ul>
-                <li>
-                  Jan 6, 13, 20, 27
-                </li>
+                <li>Jan 6, 13, 20, 27</li>
                 <li>
                   Feb 3, 10, <NoClass reason="Family Day">17</NoClass>, 24
                 </li>
-                <li>
-                  Mar 3, 10, 17, 24, 31
-                </li>
+                <li>Mar 3, 10, 17, 24, 31</li>
                 <li>
                   Apr 7, 14, <NoClass reason="Easter">21</NoClass>, 28
                 </li>

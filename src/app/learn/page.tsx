@@ -3,7 +3,7 @@ import { Pill } from "@/components/ui/Pill";
 import { ArrowRightIcon } from "@heroicons/react/16/solid";
 import type { Metadata } from "next";
 import Link from "next/link";
-import { classes, type DanceClass, winter2025Classes } from "./class.data";
+import { type DanceClass, classes, winter2025Classes } from "./class.data";
 
 export const metadata: Metadata = {
   title: "Edmonton breaking classes",
