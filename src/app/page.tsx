@@ -3,16 +3,16 @@ import Image from "next/image";
 import LinkTree from "@/components/LinkTree";
 import { Container } from "@/components/ui/Container";
 import { LumaCalendar } from "@/components/widgets/Luma";
-import logo from "../images/logo.png";
+import svg from "../images/logo.svg";
 
 export default function Home() {
   return (
     <>
       <Container>
-        <div className="mx-auto flex max-w-2xl flex-col gap-6">
+        <div className="mx-auto flex max-w-2xl flex-col gap-8">
           <Image
-            className="mx-auto w-48 invert"
-            src={logo}
+            className="mx-auto w-32 py-8"
+            src={svg}
             alt="Freestyle Movement"
           />
           <h1 className="text-center font-bold text-4xl text-zinc-100 tracking-tight md:text-5xl">
@@ -31,19 +31,22 @@ export default function Home() {
               links={[
                 {
                   title: "Unity in Motion (Foosh) videos",
-                  href: "https://youtube.com/playlist?list=PLcWvW4pP19bvJIqIZwYDrSqNthE_v-Aan&si=a-1V8KzzxhxtVRQ6",
+                  href:
+                    "https://youtube.com/playlist?list=PLcWvW4pP19bvJIqIZwYDrSqNthE_v-Aan&si=a-1V8KzzxhxtVRQ6",
                   enabled: true,
                   external: true,
                 },
                 {
                   title: "Breakmont July 1 Videos",
-                  href: "https://www.youtube.com/watch?v=k9Og6yFDBzs&list=PLcWvW4pP19bulBthPZ-NccDSxRoEoCQWf",
+                  href:
+                    "https://www.youtube.com/watch?v=k9Og6yFDBzs&list=PLcWvW4pP19bulBthPZ-NccDSxRoEoCQWf",
                   enabled: true,
                   external: true,
                 },
                 {
                   title: "Unrivaled 2024 Video",
-                  href: "https://www.youtube.com/playlist?list=PLcWvW4pP19bv27WCUckTDnup-lcjhP5cU",
+                  href:
+                    "https://www.youtube.com/playlist?list=PLcWvW4pP19bv27WCUckTDnup-lcjhP5cU",
                   enabled: true,
                   external: true,
                 },
