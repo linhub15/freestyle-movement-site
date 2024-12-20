@@ -64,7 +64,7 @@ export default function Page() {
               <Description
                 Icon={<KeyValueIcon label="2025" value="Mon" />}
                 term="Mondays"
-                details="5:30 PM - 6:00 PM"
+                details="6:30 PM - 7:00 PM"
               />
 
               <Description
@@ -157,7 +157,7 @@ export default function Page() {
               <Description
                 Icon={<KeyValueIcon label="2025" value="Mon" />}
                 term="Mondays"
-                details="6:00 PM - 7:00 PM"
+                details="7:00 PM - 8:00 PM"
               />
 
               <Description

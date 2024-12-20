@@ -67,14 +67,14 @@ const mondayWinter2025: ClassLocation = {
   classes: [
     {
       title: "Intro to Breaking",
-      time: "5:30 - 6:00 PM",
+      time: "6:30 - 7:00 PM",
       canRegister: undefined,
       ageRange: "Ages 5+",
       href: "/learn/winter-2025/aldergrove-breaking-class#intro-to-breaking",
     },
     {
       title: "Beginner Youth Breaking",
-      time: "6:00 - 7:00 PM",
+      time: "7:00 - 8:00 PM",
       canRegister: true,
       ageRange: "Ages 8+",
       href: "/learn/winter-2025/aldergrove-breaking-class#beginner-youth-breaking",
