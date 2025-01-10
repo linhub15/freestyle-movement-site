@@ -3,6 +3,7 @@ import { Hr } from "@/components/ui/Hr";
 import { Stripe } from "@/components/widgets/Stripe";
 import { PLACES } from "@/data/places";
 import PracticeSpots from "./PracticeSpots";
+import { ETransferInfo } from "../learn/components/ETransferInfo";
 
 export default function Memberships() {
   return (
@@ -20,6 +21,11 @@ export default function Memberships() {
 
         <div className="grid gap-x-2 gap-y-16 py-8 lg:grid-cols-2">
           <PracticeSpots />
+
+          <div className="px-14">
+            <ETransferInfo amount="drop-in $10" />
+          </div>
+
           <div className="w-full">
             <div className="px-14">
               <a
@@ -30,7 +36,8 @@ export default function Memberships() {
               </a>
 
               <p className="py-2 text-center text-sm text-zinc-400">
-                For issues with memberships{" "}
+                View and manage subscription with Stripe. For issues with
+                memberships{" "}
                 <a
                   className="underline"
                   href="mailto:hubert@freestylemovement.ca"
