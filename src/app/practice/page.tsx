@@ -2,8 +2,8 @@ import { Container } from "@/components/ui/Container";
 import { Hr } from "@/components/ui/Hr";
 import { Stripe } from "@/components/widgets/Stripe";
 import { PLACES } from "@/data/places";
-import PracticeSpots from "./PracticeSpots";
 import { ETransferInfo } from "../learn/components/ETransferInfo";
+import PracticeSpots from "./PracticeSpots";
 
 export default function Memberships() {
   return (
