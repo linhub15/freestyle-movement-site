@@ -9,21 +9,15 @@ export function Stripe(props: Props) {
   return (
     <>
       <Script async src="https://js.stripe.com/v3/pricing-table.js" />
-      <stripe-pricing-table
-        pricing-table-id={props.pricingTableId}
-        publishable-key={props.publishableKey}
+      <div
+        // biome-ignore lint/security/noDangerouslySetInnerHtml: Trusted stripe
+        dangerouslySetInnerHTML={{
+          __html: `<stripe-pricing-table
+        pricing-table-id=${props.pricingTableId}
+        publishable-key=${props.publishableKey}
+      />`,
+        }}
       />
     </>
   );
-}
-
-declare global {
-  namespace JSX {
-    interface IntrinsicElements {
-      "stripe-pricing-table": React.DetailedHTMLProps<
-        React.HTMLAttributes<HTMLElement>,
-        HTMLElement
-      >;
-    }
-  }
 }

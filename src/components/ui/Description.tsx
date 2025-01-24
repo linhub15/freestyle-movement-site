@@ -1,5 +1,5 @@
 import { cn } from "@/lib/utils/cn";
-import type { PropsWithChildren } from "react";
+import type { PropsWithChildren, JSX } from "react";
 
 type Props = {
   term: string;
