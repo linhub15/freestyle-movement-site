@@ -30,24 +30,18 @@ export default function RootLayout({
           key="title"
         />
         <link
-          rel="apple-touch-icon"
-          sizes="180x180"
-          href="/apple-touch-icon.png"
+          rel="icon"
+          href="/images/icon_black.svg"
+          media="(prefers-color-scheme: light)"
         />
+
         <link
           rel="icon"
-          type="image/png"
-          sizes="32x32"
-          href="/favicon-32x32.png"
+          href="/images/icon_white.svg"
+          media="(prefers-color-scheme: dark)"
         />
-        <link
-          rel="icon"
-          type="image/png"
-          sizes="16x16"
-          href="/favicon-16x16.png"
-        />
+
         <link rel="manifest" href="/site.webmanifest" />
-        <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
 
         <meta property="og:url" content={url.toString()} />
         <meta property="og:type" content="website" />
