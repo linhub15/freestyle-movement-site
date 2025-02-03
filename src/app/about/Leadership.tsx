@@ -72,7 +72,7 @@ export function Leadership() {
           <li className="flex flex-col gap-6 xl:flex-row" key={leader.name}>
             {leader.image && (
               <Image
-                className="aspect-[4/5] h-52 w-full max-w-80 flex-none rounded-2xl object-cover grayscale sm:h-auto sm:w-52"
+                className="aspect-4/5 h-52 w-full max-w-80 flex-none rounded-2xl object-cover grayscale sm:h-auto sm:w-52"
                 src={leader.image}
                 alt={leader.name}
                 width={320}

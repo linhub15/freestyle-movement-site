@@ -39,7 +39,7 @@ function MobileNavigation(
 ) {
   return (
     <Popover {...props}>
-      <PopoverButton className="group flex items-center rounded-full bg-zinc-800/90 px-4 py-2 font-medium text-sm text-zinc-200 shadow-lg shadow-zinc-800/5 ring-1 ring-white/10 backdrop-blur hover:ring-white/20">
+      <PopoverButton className="group flex items-center rounded-full bg-zinc-800/90 px-4 py-2 font-medium text-sm text-zinc-200 shadow-lg shadow-zinc-800/5 ring-1 ring-white/10 backdrop-blur-sm hover:ring-white/20">
         Menu
         <ChevronDownIcon className="ml-3 size-2 stroke-zinc-500 group-hover:stroke-zinc-400" />
       </PopoverButton>
@@ -53,7 +53,7 @@ function MobileNavigation(
           leaveFrom="opacity-100"
           leaveTo="opacity-0"
         >
-          <PopoverBackdrop className="fixed inset-0 z-50 bg-black/80 backdrop-blur-sm" />
+          <PopoverBackdrop className="fixed inset-0 z-50 bg-black/80 backdrop-blur-xs" />
         </TransitionChild>
         <TransitionChild
           as={Fragment}
@@ -110,7 +110,7 @@ function NavItem({
       >
         {children}
         {isActive && (
-          <span className="-bottom-px absolute inset-x-1 h-px bg-gradient-to-r from-teal-400/0 via-teal-400/40 to-teal-400/0" />
+          <span className="-bottom-px absolute inset-x-1 h-px bg-linear-to-r from-teal-400/0 via-teal-400/40 to-teal-400/0" />
         )}
       </Link>
     </li>
@@ -122,7 +122,7 @@ function DesktopNavigation(
 ) {
   return (
     <nav {...props}>
-      <ul className="flex rounded-full bg-zinc-800/90 px-3 font-medium text-sm text-zinc-200 shadow-lg shadow-zinc-800/5 ring-1 ring-white/10 backdrop-blur">
+      <ul className="flex rounded-full bg-zinc-800/90 px-3 font-medium text-sm text-zinc-200 shadow-lg shadow-zinc-800/5 ring-1 ring-white/10 backdrop-blur-sm">
         {props.links.map((link) => (
           <NavItem href={link.href} key={link.title}>
             {link.title}
@@ -230,7 +230,7 @@ export function SiteNav({ links = [] }: { links?: NavItem[] }) {
           }}
         >
           <Container
-            className="top-[var(--header-top,theme(spacing.6))] w-full"
+            className="top-(--header-top,--spacing(6)) w-full"
             style={{
               position:
                 "var(--header-inner-position)" as React.CSSProperties["position"],

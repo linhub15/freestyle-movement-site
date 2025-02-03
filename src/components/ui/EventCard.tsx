@@ -11,7 +11,7 @@ type Props = {
 export function EventCard(props: Props) {
   return (
     <div className="flex flex-col gap-2 rounded-xl p-4 ring-1 ring-white/15 md:flex-row md:gap-4 md:p-8">
-      <div className="flex size-fit items-center justify-center gap-2 rounded bg-zinc-300 px-4 py-1 text-zinc-800 md:size-20 md:flex-col md:gap-0 md:place-self-center md:px-0">
+      <div className="flex size-fit items-center justify-center gap-2 rounded-sm bg-zinc-300 px-4 py-1 text-zinc-800 md:size-20 md:flex-col md:gap-0 md:place-self-center md:px-0">
         <span className="font-medium md:text-xl">{props.day}</span>
         <span className="text-xs">{props.time}</span>
       </div>

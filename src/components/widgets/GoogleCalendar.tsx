@@ -67,7 +67,7 @@ export default function GoogleCalendar(props: { calendarId: string }) {
     <div className="event-list flex flex-col gap-8 py-8">
       {events.map((group) => (
         <div key={group.date}>
-          <h2 className="inline-block select-none rounded bg-gray-200 p-2 text-gray-900 text-lg">
+          <h2 className="inline-block select-none rounded-sm bg-gray-200 p-2 text-gray-900 text-lg">
             <time>{group.date}</time>
           </h2>
           <div className="flex flex-col gap-5 py-6">

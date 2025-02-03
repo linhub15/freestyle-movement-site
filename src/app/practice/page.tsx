@@ -29,7 +29,7 @@ export default function Memberships() {
           <div className="w-full">
             <div className="px-14">
               <a
-                className="block w-full rounded-md bg-gray-700 py-3 text-center font-medium text-white shadow-sm hover:bg-gray-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-indigo-600 focus-visible:outline-offset-2"
+                className="block w-full rounded-md bg-gray-700 py-3 text-center font-medium text-white shadow-xs hover:bg-gray-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-indigo-600 focus-visible:outline-offset-2"
                 href="https://billing.stripe.com/p/login/28o3fwari7UtfHadQQ"
               >
                 Subscription Login

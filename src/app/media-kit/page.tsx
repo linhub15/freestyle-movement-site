@@ -23,7 +23,7 @@ export default function MediaKit() {
         <div className="space-y-16 py-16">
           <div className="flex w-full flex-wrap justify-evenly gap-4 rounded-xl bg-zinc-800 py-8">
             <Image
-              className="rounded bg-zinc-300 p-4"
+              className="rounded-sm bg-zinc-300 p-4"
               src="/images/icon_black.svg"
               alt="Black icon"
               width={100}
@@ -31,7 +31,7 @@ export default function MediaKit() {
             />
 
             <Image
-              className="rounded bg-zinc-100 p-4"
+              className="rounded-sm bg-zinc-100 p-4"
               src="/images/icon_color.svg"
               alt="Colored icon"
               width={100}
@@ -39,7 +39,7 @@ export default function MediaKit() {
             />
 
             <Image
-              className="rounded bg-zinc-900 p-4"
+              className="rounded-sm bg-zinc-900 p-4"
               src="/images/icon_white.svg"
               alt="White icon"
               width={100}
@@ -49,7 +49,7 @@ export default function MediaKit() {
 
           <div className="flex w-full flex-wrap justify-evenly gap-4 rounded-xl bg-zinc-800 py-8">
             <Image
-              className="rounded bg-zinc-300 p-4"
+              className="rounded-sm bg-zinc-300 p-4"
               src="/images/logo_black.svg"
               alt="Black icon"
               width={200}
@@ -57,7 +57,7 @@ export default function MediaKit() {
             />
 
             <Image
-              className="rounded bg-zinc-100 p-4"
+              className="rounded-sm bg-zinc-100 p-4"
               src="/images/logo_color.svg"
               alt="Colored icon"
               width={200}
@@ -65,7 +65,7 @@ export default function MediaKit() {
             />
 
             <Image
-              className="rounded bg-zinc-900 p-4"
+              className="rounded-sm bg-zinc-900 p-4"
               src="/images/logo_white.svg"
               alt="White icon"
               width={200}
