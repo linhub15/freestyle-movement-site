@@ -29,10 +29,7 @@ export function Footer() {
                     title="Code of conduct"
                     href={"/code-of-conduct" as Route}
                   />
-                  <LinkItem
-                    title="Media Kit"
-                    href={"/media-kit"}
-                  />
+                  <LinkItem title="Media Kit" href={"/media-kit"} />
                   <LinkItem
                     title="Event Calendar (Luma)"
                     href="https://lu.ma/freestyle.movement"
@@ -75,8 +72,8 @@ export function Footer() {
               </div>
 
               <p className="text-sm text-zinc-400">
-                &copy; {new Date().getFullYear()}{" "}
-                Freestyle Movement Dance Company Ltd.
+                &copy; {new Date().getFullYear()} Freestyle Movement Dance
+                Company Ltd.
               </p>
             </div>
           </ContainerInner>

@@ -1,6 +1,6 @@
 import { Container } from "@/components/ui/Container";
-import Image from "next/image";
 import type { Metadata } from "next";
+import Image from "next/image";
 
 export const metadata: Metadata = {
   title: "Media Kit",
@@ -11,9 +11,7 @@ export default function MediaKit() {
   return (
     <>
       <Container>
-        <h1 className="text-3xl text-zinc-300 tracking-tight">
-          Media Kit
-        </h1>
+        <h1 className="text-3xl text-zinc-300 tracking-tight">Media Kit</h1>
         <p className="mt-4 text-zinc-400">
           Designed by{" "}
           <a className="underline" href="https://paulporras.com">
