@@ -11,10 +11,10 @@ import {
   CurrencyDollarIcon,
   MapPinIcon,
 } from "@heroicons/react/24/outline";
-import { ContentCard } from "../../components/ContentCard";
-import { ETransferInfo } from "../../components/ETransferInfo";
-import { NoClass } from "../../components/NoClass";
-import { StripePayButton } from "../../components/StripePayButton";
+import { ContentCard } from "../../../components/ContentCard";
+import { ETransferInfo } from "../../../components/ETransferInfo";
+import { NoClass } from "../../../components/NoClass";
+import { StripePayButton } from "../../../components/StripePayButton";
 
 export default function Page() {
   return (
