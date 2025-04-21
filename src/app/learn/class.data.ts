@@ -62,6 +62,21 @@ const tuesdayWinter2025: ClassLocation = {
   ],
 };
 
+const mondaySpringSummer: ClassLocation = {
+  href: "/learn/2025/spring-summer/aldergrove-breaking-class",
+  dayOfWeek: "Monday",
+  location: PLACES.aldergrove,
+  classes: [
+    {
+      title: "Beginner Breaking",
+      time: "6:30 - 7:00 PM",
+      canRegister: true,
+      ageRange: "Ages 7+",
+      href: "/learn/2025/spring-summer/aldergrove-breaking-class",
+    },
+  ],
+};
+
 const tuesdaySpringSummer: ClassLocation = {
   href: "/learn/2025/spring-summer/brookview-breaking-class",
   dayOfWeek: "Tuesday",
@@ -77,6 +92,6 @@ const tuesdaySpringSummer: ClassLocation = {
   ],
 };
 
-export const springSummer2025 = [tuesdaySpringSummer];
+export const springSummer2025 = [mondaySpringSummer, tuesdaySpringSummer];
 
 export const winter2025Classes = [mondayWinter2025, tuesdayWinter2025];

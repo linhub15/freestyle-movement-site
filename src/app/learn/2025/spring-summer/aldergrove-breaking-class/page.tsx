@@ -30,14 +30,14 @@ export default function Page() {
 
           <Description
             Icon={<AcademicCapIcon className="size-6" />}
-            term="Ralphy Miracle"
-            details="ralphymiracle1@gmail.com"
+            term="Renand Fulgueras"
+            details="renand@freestylemovement.ca"
           />
         </DescriptionList>
 
         <p className="py-4 text-zinc-400">
-          Aldergrove youth breaking classes are taught by Ralphy and run from
-          January to April 2025.
+          Aldergrove youth breaking classes are taught by Renand and run from
+          May to August 2025.
         </p>
         <p>
           Register through the payment link below and include the dancer's name.
@@ -69,14 +69,14 @@ export default function Page() {
 
               <Description
                 Icon={<CheckBadgeIcon className="size-6" />}
-                term="Beginners"
-                details="Ages 5+"
+                term="Beginner"
+                details="Ages 8+"
               />
 
               <Description
                 Icon={<CurrencyDollarIcon className="size-6" />}
                 term="Drop-in"
-                details="Free"
+                details="$5 per class"
               />
             </DescriptionList>
           </div>
@@ -84,51 +84,39 @@ export default function Page() {
           <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 sm:gap-10">
             <ContentCard
               className="h-fit rounded-lg bg-zinc-800 px-4 py-2"
-              title="2025 Winter Schedule (Mondays)"
+              title="2025 Spring/Summer Schedule (Mondays)"
             >
               <ul>
-                <li>Jan 6, 13, 20, 27</li>
                 <li>
-                  Feb 3, 10, <NoClass reason="Family Day">17</NoClass>, 24
+                  May 5, 12, <NoClass reason="Victoria Day">19</NoClass>, 26
                 </li>
-                <li>Mar 3, 10, 17, 24, 31</li>
+                <li>Jun 2, 9, 16, 23, 30</li>
+                <li>Jul 7, 14, 21, 28</li>
                 <li>
-                  Apr 7, 14, <NoClass reason="Easter">21</NoClass>, 28
+                  Aug <NoClass reason="Heritage Day">4</NoClass>, 11, 18, 25
                 </li>
               </ul>
 
               <div className="pt-8 pb-4">
-                <div className="rounded-lg border border-zinc-700 py-2 text-center text-zinc-300">
-                  <div className="text-sm">
-                    <span>
-                      Donation of any amount would help support our programs
-                    </span>
-                  </div>
-                  <div>e-Transfer pay@freestylemovement.ca</div>
-                </div>
+                <StripePayButton
+                  href="https://buy.stripe.com/4gw8xagE7bV8fW83ci"
+                  action="Pay with Credit Card"
+                  amount="$5"
+                />
+                <div className="py-2 text-center text-sm text-zinc-300">OR</div>
+                <ETransferInfo amount="$5" />
               </div>
             </ContentCard>
 
             <ContentCard className="py-2" title="About the class">
               <div className="space-y-2 text-zinc-300">
                 <p>
-                  Intro to Breaking with Ralphy is a 30 minute class where your
-                  kids will learn the Foundations of Breaking through{" "}
-                  <span className="font-medium">
-                    Basic Breaking Conditioning
-                  </span>{" "}
-                  - whether that be basic workouts or breaking focused games -
-                  as well as the{" "}
-                  <span className="font-medium">
-                    Breaking Move Fundamentals
-                  </span>{" "}
-                  of Toprock, Footwork, and Freezes.
-                </p>
-                <p>
-                  After completing their time in this class, kids will have a
-                  foundational understanding of the world of Breaking as well as
-                  the way the different movements work to create the greater
-                  dance style.
+                  Intro to Breaking with Renand is a 30-minute foundational
+                  class where students will learn the basics of breaking through
+                  repetition, conditioning, and simple choreography. This class
+                  is designed to build muscle memory, improve coordination, and
+                  support the development of gross motor skills in a fun and
+                  engaging environment.
                 </p>
               </div>
             </ContentCard>
@@ -180,20 +168,20 @@ export default function Page() {
               title="2025 Winter Schedule (Mondays)"
             >
               <ul>
-                <li>Jan 6, 13, 20, 27</li>
                 <li>
-                  Feb 3, 10, <NoClass reason="Family Day">17</NoClass>, 24
+                  May 5, 12, <NoClass reason="Victoria Day">19</NoClass>, 26
                 </li>
-                <li>Mar 3, 10, 17, 24, 31</li>
+                <li>Jun 2, 9, 16, 23, 30</li>
+                <li>Jul 7, 14, 21, 28</li>
                 <li>
-                  Apr 7, 14, <NoClass reason="Easter">21</NoClass>, 28
+                  Aug <NoClass reason="Heritage Day">4</NoClass>, 11, 18, 25
                 </li>
               </ul>
 
               <div className="pt-8 pb-4">
                 <StripePayButton
                   href="https://buy.stripe.com/8wM28MfA3cZc8tGdQY"
-                  action="Register for"
+                  action="Pay with Credit Card"
                   amount="$240"
                 />
                 <div className="py-2 text-center text-sm text-zinc-300">OR</div>
@@ -204,33 +192,18 @@ export default function Page() {
             <ContentCard className="py-2" title="About the class">
               <div className="space-y-2 text-zinc-300">
                 <p>
-                  Beginner Breaking Ralphy is 1 hour class every Monday where
-                  your kids will{" "}
-                  <span className="font-medium">
-                    Expand on their Foundational Knowledge of Breaking
-                  </span>{" "}
-                  and it's movements.
-                </p>
-                <p>
-                  In this class, we will{" "}
-                  <span className="font-medium">
-                    Grow their Vocabulary of Breaking Moves
-                  </span>{" "}
-                  (Toprock, Footwork, Go-Downs, Freezes, and Power) through
-                  teaching new moves, learning how to exist in group dancing
-                  formats (known as Cyphers), and simulating Battle environments
-                  in order to{" "}
-                  <span className="font-medium">
-                    Prepare them to Exist in the Greater Breaking Community
-                  </span>{" "}
-                  around Edmonton and the world.
-                </p>
-                <p>
-                  By the end of their time in this class, kids will have grown
-                  in their confidence to engage in different Breaking
-                  environments as well as establish a strong base of Breaking
-                  moves that will prepare them to continue to grow their
-                  Breaking Move Dictionary.
+                  Beginner Breaking with Renand is a 1-hour class designed to
+                  help students expand their foundational knowledge of breaking.
+                  Through fun and engaging lessons, students will build and
+                  refine their dance vocabulary, with each class focusing on a
+                  specific aspect of breaking. Each class will build on the
+                  previous one, allowing students to progress steadily
+                  throughout the term. Students will also learn and practice
+                  choreography, giving them a structured approach to movement
+                  and boosting their confidence. Every class wraps up with an
+                  inclusive dance cypher or battle, giving students the
+                  opportunity to apply what they've learned in a supportive and
+                  creative space.
                 </p>
               </div>
             </ContentCard>
