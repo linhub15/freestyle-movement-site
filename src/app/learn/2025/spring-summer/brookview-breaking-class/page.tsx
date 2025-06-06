@@ -1,9 +1,11 @@
+import { NoClass } from "@/app/learn/components/NoClass";
 import { Container } from "@/components/ui/Container";
 import {
   Description,
   DescriptionList,
   KeyValueIcon,
 } from "@/components/ui/Description";
+import { Hr } from "@/components/ui/Hr";
 import { PLACES } from "@/data/places";
 import {
   AcademicCapIcon,
@@ -14,8 +16,6 @@ import {
 import { ContentCard } from "../../../components/ContentCard";
 import { ETransferInfo } from "../../../components/ETransferInfo";
 import { StripePayButton } from "../../../components/StripePayButton";
-import { NoClass } from "@/app/learn/components/NoClass";
-import { Hr } from "@/components/ui/Hr";
 
 export default function Page() {
   return (

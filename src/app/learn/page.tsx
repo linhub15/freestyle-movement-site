@@ -1,4 +1,5 @@
 import { Container } from "@/components/ui/Container";
+import { Hr } from "@/components/ui/Hr";
 import { Pill } from "@/components/ui/Pill";
 import { ArrowRightIcon } from "@heroicons/react/16/solid";
 import type { Metadata } from "next";
@@ -8,7 +9,6 @@ import {
   springSummer2025,
   winter2025Classes,
 } from "./class.data";
-import { Hr } from "@/components/ui/Hr";
 
 export const metadata: Metadata = {
   title: "Edmonton breaking classes",
