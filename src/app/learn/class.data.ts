@@ -74,6 +74,14 @@ const mondaySpringSummer: ClassLocation = {
       ageRange: "Ages 7+",
       href: "/learn/2025/spring-summer/aldergrove-breaking-class",
     },
+    {
+      title: "Beginner Youth Breaking",
+      time: "7:00 - 8:00 PM",
+      canRegister: true,
+      ageRange: "Ages 8+",
+      href:
+        "/learn/2025/spring-summer/aldergrove-breaking-class#beginner-youth-breaking",
+    },
   ],
 };
 
@@ -85,7 +93,7 @@ const tuesdaySpringSummer: ClassLocation = {
     {
       title: "Intermediate Breaking",
       time: "6:00 - 7:00 PM",
-      canRegister: true,
+      canRegister: false,
       ageRange: "Ages 10+",
       href: "/learn/2025/spring-summer/brookview-breaking-class",
     },

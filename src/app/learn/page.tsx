@@ -139,7 +139,7 @@ function ClassCard(props: DanceClass) {
           <div className="flex gap-3 py-2">
             {props.ageRange && <Pill>{props.ageRange}</Pill>}
             {props.canRegister === true && (
-              <Pill variant="success">Registration Open</Pill>
+              <Pill variant="success">Registration Open (Prorated)</Pill>
             )}
             {props.canRegister === false && <Pill>Registration Closed</Pill>}
           </div>
