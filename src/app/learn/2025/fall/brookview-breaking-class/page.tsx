@@ -60,9 +60,7 @@ export default function Page() {
 
         <div className="space-y-12">
           <div className="space-y-6">
-            <h2 className="text-xl">
-              Intermediate Breaking - Freestyle
-            </h2>
+            <h2 className="text-xl">Intermediate Breaking - Freestyle</h2>
             <DescriptionList>
               <Description
                 Icon={<KeyValueIcon label="2025" value="Tue" />}
