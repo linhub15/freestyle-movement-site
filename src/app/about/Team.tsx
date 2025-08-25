@@ -21,8 +21,8 @@ const members: Member[] = [
     roles: "Graphic Designer, Videographer",
   },
   {
-    name: "Teio Suyal",
-    roles: "Emcee",
+    name: "Renand Fulgueras",
+    roles: "Dance Instructor",
   },
   {
     name: "Sion Kim",
