@@ -88,7 +88,10 @@ export default function Page() {
               title="2025 Fall Schedule (Tuesdays)"
             >
               <ul>
-                <li>Sep 9, 16, 23, 30</li>
+                <li>
+                  Sep{" "}
+                  <NoClass reason="Hall already booked">9</NoClass>, 16, 23, 30
+                </li>
                 <li>Oct 7, 14, 21, 28</li>
                 <li>
                   Nov 4, <NoClass reason="Remembrance Day">11</NoClass>, 18, 25
