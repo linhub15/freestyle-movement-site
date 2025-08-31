@@ -51,6 +51,20 @@ export const classes: Semester = {
           },
         ],
       },
+      {
+        dayOfWeek: "Friday",
+        href: "/learn/2025/fall/thecode-breaking-class",
+        location: PLACES.thecode,
+        classes: [
+          {
+            title: "Beginner Breaking",
+            time: "7:00 - 8:00 PM",
+            canRegister: true,
+            ageRange: "Ages 10+",
+            href: "/learn/2025/fall/thecode-breaking-class",
+          },
+        ],
+      },
     ],
   },
   "2025_spring_summer": {

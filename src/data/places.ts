@@ -15,7 +15,14 @@ const brookview: Place = {
   mapUrl: "https://maps.app.goo.gl/qj14QES7gk65wWSNA",
 };
 
+const thecode: Place = {
+  name: "The Code YEG",
+  address: "11602 119 St NW, Edmonton",
+  mapUrl: "https://maps.app.goo.gl/zJ3SEJcr2D2QHLhE7",
+};
+
 export const PLACES = {
   aldergrove,
   brookview,
+  thecode,
 };

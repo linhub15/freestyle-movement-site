@@ -37,7 +37,7 @@ export default function Page() {
         </DescriptionList>
 
         <p className="py-4 text-zinc-300">
-          Classes begin in September 2025 and run to August 2025.
+          Classes begin in September 2025 and run to December 2025.
         </p>
         <p>
           Register through the payment link below and include the dancer's name.
@@ -89,8 +89,8 @@ export default function Page() {
             >
               <ul>
                 <li>
-                  Sep{" "}
-                  <NoClass reason="Hall already booked">9</NoClass>, 16, 23, 30
+                  Sep <NoClass reason="Hall already booked">9</NoClass>, 16, 23,
+                  30
                 </li>
                 <li>Oct 7, 14, 21, 28</li>
                 <li>
