@@ -24,16 +24,16 @@ export const classes: Semester = {
     label: "Fall 2025 Schedule",
     locations: [
       {
-        // href: "/learn/2025/fall/aldergrove-breaking-class",
+        href: "/learn/2025/fall/aldergrove-breaking-class",
         dayOfWeek: "Monday",
         location: PLACES.aldergrove,
         classes: [
           {
             title: "Beginner Breaking",
             time: "6:00 - 7:00 PM",
-            canRegister: false,
+            canRegister: true,
             ageRange: "Ages 7+",
-            // href: "/learn/2025/spring-summer/aldergrove-breaking-class",
+            href: "/learn/2025/fall/aldergrove-breaking-class",
           },
         ],
       },
