@@ -20,12 +20,12 @@ export default function Page() {
   return (
     <Container>
       <section className="mb-16 md:mb-32">
-        <h1 className="font-light text-3xl">Aldergrove Breaking Classes</h1>
+        <h1 className="font-light text-3xl">Lymburn Breaking Classes</h1>
         <DescriptionList className="py-4">
           <Description
             Icon={<MapPinIcon className="size-6" />}
-            term={PLACES.aldergrove.name}
-            details={PLACES.aldergrove.address}
+            term={PLACES.lymburn.name}
+            details={PLACES.lymburn.address}
           />
 
           <Description
@@ -36,7 +36,7 @@ export default function Page() {
         </DescriptionList>
 
         <p className="py-4 text-zinc-400">
-          Aldergrove youth breaking classes are taught by Renand.
+          West Edmonton youth breaking classes are taught by Renand.
         </p>
         <p>
           Register through the payment link below and include the dancer's name.

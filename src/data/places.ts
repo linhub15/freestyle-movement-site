@@ -9,6 +9,12 @@ const aldergrove: Place = {
   address: "8535 182 St NW, Edmonton",
   mapUrl: "https://maps.app.goo.gl/25Y1MXtwDDzogxh97",
 };
+
+const lymburn: Place = {
+  name: "Lymburn School",
+  address: "18710 72 Avenue NW, Edmonton",
+  mapUrl: "https://maps.app.goo.gl/ybTEv3moePjnEEeV7",
+};
 const brookview: Place = {
   name: "Brookview Community League",
   address: "280 Bulyea Rd NW, Edmonton",
@@ -23,6 +29,7 @@ const thecode: Place = {
 
 export const PLACES = {
   aldergrove,
+  lymburn,
   brookview,
   thecode,
 };
