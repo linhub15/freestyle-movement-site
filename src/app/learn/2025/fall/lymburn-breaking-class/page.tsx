@@ -103,7 +103,7 @@ export default function Page() {
                 <li>
                   Oct 6, <NoClass>13</NoClass>, 20, 27
                 </li>
-                <li>Nov 3, 10, 17, 24</li>
+                <li>Nov 3, 10, 17, <NoClass>24</NoClass></li>
                 <li>Dec 1, 8</li>
               </ul>
 
