@@ -21,6 +21,7 @@ export default function Page() {
     <Container>
       <section className="mb-16 md:mb-32">
         <h1 className="font-light text-3xl">Lymburn Breaking Classes</h1>
+        <p className="font-extralight">January to April 2026 semester</p>
         <DescriptionList className="py-4">
           <Description
             Icon={<MapPinIcon className="size-6" />}
@@ -36,7 +37,7 @@ export default function Page() {
         </DescriptionList>
 
         <p className="py-4 text-zinc-400">
-          West Edmonton youth breaking classes are taught by Renand.
+          West Edmonton youth breaking classes taught by Renand.
         </p>
         <p>
           Register through the payment link below and include the dancer's name.
@@ -68,7 +69,7 @@ export default function Page() {
             <h2 className="text-xl">Beginner youth breaking</h2>
             <DescriptionList>
               <Description
-                Icon={<KeyValueIcon label="2025" value="Mon" />}
+                Icon={<KeyValueIcon label="2026" value="Mon" />}
                 term="Mondays"
                 details="7:00 PM - 8:00 PM"
               />
@@ -76,7 +77,7 @@ export default function Page() {
               <Description
                 Icon={<CheckBadgeIcon className="size-6" />}
                 term="Beginner"
-                details="Ages 10+"
+                details="Ages 8+"
               />
 
               <Description
@@ -96,17 +97,19 @@ export default function Page() {
           <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 sm:gap-10">
             <ContentCard
               className="h-fit rounded-lg bg-zinc-800 px-4 py-2"
-              title="2025 Fall Schedule (Mondays)"
+              title="2026 Jan to Apr (Mondays)"
             >
               <ul>
-                <li>Sep 15, 22, 29</li>
+                <li>Jan 12, 19, 26</li>
                 <li>
-                  Oct 6, <NoClass>13</NoClass>, 20, 27
+                  Feb 2, 9, <NoClass>16</NoClass>, 23
                 </li>
                 <li>
-                  Nov 3, 10, 17, <NoClass>24</NoClass>
+                  Mar 2, 9, 16, 23 <NoClass>30</NoClass>
                 </li>
-                <li>Dec 1, 8</li>
+                <li>
+                  Apr <NoClass>6</NoClass>, 20, 27
+                </li>
               </ul>
 
               <div className="pt-8 pb-4">
