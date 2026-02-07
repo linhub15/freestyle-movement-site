@@ -56,6 +56,14 @@ const members: Member[] = [
     name: "Paul Porras",
     roles: "Graphic Designer",
   },
+  {
+    name: "Jeff Baglinit",
+    roles: "Event Planner, Dance Instructor, Community Leader",
+  },
+  {
+    name: "Jin Lee",
+    roles: "Community Leader, Event Planner, Instructor",
+  },
 ];
 
 export function Team() {

@@ -26,17 +26,17 @@ export default function AboutPage() {
 
           <p>
             We are a registered non-profit private company founded in August 26,
-            2016. Since then we have taught hundreds of hours of dance class,
-            hosted events annualy and provided consistent practice space. All of
-            our profits go into supporting our three key pillars to build the
+            2016. Since then we have taught thousands of hours of dance class,
+            hosted events and provided consistent practice space. All of our
+            proceeds go into supporting our three key pillars to build the
             community.
           </p>
         </div>
       </Container>
 
-      <Team />
-
       <Leadership />
+
+      <Team />
     </>
   );
 }
