@@ -71,7 +71,7 @@ export default function Page() {
               <Description
                 Icon={<KeyValueIcon label="2026" value="Mon" />}
                 term="Mondays"
-                details="7:00 PM - 8:00 PM"
+                details="6:00 PM - 7:00 PM"
               />
 
               <Description

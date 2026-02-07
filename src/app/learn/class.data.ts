@@ -32,7 +32,7 @@ export const classes: Semester = {
         classes: [
           {
             title: "Beginner Youth Breaking",
-            time: "7:00 - 8:00 PM",
+            time: "6:00 - 7:00 PM",
             canRegister: true,
             ageRange: "Ages 8+",
             href: "/learn/2026/january-to-april/lymburn-breaking-class",
