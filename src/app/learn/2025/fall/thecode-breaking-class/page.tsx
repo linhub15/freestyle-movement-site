@@ -15,7 +15,6 @@ import {
 } from "@heroicons/react/24/outline";
 import { ContentCard } from "../../../components/ContentCard";
 import { ETransferInfo } from "../../../components/ETransferInfo";
-import { StripePayButton } from "../../../components/StripePayButton";
 
 export default function Page() {
   return (

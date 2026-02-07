@@ -71,7 +71,7 @@ export default function GoogleCalendar(props: { calendarId: string }) {
             <time>{group.date}</time>
           </h2>
           <div className="flex flex-col gap-5 py-6">
-            {group.events.map((event, idx) => (
+            {group.events.map((event) => (
               <Event
                 event={event}
                 key={event.summary.trim().replaceAll(" ", "-")}

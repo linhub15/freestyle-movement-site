@@ -1,4 +1,3 @@
-import { NoClass } from "@/app/learn/components/NoClass";
 import { Container } from "@/components/ui/Container";
 import {
   Description,
