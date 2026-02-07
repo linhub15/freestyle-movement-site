@@ -49,8 +49,8 @@ const leaders: Leader[] = [
   {
     name: "Josh Kearney",
     image: joshHeadshot,
-    role: "Community Leader",
-    bio: "Josh is the former executive of the Open Styles Dance club at University of Albertal. He organizes events like Unrivaled, The pillars, One for the City sessions, and more.",
+    role: "Event coordinator",
+    bio: "Josh is the former executive of the Open Styles Dance club at University of Albertal. He has organized events like Unrivaled, The pillars, One for the City sessions, and more.",
   },
 ];
 
