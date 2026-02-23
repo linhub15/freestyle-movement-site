@@ -10,7 +10,7 @@ export default function Memberships() {
     <Container>
       <div>
         <div>
-          <h1 className="text-3xl text-zinc-300 tracking-tight">
+          <h1 className="text-3xl tracking-tight text-zinc-300">
             Practice Sessions
           </h1>
           <p className="max-w-lg py-8 text-zinc-400">
@@ -29,7 +29,7 @@ export default function Memberships() {
           <div className="w-full">
             <div className="px-14">
               <a
-                className="block w-full rounded-md bg-gray-700 py-3 text-center font-medium text-white shadow-xs hover:bg-gray-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-indigo-600 focus-visible:outline-offset-2"
+                className="block w-full rounded-md bg-gray-700 py-3 text-center font-medium text-white shadow-xs hover:bg-gray-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
                 href="https://billing.stripe.com/p/login/28o3fwari7UtfHadQQ"
               >
                 Subscription Login
@@ -64,7 +64,7 @@ export default function Memberships() {
         <div className="mx-auto max-w-7xl px-6 py-12 lg:px-8 lg:py-24">
           <div className="lg:grid lg:grid-cols-12 lg:gap-8">
             <div className="lg:col-span-5">
-              <h2 className="font-bold text-2xl leading-10 tracking-tight">
+              <h2 className="text-2xl leading-10 font-bold tracking-tight">
                 Frequently asked questions
               </h2>
               <p className="mt-4 text-base leading-7" />
@@ -72,20 +72,20 @@ export default function Memberships() {
             <div className="mt-10 lg:col-span-7 lg:mt-0">
               <dl className="space-y-10">
                 <div>
-                  <dt className="font-semibold text-base text-zinc-300 leading-7">
+                  <dt className="text-base leading-7 font-semibold text-zinc-300">
                     Do I need a membership to attend practice sessions?
                   </dt>
-                  <dd className="mt-2 text-base text-zinc-400 leading-7">
+                  <dd className="mt-2 text-base leading-7 text-zinc-400">
                     No, the practice sessions are open for everyone at all skill
                     levels. Drop-in price is $10 per session. We also offer a
                     10-session punch card for $75.{" "}
                   </dd>
                 </div>
                 <div>
-                  <dt className="font-medium text-base text-zinc-300 leading-7">
+                  <dt className="text-base leading-7 font-medium text-zinc-300">
                     How do I view and manage my membership?
                   </dt>
-                  <dd className="mt-2 text-base text-zinc-400 leading-7">
+                  <dd className="mt-2 text-base leading-7 text-zinc-400">
                     You can manage your membership by logging in to Stripe with
                     the email you used for your subscription. Here you can view
                     your payment history, and cancel your subscription.{" "}
@@ -99,10 +99,10 @@ export default function Memberships() {
                   </dd>
                 </div>
                 <div>
-                  <dt className="font-semibold text-base text-zinc-300 leading-7">
+                  <dt className="text-base leading-7 font-semibold text-zinc-300">
                     Which session locations are included in the membership?
                   </dt>
-                  <dd className="mt-2 text-base text-zinc-400 leading-7">
+                  <dd className="mt-2 text-base leading-7 text-zinc-400">
                     <p>
                       Monday{" "}
                       <a className="underline" href={PLACES.aldergrove.mapUrl}>

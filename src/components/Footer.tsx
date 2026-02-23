@@ -1,9 +1,8 @@
-import Link from "next/link";
-
-import { ContainerInner, ContainerOuter } from "@/components/ui/Container";
 import { ArrowUpRightIcon } from "@heroicons/react/16/solid";
 import type { Route } from "next";
+import Link from "next/link";
 import type { PropsWithChildren } from "react";
+import { ContainerInner, ContainerOuter } from "@/components/ui/Container";
 import { FacebookIcon, InstagramIcon, YouTubeIcon } from "./SocialIcons";
 
 export function Footer() {
@@ -13,7 +12,7 @@ export function Footer() {
         Footer
       </h2>
       <ContainerOuter>
-        <div className="space-y-16 border-zinc-700/40 border-t pt-10 pb-16 lg:pt-16">
+        <div className="space-y-16 border-t border-zinc-700/40 pt-10 pb-16 lg:pt-16">
           <ContainerInner>
             <div className="grid grid-cols-2 gap-4 sm:gap-8">
               <LinkGroup title="Freestyle Movement">
@@ -100,7 +99,7 @@ function LinkGroup(props: { title: string } & PropsWithChildren) {
   return (
     <div>
       {props.title && (
-        <h3 className="font-semibold text-sm text-zinc-100 leading-6">
+        <h3 className="text-sm leading-6 font-semibold text-zinc-100">
           {props.title}
         </h3>
       )}
@@ -120,7 +119,7 @@ function LinkItem({
   return (
     <li>
       <Link
-        className="flex text-sm text-zinc-400 leading-6 hover:text-teal-400"
+        className="flex text-sm leading-6 text-zinc-400 hover:text-teal-400"
         {...linkProps}
       >
         <span className="min-w-0 shrink overflow-hidden text-ellipsis whitespace-nowrap">

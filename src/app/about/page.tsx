@@ -1,5 +1,5 @@
-import { Container } from "@/components/ui/Container";
 import type { Metadata } from "next";
+import { Container } from "@/components/ui/Container";
 import { Leadership } from "./Leadership";
 import { Team } from "./Team";
 
@@ -12,7 +12,7 @@ export default function AboutPage() {
   return (
     <>
       <Container>
-        <h1 className="text-3xl text-zinc-300 tracking-tight">
+        <h1 className="text-3xl tracking-tight text-zinc-300">
           What are we about?
         </h1>
 

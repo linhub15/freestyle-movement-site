@@ -1,3 +1,9 @@
+import {
+  AcademicCapIcon,
+  CheckBadgeIcon,
+  CurrencyDollarIcon,
+  MapPinIcon,
+} from "@heroicons/react/24/outline";
 import { NoClass } from "@/app/learn/components/NoClass";
 import { Container } from "@/components/ui/Container";
 import {
@@ -7,12 +13,6 @@ import {
 } from "@/components/ui/Description";
 import { Hr } from "@/components/ui/Hr";
 import { PLACES } from "@/data/places";
-import {
-  AcademicCapIcon,
-  CheckBadgeIcon,
-  CurrencyDollarIcon,
-  MapPinIcon,
-} from "@heroicons/react/24/outline";
 import { ContentCard } from "../../../components/ContentCard";
 import { ETransferInfo } from "../../../components/ETransferInfo";
 import { StripePayButton } from "../../../components/StripePayButton";
@@ -21,7 +21,7 @@ export default function Page() {
   return (
     <Container>
       <section className="mb-16 md:mb-32">
-        <h1 className="font-light text-3xl">Brookview Breaking Classes</h1>
+        <h1 className="text-3xl font-light">Brookview Breaking Classes</h1>
         <p className="font-extralight">Spring & Summer 2025 semester</p>
         <DescriptionList className="py-4">
           <Description
@@ -55,7 +55,7 @@ export default function Page() {
           <div className="size-1.5 rounded-full ring-1 ring-zinc-500" />
         </div>
         <div
-          className="absolute top-8 left-2 h-full w-px border-zinc-500 border-l border-dashed"
+          className="absolute top-8 left-2 h-full w-px border-l border-dashed border-zinc-500"
           aria-hidden="true"
         />
 

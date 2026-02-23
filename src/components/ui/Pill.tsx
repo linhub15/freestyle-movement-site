@@ -1,6 +1,6 @@
+import type { PropsWithChildren } from "react";
 import { type VariantProps, cva } from "@/lib/utils/cva";
 import type { Prettify } from "@/lib/utils/prettify";
-import type { PropsWithChildren } from "react";
 
 type Props = Prettify<PillVariants & PropsWithChildren>;
 
@@ -15,7 +15,7 @@ export function Pill(props: Props) {
 export type PillVariants = VariantProps<typeof pillVariants>;
 
 const pillVariants = cva({
-  base: "inline-flex items-center rounded-full px-3 py-1 font-medium text-xs",
+  base: "inline-flex items-center rounded-full px-3 py-1 text-xs font-medium",
   variants: {
     variant: {
       default: "bg-zinc-600 text-zinc-200",

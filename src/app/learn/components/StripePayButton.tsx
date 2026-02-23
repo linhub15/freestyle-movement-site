@@ -1,5 +1,5 @@
-import { cn } from "@/lib/utils/cn";
 import { CreditCardIcon } from "@heroicons/react/24/outline";
+import { cn } from "@/lib/utils/cn";
 
 type Props = {
   /** stripe payment link */

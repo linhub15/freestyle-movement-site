@@ -1,5 +1,5 @@
-import { PLACES, type Place } from "@/data/places";
 import type { Route } from "next";
+import { PLACES, type Place } from "@/data/places";
 
 export type DanceClass = {
   title: string;

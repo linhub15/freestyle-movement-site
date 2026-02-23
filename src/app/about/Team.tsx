@@ -1,5 +1,5 @@
-import { Container } from "@/components/ui/Container";
 import type { StaticImageData } from "next/image";
+import { Container } from "@/components/ui/Container";
 
 type Member = {
   name: string;
@@ -70,7 +70,7 @@ export function Team() {
   return (
     <Container>
       <div className="mt-16">
-        <h2 className="py-4 text-lg text-zinc-300 leading-5 sm:truncate sm:text-xl sm:tracking-tight">
+        <h2 className="py-4 text-lg leading-5 text-zinc-300 sm:truncate sm:text-xl sm:tracking-tight">
           Recognizing our community
         </h2>
         <p className="max-w-2xl text-zinc-400">
@@ -83,10 +83,10 @@ export function Team() {
       <div className="grid grid-cols-1 gap-8 py-16 md:grid-cols-2 md:gap-12 lg:grid-cols-3">
         {members.map((item) => (
           <div key={item.name}>
-            <h3 className="text-xl text-zinc-300 leading-8 tracking-tight">
+            <h3 className="text-xl leading-8 tracking-tight text-zinc-300">
               {item.name}
             </h3>
-            <p className="font-light text-zinc-400 leading-7">{item.roles}</p>
+            <p className="leading-7 font-light text-zinc-400">{item.roles}</p>
           </div>
         ))}
       </div>

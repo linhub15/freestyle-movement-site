@@ -1,5 +1,5 @@
-import { cn } from "@/lib/utils/cn";
 import type { JSX, PropsWithChildren } from "react";
+import { cn } from "@/lib/utils/cn";
 
 type Props = {
   term: string;
@@ -18,7 +18,7 @@ export function Description(props: Props) {
       )}
       <div className="flex flex-col">
         <dt>{props.term}</dt>
-        <dd className="font-light text-sm">{props.details}</dd>
+        <dd className="text-sm font-light">{props.details}</dd>
       </div>
     </div>
   );
@@ -46,7 +46,7 @@ export function DescriptionList(
 export function KeyValueIcon(props: { label: string; value: string }) {
   return (
     <>
-      <div className="w-full bg-zinc-700 pb-0.5 text-center font-semibold text-xs uppercase">
+      <div className="w-full bg-zinc-700 pb-0.5 text-center text-xs font-semibold uppercase">
         {props.label}
       </div>
       <div className="size-full text-center text-sm">{props.value}</div>

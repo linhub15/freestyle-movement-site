@@ -67,7 +67,7 @@ export default function GoogleCalendar(props: { calendarId: string }) {
     <div className="event-list flex flex-col gap-8 py-8">
       {events.map((group) => (
         <div key={group.date}>
-          <h2 className="inline-block select-none rounded-sm bg-gray-200 p-2 text-gray-900 text-lg">
+          <h2 className="inline-block rounded-sm bg-gray-200 p-2 text-lg text-gray-900 select-none">
             <time>{group.date}</time>
           </h2>
           <div className="flex flex-col gap-5 py-6">
@@ -96,9 +96,7 @@ function Event({ event }: { event: Event }) {
       hours -= 12;
     }
 
-    const formattedTime = `${hours}${
-      minutes > 0 ? `:${minutes}` : ""
-    }${period}`;
+    const formattedTime = `${hours}${minutes > 0 ? `:${minutes}` : ""}${period}`;
 
     return formattedTime;
   };
@@ -110,7 +108,7 @@ function Event({ event }: { event: Event }) {
     <div>
       <h3 className="inline font-bold">{event.summary}</h3>
       <div>
-        <div className="py-1 font-mono text-gray-400 text-sm">
+        <div className="py-1 font-mono text-sm text-gray-400">
           {hasRange ? timeRange : "All Day"}
           {event.location && (
             <>
@@ -123,7 +121,7 @@ function Event({ event }: { event: Event }) {
         </div>
         {event.description && (
           <pre
-            className="whitespace-pre-wrap font-sans leading-6"
+            className="font-sans leading-6 whitespace-pre-wrap"
             // biome-ignore lint/security/noDangerouslySetInnerHtml: <explanation>
             dangerouslySetInnerHTML={{
               __html: event.description,

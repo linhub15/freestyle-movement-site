@@ -1,3 +1,9 @@
+import {
+  AcademicCapIcon,
+  CheckBadgeIcon,
+  CurrencyDollarIcon,
+  MapPinIcon,
+} from "@heroicons/react/24/outline";
 import { Container } from "@/components/ui/Container";
 import {
   Description,
@@ -5,12 +11,6 @@ import {
   KeyValueIcon,
 } from "@/components/ui/Description";
 import { PLACES } from "@/data/places";
-import {
-  AcademicCapIcon,
-  CheckBadgeIcon,
-  CurrencyDollarIcon,
-  MapPinIcon,
-} from "@heroicons/react/24/outline";
 import { ContentCard } from "../../../components/ContentCard";
 import { ETransferInfo } from "../../../components/ETransferInfo";
 import { NoClass } from "../../../components/NoClass";
@@ -20,7 +20,7 @@ export default function Page() {
   return (
     <Container>
       <section className="mb-16 md:mb-32">
-        <h1 className="font-light text-3xl">Lymburn Breaking Classes</h1>
+        <h1 className="text-3xl font-light">Lymburn Breaking Classes</h1>
         <p className="font-extralight">January to April 2026 semester</p>
         <DescriptionList className="py-4">
           <Description
@@ -61,7 +61,7 @@ export default function Page() {
           <div className="size-1.5 rounded-full ring-1 ring-zinc-500" />
         </div>
         <div
-          className="absolute top-8 left-2 h-full w-px border-zinc-500 border-l border-dashed"
+          className="absolute top-8 left-2 h-full w-px border-l border-dashed border-zinc-500"
           aria-hidden="true"
         />
         <div className="space-y-12">

@@ -1,8 +1,8 @@
-import { Container } from "@/components/ui/Container";
-import { Pill } from "@/components/ui/Pill";
 import { ArrowRightIcon } from "@heroicons/react/16/solid";
 import type { Metadata } from "next";
 import Link from "next/link";
+import { Container } from "@/components/ui/Container";
+import { Pill } from "@/components/ui/Pill";
 import { type DanceClass, classes } from "./class.data";
 
 export const metadata: Metadata = {
@@ -14,7 +14,7 @@ export default function LearnPage() {
   return (
     <Container>
       <div className="flex justify-between">
-        <h1 className="text-3xl text-zinc-300 tracking-tight">
+        <h1 className="text-3xl tracking-tight text-zinc-300">
           Edmonton breaking classes
         </h1>
       </div>
@@ -26,7 +26,7 @@ export default function LearnPage() {
       <div className="divide-y divide-gray-400">
         {Object.values(classes).map((item) => (
           <div className="py-12" key={item.label}>
-            <h2 className="py-8 text-lg text-zinc-300 leading-5 sm:truncate sm:text-xl sm:tracking-tight">
+            <h2 className="py-8 text-lg leading-5 text-zinc-300 sm:truncate sm:text-xl sm:tracking-tight">
               {item.label}
             </h2>
             <div className="space-y-16">
@@ -62,7 +62,7 @@ export default function LearnPage() {
                             <div className="size-1.5 rounded-full ring-1 ring-zinc-500" />
                           </div>
                           <div
-                            className="-ml-px absolute top-8 left-4 h-full border-zinc-500 border-l border-dashed"
+                            className="absolute top-8 left-4 -ml-px h-full border-l border-dashed border-zinc-500"
                             aria-hidden="true"
                           />
                           <ClassCard {...danceClass} />

@@ -1,12 +1,12 @@
-import { Container } from "@/components/ui/Container";
 import type { StaticImageData } from "next/image";
 import Image from "next/image";
+import { Container } from "@/components/ui/Container";
+import amitHeadshot from "./images/amit-headshot.jpeg";
 import elaineHeadshot from "./images/elaine-headshot.webp";
 import hubertHeadshot from "./images/hubert-headshot.jpeg";
 import joshHeadshot from "./images/josh-headshot.jpeg";
 import patriciaHeadshot from "./images/patricia-headshot.jpeg";
 import pranayaHeadshot from "./images/pranaya-headshot.jpeg";
-import amitHeadshot from "./images/amit-headshot.jpeg";
 
 type Leader = {
   name: string;
@@ -57,7 +57,7 @@ const leaders: Leader[] = [
 export function Leadership() {
   return (
     <Container className="mt-16">
-      <h2 className="py-4 text-lg text-zinc-300 leading-5 sm:truncate sm:text-xl sm:tracking-tight">
+      <h2 className="py-4 text-lg leading-5 text-zinc-300 sm:truncate sm:text-xl sm:tracking-tight">
         Our Leadership Team
       </h2>
       <ul className="mx-auto mt-8 grid max-w-2xl grid-cols-1 gap-x-6 gap-y-20 sm:grid-cols-2 lg:max-w-4xl lg:gap-x-8 xl:max-w-none">
@@ -73,13 +73,13 @@ export function Leadership() {
               />
             )}
             <div className="flex-auto">
-              <h3 className="text-xl text-zinc-300 leading-8 tracking-tight">
+              <h3 className="text-xl leading-8 tracking-tight text-zinc-300">
                 {leader.name}
               </h3>
-              <p className="font-light text-base text-zinc-400 leading-7">
+              <p className="text-base leading-7 font-light text-zinc-400">
                 {leader.role}
               </p>
-              <p className="mt-6 text-base text-zinc-400 leading-7">
+              <p className="mt-6 text-base leading-7 text-zinc-400">
                 {leader.bio}
               </p>
             </div>

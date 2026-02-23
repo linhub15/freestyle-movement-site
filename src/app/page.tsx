@@ -1,5 +1,4 @@
 import Image from "next/image";
-
 import LinkTree from "@/components/LinkTree";
 import { Container } from "@/components/ui/Container";
 import { LumaCalendar } from "@/components/widgets/Luma";
@@ -15,7 +14,7 @@ export default function Home() {
             src={svg}
             alt="Freestyle Movement"
           />
-          <h1 className="text-center font-bold text-4xl text-zinc-100 tracking-tight md:text-5xl">
+          <h1 className="text-center text-4xl font-bold tracking-tight text-zinc-100 md:text-5xl">
             Freestyle Movement
           </h1>
 

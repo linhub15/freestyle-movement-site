@@ -1,5 +1,5 @@
-import { Hr } from "@/components/ui/Hr";
 import type { PropsWithChildren } from "react";
+import { Hr } from "@/components/ui/Hr";
 
 type Props = {
   title: string;

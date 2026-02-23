@@ -4,7 +4,7 @@ export function LumaCalendar() {
   return (
     <div>
       <div className="flex justify-between">
-        <h2 className="py-4 text-lg text-zinc-300 leading-5 sm:truncate sm:text-xl sm:tracking-tight">
+        <h2 className="py-4 text-lg leading-5 text-zinc-300 sm:truncate sm:text-xl sm:tracking-tight">
           Event Calendar
         </h2>
         <a
