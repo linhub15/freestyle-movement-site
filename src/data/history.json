@@ -1,0 +1,570 @@
+{
+  "organization": "Freestyle Movement Dance Company Ltd.",
+  "scope": {
+    "requestedStartYear": 2016,
+    "compiledThrough": "2026-07-12",
+    "primaryArea": "Edmonton, Alberta",
+    "regionalLocationsIncluded": ["Beaumont", "Sherwood Park"],
+    "description": "Publicly documented events, classes, battles, cyphers, performances, workshops and community programs hosted by or defensibly connected to Freestyle Movement in the Edmonton region."
+  },
+  "events": [
+    {
+      "dateStart": "2017-01-28",
+      "dateEnd": "2017-01-28",
+      "name": "Level Up Jam - MUDC x Freestyle Movement",
+      "types": ["Event"],
+      "venue": "MacEwan University",
+      "address": null,
+      "municipality": "Edmonton",
+      "organizers": ["Freestyle Movement"],
+      "collaborators": ["MacEwan University Dance Club (MUDC)"],
+      "sources": ["https://www.facebook.com/events/561815114028289/"],
+      "notes": "The Facebook event confirms the January 28, 2017 date, MacEwan University venue, and collaboration between MUDC and Freestyle Movement."
+    },
+    {
+      "dateStart": "2016-11-05",
+      "dateEnd": "2016-11-05",
+      "name": "Test Your Skills | 1v1",
+      "types": ["Event"],
+      "venue": "Dance Code Studios",
+      "address": null,
+      "municipality": "Edmonton",
+      "organizers": ["Freestyle Movement"],
+      "collaborators": [],
+      "sources": ["https://www.facebook.com/events/1788980458051928"],
+      "notes": "The Facebook event confirms the November 5, 2016 date and Dance Code Studios venue."
+    },
+    {
+      "dateStart": "2018-02-03",
+      "dateEnd": "2018-02-03",
+      "name": "Test Your Skills | Fundraiser",
+      "types": ["Event"],
+      "venue": "Terwillegar Community Recreation Centre",
+      "address": null,
+      "municipality": "Edmonton",
+      "organizers": ["Freestyle Movement"],
+      "collaborators": [],
+      "sources": ["https://www.instagram.com/p/BewLtXSHWcr/"],
+      "notes": "The original Instagram post confirms Test Your Skills took place on February 3, 2018 at Terwillegar Community Recreation Centre."
+    },
+    {
+      "dateStart": "2018-06-23",
+      "dateEnd": "2018-06-23",
+      "name": "All Styles Unrivaled Vol. 2",
+      "types": ["Event"],
+      "venue": "MacEwan University",
+      "address": null,
+      "municipality": "Edmonton",
+      "organizers": ["Freestyle Movement"],
+      "collaborators": ["Driven Aftermarket Car Show"],
+      "sources": ["https://www.instagram.com/p/Bj7jUr1lXrR/"],
+      "image": {
+        "src": "/images/events/2018-06-23-all-styles-unrivaled-vol-2-downloads.webp",
+        "href": "https://www.instagram.com/p/Bj7jUr1lXrR/"
+      }
+    },
+    {
+      "dateStart": "2018-09-21",
+      "dateEnd": "2018-09-21",
+      "name": "Freestyle Movement Anniversary Party",
+      "types": ["Event"],
+      "venue": "Boston Pizza on Whyte",
+      "address": null,
+      "municipality": "Edmonton",
+      "organizers": ["Freestyle Movement"],
+      "collaborators": [],
+      "sources": ["https://www.instagram.com/p/BnMnoHaFeUj/"],
+      "image": {
+        "src": "/images/events/2018-09-21-freestyle-movement-anniversary-party-downloads.webp",
+        "href": "https://www.instagram.com/p/BnMnoHaFeUj/"
+      }
+    },
+    {
+      "dateStart": "2019-06-08",
+      "dateEnd": "2019-06-08",
+      "name": "All Styles Unrivaled Vol. 3",
+      "types": ["Event"],
+      "venue": "MacEwan University",
+      "address": null,
+      "municipality": "Edmonton",
+      "organizers": ["Freestyle Movement"],
+      "collaborators": ["Driven Aftermarket Car Show"],
+      "sources": ["https://www.facebook.com/events/593590284480129/"],
+      "image": {
+        "src": "/images/events/2019-06-08-all-styles-unrivaled-vol-3-downloads.webp",
+        "href": "https://www.facebook.com/events/593590284480129/"
+      }
+    },
+    {
+      "dateStart": "2019-06-15",
+      "dateEnd": "2019-06-15",
+      "name": "The Movement",
+      "types": ["Event"],
+      "venue": "U of A, Campus Saint-Jean",
+      "address": "8406 Rue Marie-Anne Gaboury NW, Edmonton, Alberta",
+      "municipality": "Edmonton",
+      "organizers": ["Freestyle Movement"],
+      "sources": [],
+      "notes": "The first The Movement event. Date, address and Freestyle Movement host relationship were corrected and confirmed by the organization. This was primarily a performance event. An original public event page, poster or video source has not yet been recovered.",
+      "image": {
+        "src": "/images/events/2019-06-15-the-movement-downloads.webp",
+        "href": "/images/events/2019-06-15-the-movement-downloads.webp"
+      }
+    },
+    {
+      "dateStart": "2020-09-12",
+      "dateEnd": "2020-09-12",
+      "name": "All Styles Unrivaled: Cypher Edition",
+      "types": ["Event"],
+      "venue": "Kingsway Mall Parkade",
+      "address": null,
+      "municipality": "Edmonton",
+      "organizers": ["Freestyle Movement"],
+      "collaborators": ["Driven Aftermarket Car Show"],
+      "sources": ["https://www.instagram.com/p/CE8U7jxDfYE"],
+      "image": {
+        "src": "/images/events/2020-09-12-all-styles-unrivaled-cypher-edition-downloads.webp",
+        "href": "https://www.instagram.com/p/CE8U7jxDfYE"
+      }
+    },
+    {
+      "dateStart": "2020-11-07",
+      "dateEnd": "2020-11-07",
+      "name": "All Styles Decoded",
+      "types": ["Event"],
+      "venue": "Dance Code Studios",
+      "address": null,
+      "municipality": "Edmonton",
+      "organizers": ["Freestyle Movement"],
+      "collaborators": [],
+      "sources": ["https://www.instagram.com/p/CHLg5jDDDMK/"],
+      "image": {
+        "src": "/images/events/2020-11-07-all-styles-decoded-downloads.webp",
+        "href": "https://www.instagram.com/p/CHLg5jDDDMK/"
+      }
+    },
+    {
+      "dateStart": "2021-09-25",
+      "dateEnd": "2021-09-25",
+      "name": "The Get Down Cypher",
+      "types": ["Event"],
+      "venue": "Brookview Community League",
+      "address": null,
+      "municipality": "Edmonton",
+      "organizers": ["Freestyle Movement"],
+      "collaborators": [],
+      "sources": ["https://www.instagram.com/p/CT0fUbTJZ84/"],
+      "image": {
+        "src": "/images/events/2021-09-25-the-get-down-cypher-downloads.webp",
+        "href": "https://www.instagram.com/p/CT0fUbTJZ84/"
+      }
+    },
+    {
+      "dateStart": "2022-06-11",
+      "dateEnd": "2022-06-11",
+      "name": "Unrivaled Vol. 5",
+      "types": ["Event"],
+      "venue": null,
+      "address": null,
+      "municipality": "Edmonton",
+      "organizers": ["Freestyle Movement"],
+      "collaborators": ["Driven Aftermarket Car Show"],
+      "sources": ["https://www.instagram.com/p/Cd3q801JM5s/"],
+      "image": {
+        "src": "/images/events/2022-06-11-unrivaled-vol-5-downloads.webp",
+        "href": "https://www.instagram.com/p/Cd3q801JM5s/"
+      }
+    },
+    {
+      "dateStart": "2022-08-06",
+      "dateEnd": "2022-08-06",
+      "name": "Let's Get Physical",
+      "types": ["Performance"],
+      "venue": "Revolution Square parking lot",
+      "address": "15117 Stony Plain Road, Edmonton, Alberta",
+      "municipality": "Edmonton",
+      "organizers": ["Freestyle Movement"],
+      "collaborators": ["Stony Plain Road Business Association"],
+      "sources": ["https://stonyplainroad.com/lets-get-physical/"]
+    },
+    {
+      "dateStart": "2022-11-04",
+      "dateEnd": "2022-11-04",
+      "name": "Make It a Combo",
+      "types": ["Event"],
+      "venue": "The Code YEG",
+      "address": null,
+      "municipality": "Edmonton",
+      "organizers": ["Freestyle Movement"],
+      "collaborators": [],
+      "sources": ["https://www.instagram.com/p/Cj-9I0DpvBv/"],
+      "image": {
+        "src": "/images/events/2022-11-04-make-it-a-combo-downloads.webp",
+        "href": "https://www.instagram.com/p/Cj-9I0DpvBv/"
+      }
+    },
+    {
+      "dateStart": "2023-09-30",
+      "dateEnd": "2023-09-30",
+      "name": "DANG!",
+      "types": ["Event"],
+      "venue": "The STU",
+      "address": null,
+      "municipality": "Edmonton",
+      "organizers": ["Jeffrey Baglinit"],
+      "collaborators": [],
+      "sources": ["https://www.instagram.com/p/CwqoP8kv8br/"],
+      "image": {
+        "src": "/images/events/2023-09-30-dang-downloads.webp",
+        "href": "https://www.instagram.com/p/CwqoP8kv8br/"
+      }
+    },
+    {
+      "dateStart": "2023-10",
+      "dateEnd": "2025-01",
+      "name": "Jin's Breaking Classes",
+      "types": ["Class"],
+      "venue": "Mantra Movement Dance Studio & Aldergrove Community Center",
+      "address": null,
+      "municipality": "Edmonton",
+      "organizers": ["Jin Lee"],
+      "sources": [],
+      "notes": "The indexed announcement identifies November 10 as the start date but does not preserve the venue or end date."
+    },
+    {
+      "dateStart": "2024-02-06",
+      "dateEnd": "2024-02-07",
+      "name": "Bboy Bruce Momentum Breaking Workshop",
+      "types": ["Class"],
+      "venue": null,
+      "address": null,
+      "municipality": "Edmonton",
+      "organizers": ["Freestyle Movement"],
+      "collaborators": [
+        "Street Styles 780",
+        "Open Styles Dance Club (University of Alberta)"
+      ],
+      "sources": [
+        "https://www.streetstyles780.com/events",
+        "https://www.instagram.com/freestyle.movement/p/C3UHq0hLRgk/"
+      ],
+      "notes": "Two-day workshop with world champion Bboy Bruce Momentum, also known as Bruce Almighty, representing Momentum Crew and Portugal. The surviving listing confirms Edmonton and both dates but does not expose the venue."
+    },
+    {
+      "dateStart": "2024-05-25",
+      "dateEnd": "2024-05-25",
+      "name": "Breakmont Qualifier",
+      "types": ["Event"],
+      "venue": "Beaumont Days Festival",
+      "address": "5303 50 Street, Beaumont, Alberta",
+      "municipality": "Beaumont",
+      "organizers": ["Jin Lee"],
+      "collaborators": ["City of Beaumont"],
+      "sources": [
+        "https://www.edmonton.family/calendar/beaumont-days-festival",
+        "https://www.instagram.com/freestyle.movement/p/C3izcszvQsE/",
+        "https://freestylemovement.ca/",
+        "https://www.youtube.com/watch?list=PLcWvW4pP19bulBthPZ-NccDSxRoEoCQWf&v=k9Og6yFDBzs"
+      ],
+      "notes": "Instagram's original poster confirms the competition ran May 25 from 1:00-4:00 PM, with all-ages and youth 1v1 qualifiers and judges Bgirl Stripes and Bboy Sims. The broader Beaumont Days festival ran May 24-26.",
+      "image": {
+        "src": "/images/events/2024-05-25-breakmont-qualifier-downloads.webp",
+        "href": "https://www.instagram.com/freestyle.movement/p/C3izcszvQsE/"
+      }
+    },
+    {
+      "dateStart": "2024-06-07",
+      "dateEnd": "2024-06-07",
+      "name": "Bboy Eazy Breaking Workshop",
+      "types": ["Class"],
+      "venue": "The Code YEG",
+      "address": "11602 119 Street NW, Edmonton, Alberta",
+      "municipality": "Edmonton",
+      "organizers": ["Freestyle Movement"],
+      "collaborators": ["Street Styles 780"],
+      "sources": [
+        "https://www.instagram.com/freestyle.movement/reel/C7zbZ-FPDNH/"
+      ],
+      "notes": "Workshop ran from 7:00-9:00 PM. It was free for Freestyle Movement session members and $10 for drop-ins."
+    },
+    {
+      "dateStart": "2024-06-08",
+      "dateEnd": "2024-06-08",
+      "name": "Unrivaled Vol. 6",
+      "types": ["Event"],
+      "venue": "West Edmonton Mall",
+      "address": "8882 170 Street NW, Edmonton, Alberta",
+      "municipality": "Edmonton",
+      "organizers": ["Freestyle Movement"],
+      "collaborators": ["Driven Aftermarket Car Show"],
+      "sources": [
+        "https://www.instagram.com/p/C6mjroqS6Pd/",
+        "https://www.motorsportreg.com/events/edmonton-rally-club-erc-clubhouse-car-show-concours-530287",
+        "https://www.instagram.com/freestyle.movement/p/C7GGImJrqCT/",
+        "https://freestylemovement.ca/",
+        "https://www.youtube.com/playlist?list=PLcWvW4pP19bv27WCUckTDnup-lcjhP5cU"
+      ],
+      "notes": "Freestyle Movement's official site archives Unrivaled 2024 video, while the Driven Edmonton source confirms the June 8, 2024 show date. The Freestyle Movement host relationship is supplied by the organization.",
+      "image": {
+        "src": "/images/events/2024-06-08-unrivaled-vol-6-downloads.webp",
+        "href": "https://www.instagram.com/p/C6mjroqS6Pd/"
+      }
+    },
+    {
+      "dateStart": "2024-07-01",
+      "dateEnd": "2024-07-01",
+      "name": "Breakmont",
+      "types": ["Event"],
+      "venue": "4 Seasons Park",
+      "address": null,
+      "municipality": "Beaumont",
+      "organizers": ["Jin Lee"],
+      "collaborators": ["City of Beaumont"],
+      "sources": ["https://www.instagram.com/p/C85VyaJyhH7/"],
+      "image": {
+        "src": "/images/events/2024-07-01-breakmont-downloads.webp",
+        "href": "https://www.instagram.com/p/C85VyaJyhH7/"
+      }
+    },
+    {
+      "dateStart": "2024-08-10",
+      "dateEnd": "2024-08-10",
+      "name": "Brookview Ice-Rink Fundraiser Performance",
+      "types": ["Performance"],
+      "venue": "Brookview Community League",
+      "address": null,
+      "municipality": "Edmonton",
+      "organizers": ["Hubert Lin"],
+      "collaborators": [],
+      "sources": ["https://luma.com/sbmlqwyc"]
+    },
+    {
+      "dateStart": "2024-08-10",
+      "dateEnd": "2024-08-10",
+      "name": "Unity in Motion",
+      "types": ["Event"],
+      "venue": "Foosh - Whyte Ave",
+      "address": null,
+      "municipality": "Edmonton",
+      "organizers": ["Sion Kim"],
+      "collaborators": ["Foosh"],
+      "sources": [
+        "https://www.instagram.com/p/C9fxWZ7yovK/",
+        "https://luma.com/qny6pa8d",
+        "https://youtube.com/playlist?list=PLcWvW4pP19bvJIqIZwYDrSqNthE_v-Aan"
+      ],
+      "image": {
+        "src": "/images/events/2024-08-10-unity-in-motion-downloads.webp",
+        "href": "https://www.instagram.com/p/C9fxWZ7yovK/"
+      }
+    },
+    {
+      "dateStart": "2022-09",
+      "dateEnd": null,
+      "name": "Brookview Breaking Classes",
+      "types": ["Class"],
+      "venue": "Brookview Community League",
+      "address": "280 Bulyea Road NW, Edmonton, Alberta",
+      "municipality": "Edmonton",
+      "organizers": ["Hubert Lin"],
+      "collaborators": [],
+      "sources": [
+        "https://freestylemovement.ca/learn/2025/fall/brookview-breaking-class",
+        "https://freestylemovement.ca/learn/2026/january-to-april/brookview-breaking-class"
+      ],
+      "notes": ""
+    },
+    {
+      "dateStart": "2024-09-07",
+      "dateEnd": "2024-09-07",
+      "name": "Alberta Night Market Cypher",
+      "types": ["Event"],
+      "venue": "Terwillegar Community Recreation Centre",
+      "address": "2051 Leger Road NW, Edmonton, Alberta",
+      "municipality": "Edmonton",
+      "organizers": ["Freestyle Movement"],
+      "collaborators": [],
+      "sources": [
+        "https://luma.com/q7rvgm5l",
+        "https://www.instagram.com/freestyle.movement/p/C_Tn9ktylWZ/"
+      ],
+      "image": {
+        "src": "/images/events/2024-09-07-alberta-night-market-cypher-downloads.webp",
+        "href": "https://luma.com/q7rvgm5l"
+      }
+    },
+    {
+      "dateStart": "2024-10-28",
+      "dateEnd": "2024-10-28",
+      "name": "Brookview vs. Aldergrove Battle",
+      "types": ["Event"],
+      "venue": "Aldergrove Community League",
+      "address": "8535 182 Street NW, Edmonton, Alberta",
+      "municipality": "Edmonton",
+      "collaborators": [],
+      "sources": ["https://luma.com/ux92x1hw"]
+    },
+    {
+      "dateStart": "2025-02",
+      "dateEnd": "2026-07",
+      "name": "Youth Breaking Classes",
+      "types": ["Class"],
+      "venue": "Aldergrove Community Center, Lymburn School, The Code YEG",
+      "address": null,
+      "municipality": "Edmonton",
+      "organizers": ["Renand Fulgueras"],
+      "sources": []
+    },
+    {
+      "dateStart": "2025-06-07",
+      "dateEnd": "2025-06-07",
+      "name": "Unrivaled 2025",
+      "types": ["Event"],
+      "venue": "West Edmonton Mall",
+      "address": "8882 170 Street NW, Edmonton, Alberta",
+      "municipality": "Edmonton",
+      "organizers": ["Josh Kearney"],
+      "collaborators": ["Driven Aftermarket Car Show"],
+      "sources": [
+        "https://www.instagram.com/p/DI9zWntzwZK/",
+        "https://luma.com/hkrtc2gb",
+        "https://www.instagram.com/freestyle.movement/p/DJhmrDmzhiX/"
+      ],
+      "notes": "Instagram confirms Entrance 40 Parkade at West Edmonton Mall, cypher prelims, Open Styles and Breaking 1v1s, and a Youth Breaking 7-to-Smoke.",
+      "image": {
+        "src": "/images/events/2025-06-07-unrivaled-2025-downloads.webp",
+        "href": "https://www.instagram.com/p/DI9zWntzwZK/"
+      }
+    },
+    {
+      "dateStart": "2025-08-09",
+      "dateEnd": "2025-08-09",
+      "name": "The Movement",
+      "types": ["Event"],
+      "venue": "Centre Stage, West Edmonton Mall",
+      "address": "8882 170 Street NW, Edmonton, Alberta",
+      "municipality": "Edmonton",
+      "organizers": ["Freestyle Movement"],
+      "collaborators": ["Street Styles 780"],
+      "sources": [
+        "https://www.instagram.com/p/DNEacIJTHao/",
+        "https://luma.com/lnuqmd1o",
+        "https://www.instagram.com/freestyle.movement/p/DNJz6j4S0Rj/"
+      ],
+      "notes": "Instagram confirms a 2:00 PM start at Centre Stage on the east side of West Edmonton Mall near Hudson's Bay.",
+      "image": {
+        "src": "/images/events/2025-08-09-the-movement-downloads.webp",
+        "href": "https://www.instagram.com/p/DNEacIJTHao/"
+      }
+    },
+    {
+      "dateStart": "2025-08-29",
+      "dateEnd": "2025-08-29",
+      "name": "Free Youth Breakdance Class",
+      "types": ["Class"],
+      "venue": "The Code YEG",
+      "address": null,
+      "municipality": "Edmonton",
+      "organizers": ["Renand Fulgueras"],
+      "collaborators": [],
+      "sources": [
+        "https://luma.com/4p7yvnmc",
+        "https://www.instagram.com/freestyle.movement/p/DNmR52uhEPX/",
+        "https://www.streetstyles780.com/courses/youth-breaking-the-code-yeg"
+      ]
+    },
+    {
+      "dateStart": "2025-10-23",
+      "dateEnd": "2025-10-23",
+      "name": "Breaking Community Linkup",
+      "types": ["Project"],
+      "venue": "Boa & Hare",
+      "address": "10520 97 Street NW #127, Edmonton, Alberta",
+      "municipality": "Edmonton",
+      "organizers": ["Hubert Lin"],
+      "collaborators": ["Boa & Hare"],
+      "sources": ["https://luma.com/9u49vrgm"],
+      "image": {
+        "src": "/images/events/2025-10-23-breaking-community-linkup-downloads.webp",
+        "href": "https://luma.com/9u49vrgm"
+      }
+    },
+    {
+      "dateStart": "2026-06-06",
+      "dateEnd": "2026-06-06",
+      "name": "Unrivaled 2026",
+      "types": ["Event"],
+      "venue": "West Edmonton Mall",
+      "address": "8882 170 Street NW, Edmonton, Alberta",
+      "municipality": "Edmonton",
+      "organizers": ["Freestyle Movement"],
+      "collaborators": ["Driven Aftermarket Car Show"],
+      "sources": [
+        "https://luma.com/m4wvjaep",
+        "https://www.instagram.com/freestyle.movement/p/DXzZeOQDBul/"
+      ],
+      "image": {
+        "src": "/images/events/2026-06-06-unrivaled-2026-downloads.webp",
+        "href": "https://luma.com/m4wvjaep"
+      }
+    },
+    {
+      "dateStart": "2026-06-10",
+      "dateEnd": "2026-06-10",
+      "name": "Bruce Momentum Workshop",
+      "types": ["Class"],
+      "venue": "New Roots Breaking Studios",
+      "address": null,
+      "municipality": "Edmonton",
+      "organizers": ["Freestyle Movement"],
+      "collaborators": ["Street Styles 780", "New Roots Breaking Studios"],
+      "sources": [
+        "https://luma.com/wmtt19u6",
+        "https://www.instagram.com/freestyle.movement/p/DYDDhOSDw_L/"
+      ],
+      "image": {
+        "src": "/images/events/2026-06-10-bruce-momentum-workshop-downloads.webp",
+        "href": "https://luma.com/wmtt19u6"
+      }
+    },
+    {
+      "dateStart": "2026-06-13",
+      "dateEnd": "2026-06-13",
+      "name": "The Movement 2026",
+      "types": ["Event"],
+      "venue": "West Edmonton Mall",
+      "address": "8882 170 Street NW, Edmonton, Alberta",
+      "municipality": "Edmonton",
+      "organizers": ["Freestyle Movement"],
+      "collaborators": ["West Edmonton Mall"],
+      "sources": [
+        "https://luma.com/p9bwbq66",
+        "https://www.instagram.com/freestyle.movement/p/DZcyg51MkOR/"
+      ],
+      "image": {
+        "src": "/images/events/2026-06-13-the-movement-2026-downloads.webp",
+        "href": "https://luma.com/p9bwbq66"
+      }
+    },
+    {
+      "dateStart": "2026-06-26",
+      "dateEnd": "2026-06-28",
+      "name": "One for the City Vol. 6",
+      "types": ["Event"],
+      "venue": "Pawn Shop Live",
+      "address": null,
+      "municipality": "Edmonton",
+      "organizers": ["Amit Vaghela", "Freestyle Movement"],
+      "collaborators": ["Street Styles 780"],
+      "sources": [
+        "https://oneforthecity.com/2026",
+        "https://www.instagram.com/oneforthecity/p/DZ_R5tmMUcW/",
+        "https://luma.com/zbhkbwr0"
+      ],
+      "image": {
+        "src": "/images/events/2026-06-26-one-for-the-city-vol-6-downloads.webp",
+        "href": "https://www.instagram.com/oneforthecity/p/DZ_R5tmMUcW/"
+      }
+    }
+  ]
+}

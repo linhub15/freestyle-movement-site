@@ -38,7 +38,7 @@ export function Footer() {
                 <LinkGroup title="Partners">
                   <LinkItem
                     title="Street Styles 780"
-                    href="https://www.streetstyles780.com/"
+                    href="https://www.instagram.com/streetstyles780"
                   />
                 </LinkGroup>
               </div>

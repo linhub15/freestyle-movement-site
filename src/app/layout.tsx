@@ -83,6 +83,7 @@ function Layout({ children }: { children: React.ReactNode }) {
             { title: "Learn", href: "/learn" },
             { title: "Practice", href: "/practice" },
             { title: "About", href: "/about" },
+            { title: "History", href: "/history" },
           ]}
         />
         <main className="flex-auto pt-10 text-zinc-100">{children}</main>
