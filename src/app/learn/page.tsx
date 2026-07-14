@@ -19,9 +19,13 @@ export default function LearnPage() {
         </h1>
       </div>
 
-      <p className="text-zinc-400">
-        Spring & Summer classes go from May to August.
-      </p>
+      <div className="mt-4 max-w-2xl space-y-2 text-zinc-400">
+        <p>There are no classes running right now.</p>
+        <p>
+          Our Tuesday breaking class at Brookview will return in fall 2026.
+          Dates and registration details will be posted soon.
+        </p>
+      </div>
 
       <div className="divide-y divide-gray-400">
         {Object.values(classes).map((item) => (

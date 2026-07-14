@@ -21,51 +21,19 @@ type Semester = {
   [key: string]: { label: string; locations: ClassLocation[] };
 };
 export const classes: Semester = {
-  "2026_january_to_april": {
-    label: "January to April 2026 Schedule",
+  "2026_fall": {
+    label: "Fall 2026",
     locations: [
       {
-        href: "/learn/2026/january-to-april/lymburn-breaking-class",
-        dayOfWeek: "Monday",
-        location: PLACES.lymburn,
-        instructor: "Renand Fulgueras",
-        classes: [
-          {
-            title: "Beginner Youth Breaking",
-            time: "6:00 - 7:00 PM",
-            canRegister: true,
-            ageRange: "Ages 8+",
-            href: "/learn/2026/january-to-april/lymburn-breaking-class",
-          },
-        ],
-      },
-      {
-        href: "/learn/2026/january-to-april/brookview-breaking-class",
+        href: "/learn/2026/fall/brookview-breaking-class",
         dayOfWeek: "Tuesday",
         location: PLACES.brookview,
         instructor: "Hubert Lin",
         classes: [
           {
-            title: "Intermediate Breaking",
-            time: "6:00 - 7:00 PM",
-            canRegister: true,
-            ageRange: "Ages 10+",
-            href: "/learn/2026/january-to-april/brookview-breaking-class",
-          },
-        ],
-      },
-      {
-        href: "/learn/2026/january-to-april/thecode-breaking-class",
-        dayOfWeek: "Friday",
-        location: PLACES.thecode,
-        instructor: "Renand Fulgueras",
-        classes: [
-          {
-            title: "Beginner Youth Breaking",
-            time: "6:00 - 7:00 PM",
-            canRegister: true,
-            ageRange: "Ages 8+",
-            href: "/learn/2026/january-to-april/thecode-breaking-class",
+            title: "Brookview Breaking Class",
+            time: "Dates and time to be announced",
+            href: "/learn/2026/fall/brookview-breaking-class",
           },
         ],
       },

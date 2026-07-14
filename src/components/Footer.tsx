@@ -20,6 +20,7 @@ export function Footer() {
                 <LinkItem title="Learn" href="/learn" />
                 <LinkItem title="Practice" href="/practice" />
                 <LinkItem title="About" href="/about" />
+                <LinkItem title="History" href="/history" />
               </LinkGroup>
 
               <div className="space-y-8">
